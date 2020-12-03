@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ meta_title ?? title }}</title>
+        <meta name="description" content="{{ meta_description }}">
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
+    </head>
+    <body class="bg-background text-text antialiased font-nunito font-medium flex flex-col min-h-screen">
+
+        {{ partial:partials/header }}
+
+        <main class="container mx-auto px-6 py-8 flex-grow flex flex-col"> 
+            {{ if segment_1 == '' }}
+                <h1 class="text-xl sm:text-2xl mb-6">Welcome! 👋 </h1>
+            {{ elseif ! segment_1 == '' }}
+                <h1 class="text-xl sm:text-2xl mb-6 text-center">{{ title }}</h1> 
+            {{ endif }}
+            {{ template_content }}
+        </main>
+
+        {{ partial:partials/footer }}
+
+    </body>
+</html>

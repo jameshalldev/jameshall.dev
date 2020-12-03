@@ -1,0 +1,126 @@
+title: Projects
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: image
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: Image
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: description
+        field:
+          character_limit: '500'
+          display: Description
+          type: textarea
+          icon: textarea
+          listable: hidden
+      -
+        handle: technology_stack
+        field:
+          inline: true
+          options:
+            'html5 ': HTML5
+            css: CSS
+            javascript: JavaScript
+            jquery: jQuery
+            sass: Sass
+            Liquid: Liquid
+            ruby: Ruby
+            php: PHP
+            react: React.js
+            vue: Vue.js
+            angular: Angular
+          display: 'Technology stack'
+          type: checkboxes
+          icon: checkboxes
+          listable: hidden
+      -
+        handle: github
+        field:
+          display: Github
+          type: link
+          icon: link
+          listable: hidden
+      -
+        handle: view
+        field:
+          display: View
+          type: link
+          icon: link
+          listable: hidden
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: date
+        field:
+          type: date
+          required: true
+          mode: single
+          time_enabled: false
+          time_required: false
+          earliest_date: '1900-01-01'
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: Date
+          icon: date
+          listable: hidden
+          validate:
+            - required
+      -
+        handle: color
+        field:
+          theme: classic
+          lock_opacity: false
+          default_color_mode: HEXA
+          color_modes:
+            - hex
+          display: Color
+          type: color
+          icon: color
+          listable: hidden
+  meta:
+    display: Meta
+    fields:
+      -
+        handle: meta_title
+        field:
+          input_type: text
+          character_limit: 60
+          display: 'Meta title'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: meta_description
+        field:
+          character_limit: '160'
+          display: 'Meta description'
+          type: textarea
+          icon: textarea
+          listable: hidden

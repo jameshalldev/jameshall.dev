@@ -1,0 +1,24 @@
+<div class="{{ container_class }}">
+    {{ collection :from="collection_type" :paginate="pagination_value" as="loop" }}
+        <div class="grid grid-flow-row grid-cols-{{ cols_mobile }} lg:grid-cols-{{ cols_desktop }} {{ grid_gap }}">
+            {{ loop }}
+                {{ partial :src="card_type" }} 
+            {{ /loop }}
+        </div>
+        {{ paginate }}
+            <div class="text-base flex justify-center items-center space-x-8 text-center mx-auto mt-auto pt-8">
+                {{ if prev_page }}
+                    <a href="{{ prev_page }}">&larr; Previous</a>
+                {{ else }}
+                    <a class="pointer-events-none opacity-25">&larr; Previous</a>
+                {{ endif }}
+
+                {{ if next_page }}
+                    <a href="{{ next_page }}">Next &rarr;</a>
+                {{ else }}
+                    <a class="pointer-events-none opacity-25">Next &rarr;</a>
+                {{ endif }}
+            </div>
+        {{ /paginate }}
+    {{ /collection }}
+</div>

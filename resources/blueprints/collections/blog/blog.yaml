@@ -1,0 +1,116 @@
+title: 'Blog post'
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: featured_image
+        field:
+          mode: grid
+          container: assets
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: 'Featured image'
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: article_content
+        field:
+          always_show_set_button: false
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+            - strikethrough
+            - code
+            - codeblock
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: true
+          reading_time: true
+          fullscreen: true
+          allow_source: true
+          display: 'Article content'
+          type: bard
+          icon: bard
+          listable: hidden
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: date
+        field:
+          type: date
+          required: true
+          validate:
+            - required
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: article_colour
+        field:
+          theme: classic
+          lock_opacity: false
+          default_color_mode: HEXA
+          color_modes:
+            - hex
+          display: 'Article colour'
+          type: color
+          icon: color
+          listable: hidden
+      -
+        handle: author
+        field:
+          max_items: 1
+          mode: select
+          display: Author
+          type: users
+          icon: users
+          listable: hidden
+          validate:
+            - required
+  meta:
+    display: Meta
+    fields:
+      -
+        handle: meta_title
+        field:
+          input_type: text
+          display: 'Meta title'
+          type: text
+          icon: text
+          listable: hidden
+          character_limit: 60
+      -
+        handle: meta_description
+        field:
+          character_limit: '160'
+          display: 'Meta description'
+          type: textarea
+          icon: textarea
+          listable: hidden

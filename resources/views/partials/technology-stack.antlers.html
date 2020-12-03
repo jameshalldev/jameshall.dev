@@ -1,0 +1,9 @@
+{{ technology_stack as="loop" }}
+    <ul class="flex flex-wrap sm:justify-end space-x-2">
+        {{ loop }}
+            <span class="text-accent fill-current mb-2">
+                {{ partial src="partials.icons.{value}" }}
+            </span>
+        {{ /loop }}
+    </ul>
+{{ /technology_stack }}

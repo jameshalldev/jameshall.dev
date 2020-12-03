@@ -1,0 +1,14 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: site_title
+        field:
+          input_type: text
+          display: 'Site title'
+          type: text
+          icon: text
+          listable: hidden
+          validate:
+            - required

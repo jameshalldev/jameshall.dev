@@ -1,0 +1,19 @@
+<div class="contact max-w-screen-md mx-auto w-full mx-auto">
+    {{ form:contact id="contact-form" }}
+        {{ if success }}
+            <div class="bg-green-500 rounded text-white p-4">
+                {{ success }}
+            </div>
+        {{ else }}
+            {{ fields }}
+                <div class="py-2">
+                    <div>{{ field }}</div>
+                    {{ if error }}
+                        <p class="text-red-500 text-xs">{{ error }}</p>
+                    {{ /if }}
+                </div>
+            {{ /fields }}
+            <button type="submit" class="bg-accent_bold hover:bg-accent px-10 py-4 text-white font-bold rounded">Submit</button>
+        {{ /if }}
+    {{ /form:contact }}
+</div>

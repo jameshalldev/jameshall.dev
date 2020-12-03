@@ -1,0 +1,28 @@
+<footer class="w-full mt-auto bg-gray_light">
+    <div class="container px-6 py-8 mx-auto flex flex-col sm:flex-row justify-between">
+        <div><h2 class="mb-4 text-lg">Why not say hello? 👋</h2></div>
+        <div>
+            <ul class="text-base">
+                {{ if details:phone_number }}
+                    <li class="mb-4 flex">
+                        <span class="mr-4 text-accent fill-current">{{ partial:partials/icons/icon-phone }}</span><a href="tel:{{ details:phone_number }}">{{ details:phone_number }}</a>
+                    </li>
+                {{ endif }}
+                {{ if details:email_address }}
+                    <li class="mb-4 flex">
+                        <span class="mr-4 text-accent fill-current">{{ partial:partials/icons/email }}</span><a href="mailto:{{ details:email_address }}">{{ details:email_address }}</a>
+                    </li>
+                {{ endif }}
+                {{ if details:location }}
+                    <li class="flex">
+                        <span class="mr-4 text-accent fill-current">{{ partial:partials/icons/pin }}</span>{{ details:location }}
+                    </li>
+                {{ endif }}
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('#contact-form textarea').placeholder = "Message";
+    </script>
+</footer>

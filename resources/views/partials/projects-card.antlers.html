@@ -1,0 +1,29 @@
+<article class="bg-gray_light p-6 rounded">
+    <div class="flex flex-col xs:flex-row justify-between mb-6">
+        <h2 class="text-xl sm:text-2xl text-text pb-4 font-normal leading-none">{{ title }}</h2>
+        {{ partial src="technology-stack" }}
+    </div>
+    <div class="flex justify-between">
+        <div class="flex items-center mt-auto">
+            <img src="{{ author:avatar }}" alt="" class="h-12 w-12 rounded-full object-cover">
+            <div class="leading-tight ml-3 ">
+                <p class="text-text text-base">{{ author.name }}</p>
+                <p class="text-sm text-gray-600">{{ date }}</p>
+            </div>
+        </div>
+        {{ if github or view }}
+            <div class="flex items-end justify-end">
+                {{ if github }}
+                    <a href="{{ github }}" target="_blank" class="ml-2">
+                        <span class="text-gray-600 hover:text-text fill-current">{{ partial src="icons/github" }}</span>
+                    </a>
+                {{ endif }}
+                {{ if view }}
+                    <a href="{{ view }}" target="_blank" class="ml-2">
+                        <span class="text-gray-600 hover:text-text fill-current">{{ partial src="icons/link" }}</span>
+                    </a>
+                {{ endif }}
+            </div>
+        {{ endif }}
+    </div>
+</article>
