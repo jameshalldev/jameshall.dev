@@ -1,6 +1,6 @@
 title: '1. Site details'
 data:
-  website_title: '<span class="text-bold">James Hall</span> <span class="font-normal text-accent">Web developer</span>'
+  website_title: 'James Hall <span class="font-normal text-accent">Web developer</span>'
   email_address: mrjamesleehall@gmail.com
   location: 'Bristol, UK'
   instagram: 'https://www.instagram.com/jameshall_ig'
