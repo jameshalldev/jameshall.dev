@@ -614,9 +614,9 @@ video {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1120px) {
   .container {
-    max-width: 1280px;
+    max-width: 1120px;
   }
 }
 
@@ -8436,7 +8436,7 @@ video {
 }
 
 .max-w-screen-xl {
-  max-width: 1280px !important;
+  max-width: 1120px !important;
 }
 
 .max-w-screen-2xl {
@@ -16193,9 +16193,9 @@ video {
     }
   }
 
-@media (min-width: 500px) and (min-width: 1280px) {
+@media (min-width: 500px) and (min-width: 1120px) {
     .xs\:container {
-      max-width: 1280px;
+      max-width: 1120px;
     }
   }
 
@@ -24017,7 +24017,7 @@ video {
   }
 
   .xs\:max-w-screen-xl {
-    max-width: 1280px !important;
+    max-width: 1120px !important;
   }
 
   .xs\:max-w-screen-2xl {
@@ -31673,9 +31673,9 @@ video {
     }
   }
 
-@media (min-width: 640px) and (min-width: 1280px) {
+@media (min-width: 640px) and (min-width: 1120px) {
     .sm\:container {
-      max-width: 1280px;
+      max-width: 1120px;
     }
   }
 
@@ -39497,7 +39497,7 @@ video {
   }
 
   .sm\:max-w-screen-xl {
-    max-width: 1280px !important;
+    max-width: 1120px !important;
   }
 
   .sm\:max-w-screen-2xl {
@@ -47153,9 +47153,9 @@ video {
     }
   }
 
-@media (min-width: 768px) and (min-width: 1280px) {
+@media (min-width: 768px) and (min-width: 1120px) {
     .md\:container {
-      max-width: 1280px;
+      max-width: 1120px;
     }
   }
 
@@ -54977,7 +54977,7 @@ video {
   }
 
   .md\:max-w-screen-xl {
-    max-width: 1280px !important;
+    max-width: 1120px !important;
   }
 
   .md\:max-w-screen-2xl {
@@ -62633,9 +62633,9 @@ video {
     }
   }
 
-@media (min-width: 1024px) and (min-width: 1280px) {
+@media (min-width: 1024px) and (min-width: 1120px) {
     .lg\:container {
-      max-width: 1280px;
+      max-width: 1120px;
     }
   }
 
@@ -70457,7 +70457,7 @@ video {
   }
 
   .lg\:max-w-screen-xl {
-    max-width: 1280px !important;
+    max-width: 1120px !important;
   }
 
   .lg\:max-w-screen-2xl {
@@ -78083,49 +78083,49 @@ video {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1120px) {
   .xl\:container {
     width: 100%;
   }
 }
 
-@media (min-width: 1280px) and (min-width: 500px) {
+@media (min-width: 1120px) and (min-width: 500px) {
     .xl\:container {
       max-width: 500px;
     }
   }
 
-@media (min-width: 1280px) and (min-width: 640px) {
+@media (min-width: 1120px) and (min-width: 640px) {
     .xl\:container {
       max-width: 640px;
     }
   }
 
-@media (min-width: 1280px) and (min-width: 768px) {
+@media (min-width: 1120px) and (min-width: 768px) {
     .xl\:container {
       max-width: 768px;
     }
   }
 
-@media (min-width: 1280px) and (min-width: 1024px) {
+@media (min-width: 1120px) and (min-width: 1024px) {
     .xl\:container {
       max-width: 1024px;
     }
   }
 
-@media (min-width: 1280px) and (min-width: 1280px) {
+@media (min-width: 1120px) and (min-width: 1120px) {
     .xl\:container {
-      max-width: 1280px;
+      max-width: 1120px;
     }
   }
 
-@media (min-width: 1280px) and (min-width: 1536px) {
+@media (min-width: 1120px) and (min-width: 1536px) {
     .xl\:container {
       max-width: 1536px;
     }
   }
 
-@media (min-width: 1280px) {
+@media (min-width: 1120px) {
 
   .xl\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0 !important;
@@ -85937,7 +85937,7 @@ video {
   }
 
   .xl\:max-w-screen-xl {
-    max-width: 1280px !important;
+    max-width: 1120px !important;
   }
 
   .xl\:max-w-screen-2xl {
@@ -93593,9 +93593,9 @@ video {
     }
   }
 
-@media (min-width: 1536px) and (min-width: 1280px) {
+@media (min-width: 1536px) and (min-width: 1120px) {
     .\32xl\:container {
-      max-width: 1280px;
+      max-width: 1120px;
     }
   }
 
@@ -101417,7 +101417,7 @@ video {
   }
 
   .\32xl\:max-w-screen-xl {
-    max-width: 1280px !important;
+    max-width: 1120px !important;
   }
 
   .\32xl\:max-w-screen-2xl {

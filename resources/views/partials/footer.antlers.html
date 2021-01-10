@@ -1,8 +1,20 @@
 <footer class="w-full mt-auto bg-gray_light">
-    <div class="container px-6 py-10 mx-auto flex flex-col sm:flex-row justify-between">
-        <div></div>
-        <div>
+    <div class="container px-6 py-8 mx-auto flex flex-col sm:flex-row justify-between">
+        <div class="flex flex-col justify-between">
             <h2 class="mb-4 text-lg">Why not say hello? 👋</h2>
+            <ul class="text-base flex flex-row">
+                {{ if details:instagram }}
+                    <li class="mr-2"><a href="{{ details:instagram }}" target="_blank"><span class="text-accent fill-current">{{ partial:partials/icons/instagram }}</span></a></li>
+                {{ endif }}
+                {{ if details:twitter }}
+                    <li class="mr-2"><a href="{{ details:twitter }}" target="_blank"><span class="text-accent fill-current">{{ partial:partials/icons/twitter }}</span></a></li>
+                {{ endif }}
+                {{ if details:linkedin }}
+                    <li class="mr-2"><a href="{{ details:linkedin }}" target="_blank"><span class="text-accent fill-current">{{ partial:partials/icons/linkedin }}</span></a></li>
+                {{ endif }}
+            </ul>
+        </div>
+        <div>
             <ul class="text-base">
                 {{ if details:phone_number }}
                     <li class="mb-4 flex">

@@ -1,12 +1,12 @@
-<header class="w-full">
-    <div class="flex-col xs:flex-row container border-gray_light border-b-2 py-4 px-6 mx-auto flex justify-between items-center">
+<header class="w-full border-gray_light border-b-2">
+    <div class="flex-col xs:flex-row container py-4 px-6 mx-auto flex justify-between items-center">
         <div>
             <a href="/"><h1 class="text-lg py-2">{{ details:website_title }}</h1></a>
         </div>
         <nav class="hidden md:block">
             <ul class="flex">
                 {{ nav:main }}
-                    <li class="px-1 ml-6 border-b-2 border-background cursor-pointer hover:underline
+                    <li class="px-1 ml-6 cursor-pointer hover:underline
                         {{ if url | segment:1 == is_parent || is_current }} underline{{ endif }}
                     "><a href="{{ url }}">{{ title }}</a></li>
                 {{ /nav:main }}
