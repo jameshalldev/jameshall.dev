@@ -1,0 +1,31 @@
+sections:
+  coming_soon_messages:
+    display: 'Coming soon messages'
+    fields:
+      -
+        handle: enable_messages
+        field:
+          inline: false
+          display: 'Enable messages'
+          type: checkboxes
+          icon: checkboxes
+          listable: hidden
+          options:
+            blog-card: Blog
+            projects-card: Projects
+      -
+        handle: blog_message_text
+        field:
+          input_type: text
+          display: 'Blog – Message text'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: projects_message_text
+        field:
+          input_type: text
+          display: 'Projects – Message text'
+          type: text
+          icon: text
+          listable: hidden

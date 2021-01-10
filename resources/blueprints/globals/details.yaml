@@ -12,9 +12,6 @@ sections:
           listable: hidden
           validate:
             - required
-  contact:
-    display: Contact
-    fields:
       -
         handle: phone_number
         field:

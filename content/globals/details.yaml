@@ -1,6 +1,7 @@
-title: '1. Site details'
+title: '1. Details'
 data:
-  website_title: 'James Hall <span class="font-normal text-accent">Web developer</span>'
+  website_title: 'James Hall'
+  phone_number: '07802539967'
   email_address: mrjamesleehall@gmail.com
   location: 'Bristol, UK'
   instagram: 'https://www.instagram.com/jameshall_ig'

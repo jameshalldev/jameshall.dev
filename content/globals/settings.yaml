@@ -1,0 +1,7 @@
+title: '2. Settings'
+data:
+  enable_messages:
+    - blog-card
+    - projects-card
+  blog_message_text: 'You''ve reached the end 🤯'
+  projects_message_text: 'More coming soon 🤞'

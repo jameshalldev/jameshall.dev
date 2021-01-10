@@ -5,7 +5,25 @@
                 {{ partial :src="card_type" }} 
             {{ /loop }}
         </div>
+
         {{ paginate }}
+
+            {{ if !next_page }}
+                {{ settings:enable_messages }}
+                    {{ if card_type == value }}
+                        <div class="flex justify-center">
+                            <p class="bg-gray_light text-accent_bold text-lg font-medium py-4 px-8 rounded mt-8">
+                                {{ if card_type == 'blog-card' }}
+                                    {{ settings:blog_message_text }}
+                                {{ elseif card_type == 'projects-card' }}
+                                    {{ settings:projects_message_text }}
+                                {{ endif }}
+                            </p>
+                        </div>
+                    {{ endif }}
+                {{ /settings:enable_messages }}
+            {{ endif }}
+            
             <div class="text-base flex justify-center items-center space-x-8 text-center mx-auto mt-auto pt-8">
                 {{ if prev_page }}
                     <a href="{{ prev_page }}">&larr; Previous</a>

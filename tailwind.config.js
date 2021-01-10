@@ -21,11 +21,12 @@ module.exports = {
             gray_light: '#F4F5F7',
             accent: '#74c2ff',
             accent_bold: '#56B6FF',
+            accent_light: '#99D3FF',
 
             // General colours
             red: "#FFB3BA",
             orange: "#FFDFB9",
-            yellow: "#FEFFBA",
+            yellow: "#FFE9C8",
             green: "#BBFFC9",
             blue: '#74c2ff',
 
