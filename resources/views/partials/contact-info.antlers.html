@@ -1,0 +1,17 @@
+<ul class="text-base {{ classes }}">
+    {{ if details:phone_number }}
+        <li class="mb-4 flex">
+            <span class="mr-4 text-accent fill-current">{{ partial:partials/icons/phone }}</span><a href="tel:{{ details:phone_number }}">{{ details:phone_number }}</a>
+        </li>
+    {{ endif }}
+    {{ if details:email_address }}
+        <li class="mb-4 flex">
+            <span class="mr-4 text-accent fill-current">{{ partial:partials/icons/email }}</span><a href="mailto:{{ details:email_address }}">{{ details:email_address }}</a>
+        </li>
+    {{ endif }}
+    {{ if details:location }}
+        <li class="flex">
+            <span class="mr-4 text-accent fill-current">{{ partial:partials/icons/pin }}</span>{{ details:location }}
+        </li>
+    {{ endif }}
+</ul>
