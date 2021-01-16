@@ -4,4 +4,6 @@
 
 @import "tailwindcss/utilities";
 
+/* Components */
 @import "components/contact";
+@import "components/home";

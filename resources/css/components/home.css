@@ -1,0 +1,20 @@
+.home-page {
+
+    &__front {
+        height: 80vh;
+    
+        @apply text-2xl font-extrabold flex flex-col justify-center;
+
+        @screen sm {
+            @apply text-3xl;
+        }
+
+        @screen md {
+            @apply text-4xl;
+        }
+    }
+
+    &__front-inner {
+        @apply mb-16;
+    }
+}

@@ -1,0 +1,27 @@
+<div class="home-page">
+    <div class="home-page__front">
+        <div class="home-page__front-inner sm:flex items-end">
+            <div class="sm:mr-16">
+                <p class="mb-4 leading-tight">Hey there 👋</p>
+                <p class="mb-4 leading-tight">I'm James,</p>
+                <p class="mb-4 leading-tight">a <span style="color:#95BF47;">Shopify</span> developer based in Bristol, UK</p>
+            </div>
+            <img class="home-page__shopify-logo my-4" src="/assets/general/shopify-logo.png" alt="Shopify logo">
+        </div>
+        <svg class="h-10 w-10 mx-auto cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
+    </div>
+
+    <div class="mb-16">
+        <div class="flex justify-between mb-4 items-end">
+            <h2 class="text-xl font-bold">My latest blog post 📚</h2>
+            <a class="font-medium hover:underline" href="/blog">View all</a>
+        </div>
+        {{ collection from="blog" limit="1" }}
+            {{ partial src="blog-card" classes="" }}
+        {{ /collection }}
+    </div>
+
+    <!-- <div>
+        <h2>What I'm listening to</h2>
+    </div> -->
+</div>

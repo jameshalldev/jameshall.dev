@@ -1,4 +1,4 @@
-<a class="w-full h-full bg-gray_light rounded" href="{{ url }}">
+<a class="w-full h-full rounded {{ classes }}" href="{{ url }}">
     <div class="relative flex justify-center items-center">
         <img class="h-48 sm:h-64 w-full object-cover rounded-t" src="{{ featured_image }}" alt="{{ featured_image:alt }}" title="{{ featured_image:alt }}">
         <div class="absolute top-0 bottom-0 w-full bg-black opacity-25 pointer-events-none rounded-t"></div>
@@ -6,7 +6,7 @@
             <h2 class="p-8 text-xl sm:text-2xl text-white">{{ title }}</h2>
         </div>
     </div>
-    <article class="p-4">
+    <article class="p-4 bg-gray_light">
         <div class="flex items-center mt-auto">
             <img src="{{ author:avatar }}" alt="" class="h-12 w-12 rounded-full object-cover">
             <div class="leading-tight ml-3 ">
