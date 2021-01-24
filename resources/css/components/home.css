@@ -3,18 +3,20 @@
     &__front {
         height: 80vh;
     
-        @apply text-2xl font-extrabold flex flex-col justify-center;
+        @apply text-3xl font-bold flex flex-col justify-center;
 
         @screen sm {
-            @apply text-3xl;
+            @apply text-4xl;
         }
 
         @screen md {
-            @apply text-4xl;
+            @apply text-5xl;
         }
     }
 
     &__front-inner {
-        @apply mb-16;
+        max-width: 720px;
+
+        @apply mb-16 mx-auto;
     }
 }

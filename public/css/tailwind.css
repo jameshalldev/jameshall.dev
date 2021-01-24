@@ -1,3 +1,5 @@
+/* Tailwind styles */
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -16295,8 +16297,8 @@ video {
 
 .home-page__front {
     height: 80vh;
-    font-size: 1.95rem;
-    font-weight: 800;
+    font-size: 2.44rem;
+    font-weight: 700;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16305,20 +16307,27 @@ video {
 @media (min-width: 640px) {
 
 .home-page__front {
-      font-size: 2.44rem
+      font-size: 3.05rem
   }
     }
 
 @media (min-width: 768px) {
 
 .home-page__front {
-      font-size: 3.05rem
+      font-size: 3.81rem
   }
     }
 
 .home-page__front-inner {
+    max-width: 720px;
     margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+/* Core */
+
+/* Global */
 
 @media (min-width: 500px) {
   .xs\:container {
