@@ -5,6 +5,9 @@
 
 /* Components */
 @import "components/contact";
+@import "components/footer";
+@import "components/front-page";
+@import "components/header";
 @import "components/home";
 
 /* Core */

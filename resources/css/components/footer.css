@@ -1,0 +1,37 @@
+.footer {
+    @apply
+        mt-auto
+        bg-gray_dark
+        text-white
+        py-8
+    ;
+
+    &__inner {
+        @apply
+            flex
+            flex-col
+            justify-between
+        ;
+
+        @screen sm {
+            @apply
+                flex-row
+            ;
+        }
+    }
+
+    &__social-media {
+        @apply
+            flex
+            flex-col
+            justify-between
+        ;
+        
+        h2 {
+            @apply
+                mb-4
+                text-xl
+            ;
+        }
+    }
+}

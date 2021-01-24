@@ -1,0 +1,37 @@
+.front-page {
+    @apply 
+        flex
+        flex-col
+        justify-center
+    ;
+
+    height: calc(100vh - 100px);
+
+    &__inner {
+        @apply
+            font-bold
+            mb-16
+            mx-auto
+        ;
+
+        font-size: 6.5vw;
+        max-width: 72vw;
+
+        @screen xl {
+            font-size: 91px;
+            max-width: 1008px;
+        }
+
+    }
+
+    &__shopify-logo {
+        fill: #95BF47;
+        width: 20vw;
+        margin-bottom: 0.5vw;
+
+        @screen xl {
+            width: 148px;
+            flex: none;
+        }
+    }
+}

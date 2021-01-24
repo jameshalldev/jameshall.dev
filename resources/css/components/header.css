@@ -1,0 +1,38 @@
+.header {
+    /* box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1); */
+
+    @apply
+        fixed
+        bg-white
+    ;
+
+    &__inner {
+        @apply 
+            flex
+            flex-col
+            justify-between
+            items-center
+        ;
+        
+        @screen xs {
+            @apply flex-row;
+        }
+    }
+
+    &__site-title {
+        @apply 
+            font-bold
+            text-lg
+        ;
+    }
+
+    &__nav {
+        @apply
+    }
+
+    &__nav-toggle {
+        @apply 
+            cursor-pointer
+        ;
+    }
+}

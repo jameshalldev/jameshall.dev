@@ -616,9 +616,9 @@ video {
   }
 }
 
-@media (min-width: 1120px) {
+@media (min-width: 1400px) {
   .container {
-    max-width: 1120px;
+    max-width: 1400px;
   }
 }
 
@@ -8516,7 +8516,7 @@ video {
 }
 
 .max-w-screen-xl {
-  max-width: 1120px !important;
+  max-width: 1400px !important;
 }
 
 .min-h-0 {
@@ -16295,39 +16295,141 @@ video {
     margin-right: auto;
   }
 
-.home-page__front {
-    height: 80vh;
-    font-size: 2.44rem;
-    font-weight: 700;
+.footer {
+  margin-top: auto;
+  --bg-opacity: 1;
+  background-color: #1b1e23;
+  background-color: rgba(27, 30, 35, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer__inner {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
   }
 
 @media (min-width: 640px) {
 
-.home-page__front {
-      font-size: 3.05rem
+.footer__inner {
+      flex-direction: row
   }
     }
 
-@media (min-width: 768px) {
-
-.home-page__front {
-      font-size: 3.81rem
+.footer__social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
+
+.footer__social-media h2 {
+      margin-bottom: 1rem;
+      font-size: 1.56rem;
     }
 
-.home-page__front-inner {
-    max-width: 720px;
+.front-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 100px);
+}
+
+.front-page__inner {
+    font-weight: 700;
     margin-bottom: 4rem;
     margin-left: auto;
     margin-right: auto;
+    font-size: 6.5vw;
+    max-width: 72vw;
+  }
+
+@media (min-width: 1400px) {
+
+.front-page__inner {
+      font-size: 91px;
+
+      max-width: 1008px
+  }
+    }
+
+.front-page__shopify-logo {
+    fill: #95BF47;
+    width: 20vw;
+    margin-bottom: 0.5vw;
+  }
+
+@media (min-width: 1400px) {
+
+.front-page__shopify-logo {
+      width: 148px;
+
+      flex: none
+  }
+    }
+
+.header {
+  /* box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1); */
+  position: fixed;
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+}
+
+.header__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+@media (min-width: 500px) {
+
+.header__inner {
+      flex-direction: row
+  }
+    }
+
+.header__site-title {
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+
+.header__nav {
+  }
+
+.header__nav-toggle {
+    cursor: pointer;
   }
 
 /* Core */
 
 /* Global */
+
+.panel {
+  width: 100%;
+  min-width: 100%;
+  max-width: none !important;
+  /* To be made dynamic based on viewport */
+}
+
+.section {
+  max-width: 1400px;
+  padding: 1.5rem 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section--wide {
+    max-width: 1920px;
+  }
+
+.section--narrow {
+    max-width: 1100px;
+  }
 
 @media (min-width: 500px) {
   .xs\:container {
@@ -16359,9 +16461,9 @@ video {
     }
   }
 
-@media (min-width: 500px) and (min-width: 1120px) {
+@media (min-width: 500px) and (min-width: 1400px) {
     .xs\:container {
-      max-width: 1120px;
+      max-width: 1400px;
     }
   }
 
@@ -24261,7 +24363,7 @@ video {
   }
 
   .xs\:max-w-screen-xl {
-    max-width: 1120px !important;
+    max-width: 1400px !important;
   }
 
   .xs\:min-h-0 {
@@ -31967,9 +32069,9 @@ video {
     }
   }
 
-@media (min-width: 640px) and (min-width: 1120px) {
+@media (min-width: 640px) and (min-width: 1400px) {
     .sm\:container {
-      max-width: 1120px;
+      max-width: 1400px;
     }
   }
 
@@ -39869,7 +39971,7 @@ video {
   }
 
   .sm\:max-w-screen-xl {
-    max-width: 1120px !important;
+    max-width: 1400px !important;
   }
 
   .sm\:min-h-0 {
@@ -47575,9 +47677,9 @@ video {
     }
   }
 
-@media (min-width: 768px) and (min-width: 1120px) {
+@media (min-width: 768px) and (min-width: 1400px) {
     .md\:container {
-      max-width: 1120px;
+      max-width: 1400px;
     }
   }
 
@@ -55477,7 +55579,7 @@ video {
   }
 
   .md\:max-w-screen-xl {
-    max-width: 1120px !important;
+    max-width: 1400px !important;
   }
 
   .md\:min-h-0 {
@@ -63183,9 +63285,9 @@ video {
     }
   }
 
-@media (min-width: 1024px) and (min-width: 1120px) {
+@media (min-width: 1024px) and (min-width: 1400px) {
     .lg\:container {
-      max-width: 1120px;
+      max-width: 1400px;
     }
   }
 
@@ -71085,7 +71187,7 @@ video {
   }
 
   .lg\:max-w-screen-xl {
-    max-width: 1120px !important;
+    max-width: 1400px !important;
   }
 
   .lg\:min-h-0 {
@@ -78761,43 +78863,43 @@ video {
   }
 }
 
-@media (min-width: 1120px) {
+@media (min-width: 1400px) {
   .xl\:container {
     width: 100%;
   }
 }
 
-@media (min-width: 1120px) and (min-width: 500px) {
+@media (min-width: 1400px) and (min-width: 500px) {
     .xl\:container {
       max-width: 500px;
     }
   }
 
-@media (min-width: 1120px) and (min-width: 640px) {
+@media (min-width: 1400px) and (min-width: 640px) {
     .xl\:container {
       max-width: 640px;
     }
   }
 
-@media (min-width: 1120px) and (min-width: 768px) {
+@media (min-width: 1400px) and (min-width: 768px) {
     .xl\:container {
       max-width: 768px;
     }
   }
 
-@media (min-width: 1120px) and (min-width: 1024px) {
+@media (min-width: 1400px) and (min-width: 1024px) {
     .xl\:container {
       max-width: 1024px;
     }
   }
 
-@media (min-width: 1120px) and (min-width: 1120px) {
+@media (min-width: 1400px) and (min-width: 1400px) {
     .xl\:container {
-      max-width: 1120px;
+      max-width: 1400px;
     }
   }
 
-@media (min-width: 1120px) {
+@media (min-width: 1400px) {
 
   .xl\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0 !important;
@@ -86693,7 +86795,7 @@ video {
   }
 
   .xl\:max-w-screen-xl {
-    max-width: 1120px !important;
+    max-width: 1400px !important;
   }
 
   .xl\:min-h-0 {

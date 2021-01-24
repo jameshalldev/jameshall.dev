@@ -1,0 +1,7 @@
+<ul class="{{ ul_classes }}">
+    {{ nav:main }}
+        <li class="{{ li_classes }} hover:underline
+            {{ if url | segment:1 == is_parent || is_current }} underline{{ endif }}
+        "><a href="{{ url }}">{{ title }}</a></li>
+    {{ /nav:main }}
+</ul>

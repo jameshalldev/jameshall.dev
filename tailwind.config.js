@@ -38,7 +38,7 @@ module.exports = {
         sm: '640px',
         md: '768px',
         lg: '1024px',
-        xl: '1120px',
+        xl: '1400px',
       },
       fontSize: {
         'sm': '0.64rem',

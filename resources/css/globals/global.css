@@ -1,0 +1,19 @@
+.body {
+    @apply
+        bg-background
+        text-text
+        antialiased
+        font-medium 
+        flex flex-col 
+        min-h-screen
+    ;
+}
+
+.main {
+    @apply
+        flex
+        flex-grow
+        flex-col
+        font-normal
+    ;
+}

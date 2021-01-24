@@ -8,18 +8,18 @@
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
         <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
     </head>
-    <body class="bg-background text-text antialiased font-nunito font-medium flex flex-col min-h-screen">
+    <body class="body">
 
-        {{ partial:partials/header }}
+        {{ partial:partials/global/header }}
 
-        <main class="container mx-auto px-6 py-8 flex-grow flex flex-col font-normal"> 
+        <main class="main section flex-grow flex flex-col font-normal"> 
             {{ if ! segment_1 == '' }}
                 <h1 class="text-5xl font-semibold sm:text-2xl mb-6 text-center">{{ title }}</h1> 
             {{ endif }}
             {{ template_content }}
         </main>
 
-        {{ partial:partials/footer }}
+        {{ partial:partials/global/footer }}
 
     </body>
 </html>
