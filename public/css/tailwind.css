@@ -16296,7 +16296,7 @@ video {
   }
 
 .footer {
-  margin-top: auto;
+  margin-top: auto !important;
   --bg-opacity: 1;
   background-color: #1b1e23;
   background-color: rgba(27, 30, 35, var(--bg-opacity));
@@ -16373,7 +16373,6 @@ video {
 
 .header {
   /* box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1); */
-  position: fixed;
   --bg-opacity: 1;
   background-color: #fff;
   background-color: rgba(255, 255, 255, var(--bg-opacity));
@@ -16408,6 +16407,29 @@ video {
 /* Core */
 
 /* Global */
+
+.body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #252525;
+  color: rgba(37, 37, 37, var(--text-opacity));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* See header.css for header styles */
+
+.main {
+  font-weight: 400;
+}
+
+/* See footer.css for footer styles */
 
 .panel {
   width: 100%;

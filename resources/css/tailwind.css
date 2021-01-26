@@ -15,5 +15,6 @@
 @import "core/forms";
 
 /* Global */
+@import "globals/global";
 @import "globals/layout";
 @import "globals/typography";

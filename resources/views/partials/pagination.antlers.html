@@ -1,42 +1,45 @@
-<div class="{{ container_class }}">
+<div class="{{ container_classes }}">
     {{ collection :from="collection_type" :paginate="pagination_value" as="loop" }}
         <div class="grid grid-flow-row grid-cols-{{ cols_mobile }} lg:grid-cols-{{ cols_desktop }} {{ grid_gap }}">
+            Test
             {{ loop }}
                 {{ partial :src="card_type" }} 
             {{ /loop }}
         </div>
 
-        {{ paginate }}
+        {{ if show_controls == "true" }}
+            {{ paginate }}
 
-            {{ if !next_page }}
-                {{ settings:enable_messages }}
-                    {{ if card_type == value }}
-                        <div class="flex justify-center">
-                            <p class="bg-gray_light text-accent_bold py-4 px-8 rounded mt-8">
-                                {{ if card_type == 'blog-card' }}
-                                    {{ settings:blog_message_text }}
-                                {{ elseif card_type == 'projects-card' }}
-                                    {{ settings:projects_message_text }}
-                                {{ endif }}
-                            </p>
-                        </div>
+                {{ if !next_page }}
+                    {{ settings:enable_messages }}
+                        {{ if card_type == value }}
+                            <div class="flex justify-center">
+                                <p class="bg-gray_light text-accent_bold py-4 px-8 rounded mt-8">
+                                    {{ if card_type == 'blog-card' }}
+                                        {{ settings:blog_message_text }}
+                                    {{ elseif card_type == 'projects-card' }}
+                                        {{ settings:projects_message_text }}
+                                    {{ endif }}
+                                </p>
+                            </div>
+                        {{ endif }}
+                    {{ /settings:enable_messages }}
+                {{ endif }}
+                
+                <div class="text-base flex justify-center items-center space-x-8 text-center mx-auto mt-auto py-8">
+                    {{ if prev_page }}
+                        <a href="{{ prev_page }}">&larr; Previous</a>
+                    {{ else }}
+                        <a class="pointer-events-none opacity-25">&larr; Previous</a>
                     {{ endif }}
-                {{ /settings:enable_messages }}
-            {{ endif }}
-            
-            <div class="text-base flex justify-center items-center space-x-8 text-center mx-auto mt-auto pt-8">
-                {{ if prev_page }}
-                    <a href="{{ prev_page }}">&larr; Previous</a>
-                {{ else }}
-                    <a class="pointer-events-none opacity-25">&larr; Previous</a>
-                {{ endif }}
 
-                {{ if next_page }}
-                    <a href="{{ next_page }}">Next &rarr;</a>
-                {{ else }}
-                    <a class="pointer-events-none opacity-25">Next &rarr;</a>
-                {{ endif }}
-            </div>
-        {{ /paginate }}
+                    {{ if next_page }}
+                        <a href="{{ next_page }}">Next &rarr;</a>
+                    {{ else }}
+                        <a class="pointer-events-none opacity-25">Next &rarr;</a>
+                    {{ endif }}
+                </div>
+            {{ /paginate }}
+        {{ endif }}
     {{ /collection }}
 </div>

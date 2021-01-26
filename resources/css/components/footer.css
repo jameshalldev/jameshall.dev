@@ -1,6 +1,7 @@
 .footer {
+    margin-top: auto !important;
+
     @apply
-        mt-auto
         bg-gray_dark
         text-white
         py-8
