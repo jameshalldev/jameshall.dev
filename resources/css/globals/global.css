@@ -13,6 +13,8 @@
 /* See header.css for header styles */
 
 .main {
+    margin-top: 78px;
+
     @apply
         font-normal
     ;

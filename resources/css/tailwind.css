@@ -3,6 +3,11 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+/* Global */
+@import "globals/global";
+@import "globals/layout";
+@import "globals/typography";
+
 /* Components */
 @import "components/contact";
 @import "components/footer";
@@ -13,8 +18,3 @@
 /* Core */
 @import "core/buttons";
 @import "core/forms";
-
-/* Global */
-@import "globals/global";
-@import "globals/layout";
-@import "globals/typography";

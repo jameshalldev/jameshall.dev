@@ -1,7 +1,6 @@
 <div class="{{ container_classes }}">
     {{ collection :from="collection_type" :paginate="pagination_value" as="loop" }}
         <div class="grid grid-flow-row grid-cols-{{ cols_mobile }} lg:grid-cols-{{ cols_desktop }} {{ grid_gap }}">
-            Test
             {{ loop }}
                 {{ partial :src="card_type" }} 
             {{ /loop }}
@@ -14,7 +13,7 @@
                     {{ settings:enable_messages }}
                         {{ if card_type == value }}
                             <div class="flex justify-center">
-                                <p class="bg-gray_light text-accent_bold py-4 px-8 rounded mt-8">
+                                <p class="bg-gray_light py-4 px-8 rounded mt-8">
                                     {{ if card_type == 'blog-card' }}
                                         {{ settings:blog_message_text }}
                                     {{ elseif card_type == 'projects-card' }}

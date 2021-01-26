@@ -1,9 +1,14 @@
 .header {
-    /* box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1); */
-
+    
     @apply
         bg-white
+        py-6
+        fixed
     ;
+
+    &--shadow {
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    }
 
     &__inner {
         @apply 

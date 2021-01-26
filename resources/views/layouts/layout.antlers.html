@@ -7,18 +7,14 @@
         <meta name="description" content="{{ meta_description }}">
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
         <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
+        <script type="text/javascript" async="" src="{{ mix src='js/site.js' }}"></script>
     </head>
     <body class="body">
 
         {{ partial:partials/global/header }}
 
-        <main class="main font-normal"> 
-            <div>
-                {{ if ! segment_1 == '' }}
-                    <h1 class="text-5xl font-semibold sm:text-2xl mb-6 text-center">{{ title }}</h1> 
-                {{ endif }}
-                {{ template_content }}
-            </div>
+        <main class="main"> 
+            {{ template_content }}
         </main>
 
         {{ partial:partials/global/footer }}

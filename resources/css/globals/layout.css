@@ -2,22 +2,28 @@
     width: 100%;
     min-width: 100%;
     max-width: none !important;
-
+    padding: 2rem 3rem 3rem;
     /* To be made dynamic based on viewport */
 }
 
 .section {
     max-width: 1400px;
-    padding: 1.5rem 3rem;
-
     margin-left: auto;
     margin-right: auto;
 
-    &--wide {
-        max-width: 1920px;
+    &--xl {
+        max-width: 1920px !important; 
     }
 
-    &--narrow {
-        max-width: 1100px;
+    &--lg {
+        max-width: 1660px !important;
+    }
+
+    &--sm {
+        max-width: 1140px !important;
+    }
+
+    &--xs {
+        max-width: 880px !important;
     }
 }

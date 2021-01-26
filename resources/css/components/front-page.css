@@ -5,7 +5,7 @@
         justify-center
     ;
 
-    height: calc(100vh - 100px);
+    height: calc(100vh - 180px);
 
     &__inner {
         @apply
@@ -16,6 +16,7 @@
 
         font-size: 6.5vw;
         max-width: 72vw;
+        pointer-events: none;
 
         @screen xl {
             font-size: 91px;
@@ -33,5 +34,15 @@
             width: 148px;
             flex: none;
         }
+    }
+
+    &__arrow {
+        @apply 
+            cursor-pointer
+            mx-auto
+        ;
+
+        height: 50px;
+        width: 50px;
     }
 }
