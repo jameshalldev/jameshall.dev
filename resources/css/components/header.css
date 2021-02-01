@@ -4,6 +4,7 @@
         bg-white
         py-6
         fixed
+        z-20
     ;
 
     &--shadow {
@@ -13,14 +14,10 @@
     &__inner {
         @apply 
             flex
-            flex-col
+            flex-row
             justify-between
             items-center
         ;
-        
-        @screen xs {
-            @apply flex-row;
-        }
     }
 
     &__site-title {

@@ -29,3 +29,19 @@ sections:
           type: text
           icon: text
           listable: hidden
+  navigation_settings:
+    display: 'Navigation settings'
+    fields:
+      -
+        handle: toggle_items
+        field:
+          inline: true
+          options:
+            Home: Home
+            Projects: Projects
+            Blog: Blog
+            Contact: Contact
+          display: 'Toggle items'
+          type: checkboxes
+          icon: checkboxes
+          listable: hidden

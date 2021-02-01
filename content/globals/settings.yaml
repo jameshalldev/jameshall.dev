@@ -5,3 +5,8 @@ data:
     - projects-card
   blog_message_text: 'You''ve reached the end 🤯'
   projects_message_text: 'More coming soon 🤞'
+  toggle_items:
+    - Home
+    - Projects
+    - Blog
+    - Contact
