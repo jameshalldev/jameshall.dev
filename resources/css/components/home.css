@@ -1,0 +1,19 @@
+.about {
+    &__inner {
+
+    }
+
+    &__image {
+        max-width: 320px;
+        @apply
+            rounded-full
+            mx-auto
+        ;
+    }
+    
+    &__text {
+        h3 {
+            
+        }
+    }
+}

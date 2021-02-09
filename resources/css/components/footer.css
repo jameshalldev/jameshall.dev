@@ -4,7 +4,7 @@
     @apply
         bg-gray_dark
         text-white
-        py-12
+        py-16
     ;
 
     &__inner {

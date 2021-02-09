@@ -11,19 +11,23 @@
     margin-left: auto;
     margin-right: auto;
 
-    &--xl {
+    &--xxl {
         max-width: 1920px !important; 
     }
 
-    &--lg {
+    &--xl {
         max-width: 1660px !important;
     }
 
-    &--sm {
+    &--md {
         max-width: 1140px !important;
     }
 
-    &--xs {
+    &--sm {
         max-width: 880px !important;
+    }
+
+    &--xs {
+        max-width: 620px !important;
     }
 }

@@ -1,50 +1,94 @@
 {{ partial src="front-page" }}
 
-<div class="panel">
-    <div class="section section--sm">
-        <div class="flex justify-between items-end mb-4">
-            <h2 class="text-xl font-bold">Latest blog posts 📚</h2>
-        </div>
-        {{ 
-            partial:partials/pagination 
-            collection_type="blog"
-            card_type="blog-card"
-            container_classes=""
-    
-            {{# Show pagination controls #}}
-            show_controls="false"
-    
-            {{# No of loops per page #}}
-            pagination_value="2"
-    
-            {{# No of columns #}}
-            cols_mobile="1"
-            cols_desktop="2"
-            grid_gap="gap-8"
-        }}
-    </div>
-</div>
-<div class="panel">
-    <div class="section section--sm">
-        <div class="flex justify-between items-end mb-4">
-            <h2 class="text-xl font-bold">Latest projects 🎨</h2>
-        </div>
-        {{ 
-            partial:partials/pagination 
-            collection_type="projects"
-            card_type="projects-card"
-            container_classes=""
-    
-            {{# Show pagination controls #}}
-            show_controls="false"
-    
-            {{# No of loops per page #}}
-            pagination_value="2"
-    
-            {{# No of columns #}}
-            cols_mobile="1"
-            cols_desktop="2"
-            grid_gap="gap-8"
-        }}
-    </div>
+<div class="home">
+    {{ settings.homepage_content }}
+        <!-- ABOUT SECTION -->
+        {{ if value == 'about' }}
+            <div class="panel home__about about">
+                <div class="section section--md about__inner">
+                    <img class="about__image" src="{{ settings.about_image }}" alt="{{ settings.about_image.alt }}" width="700">
+                    <div class="about__text">
+                        <h3>{{ settings.about_header }}</h3>
+                        <p>{{ settings.about_body }}</p>
+                    </div>
+                </div>
+            </div>
+        {{ endif }}
+
+        {{ if value == 'my_skills' }}
+            <div class="panel home__my-skills my-skills">
+                <div class="section section--xs">
+                    <h2 class="text-xl font-bold">My skills</h2>
+                    <ul class="flex flex-wrap">
+                        {{ settings.my_skills as="loop" }} 
+                            {{ loop }}
+                            <div class="flex flex-col justify-center items-center w-1/4 my-8">
+                                <span class="text-accent fill-current block mb-4" style="height: 48px; width: 48px;">
+                                    {{ partial src="partials.icons.{value}" }}
+                                </span>
+                                <span class="font-medium">{{ label }}</span>
+                            </div>
+                            {{ /loop }}
+                        {{ /settings.my_skills }}
+                    </ul>
+                </div>
+            </div>
+        {{ endif }}
+
+        <!-- BLOG POSTS -->
+        {{ if value == 'blog' }}
+            <div class="panel home__latest-blog-posts latest-blog-posts">
+                <div class="section section--md">
+                    <div class="flex justify-between items-end mb-4">
+                        <h2 class="text-xl font-bold">Latest blog posts</h2>
+                    </div>
+                    {{ 
+                        partial:partials/pagination 
+                        collection_type="blog"
+                        card_type="blog-card"
+                        container_classes=""
+                
+                        {{# Show pagination controls #}}
+                        show_controls="false"
+                
+                        {{# No of loops per page #}}
+                        pagination_value="2"
+                
+                        {{# No of columns #}}
+                        cols_mobile="1"
+                        cols_desktop="2"
+                        grid_gap="gap-8"
+                    }}
+                </div>
+            </div>
+        {{ endif }}
+
+        <!-- PROJECT POSTS -->
+        {{ if value == 'projects' }}
+            <div class="panel home__latest-projects latest-projects">
+                <div class="section section--md">
+                    <div class="flex justify-between items-end mb-4">
+                        <h2 class="text-xl font-bold">Latest projects</h2>
+                    </div>
+                    {{ 
+                        partial:partials/pagination 
+                        collection_type="projects"
+                        card_type="projects-card"
+                        container_classes=""
+                
+                        {{# Show pagination controls #}}
+                        show_controls="false"
+                
+                        {{# No of loops per page #}}
+                        pagination_value="2"
+                
+                        {{# No of columns #}}
+                        cols_mobile="1"
+                        cols_desktop="2"
+                        grid_gap="gap-8"
+                    }}
+                </div>
+            </div>
+        {{ endif }}
+    {{ /settings.homepage_content }}
 </div>

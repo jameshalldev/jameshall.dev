@@ -34,12 +34,12 @@ sections:
         field:
           inline: true
           options:
-            'html5 ': HTML5
+            html: HTML
             css: CSS
             javascript: JavaScript
             jquery: jQuery
             sass: Sass
-            Liquid: Liquid
+            liquid: Liquid
             ruby: Ruby
             php: PHP
             react: React.js

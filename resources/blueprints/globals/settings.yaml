@@ -1,4 +1,79 @@
 sections:
+  homepage_settings:
+    display: 'Homepage settings'
+    fields:
+      -
+        handle: homepage_content
+        field:
+          inline: false
+          options:
+            about: 'About section'
+            my_skills: 'My skills section'
+            blog: 'Blog posts section'
+            projects: 'Projects section'
+          display: 'Homepage content'
+          type: checkboxes
+          icon: checkboxes
+          listable: hidden
+      -
+        handle: about_image
+        field:
+          mode: grid
+          container: assets
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: 'About – Image'
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: about_header
+        field:
+          display: 'About – Header'
+          type: textarea
+          icon: textarea
+          listable: hidden
+      -
+        handle: about_body
+        field:
+          display: 'About – Body'
+          type: textarea
+          icon: textarea
+          listable: hidden
+      -
+        handle: my_skills
+        field:
+          inline: false
+          options:
+            html: HTML
+            css: CSS
+            javascript: JavaScript
+            sass: Sass
+            git: Git
+            liquid: Liquid
+            shopify: Shopify
+            responsive-design: 'Responsive design'
+          display: 'My skills'
+          type: checkboxes
+          icon: checkboxes
+          listable: hidden
+  navigation_toggles:
+    display: 'Navigation toggles'
+    fields:
+      -
+        handle: nav_items
+        field:
+          inline: true
+          options:
+            Home: Home
+            Projects: Projects
+            Blog: Blog
+            Contact: Contact
+          display: 'Nav items'
+          type: checkboxes
+          icon: checkboxes
+          listable: hidden
   coming_soon_messages:
     display: 'Coming soon messages'
     fields:
@@ -28,20 +103,4 @@ sections:
           display: 'Projects – Message text'
           type: text
           icon: text
-          listable: hidden
-  navigation_settings:
-    display: 'Navigation settings'
-    fields:
-      -
-        handle: toggle_items
-        field:
-          inline: true
-          options:
-            Home: Home
-            Projects: Projects
-            Blog: Blog
-            Contact: Contact
-          display: 'Toggle items'
-          type: checkboxes
-          icon: checkboxes
           listable: hidden

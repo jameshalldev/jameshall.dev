@@ -1,12 +1,26 @@
 title: '2. Settings'
 data:
-  enable_messages:
-    - blog-card
-    - projects-card
-  blog_message_text: 'You''ve reached the end 🤯'
-  projects_message_text: 'More coming soon 🤞'
-  toggle_items:
+  homepage_content:
+    - about
+    - my_skills
+    - blog
+  about_image: profile-1612475015.jpg
+  about_header: 'I''m also a drummer, juggler, and member of the team at Thought and Mortar.'
+  about_body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+  my_skills:
+    - html
+    - css
+    - javascript
+    - sass
+    - git
+    - liquid
+    - shopify
+    - responsive-design
+  nav_items:
     - Home
-    - Projects
     - Blog
     - Contact
+  enable_messages:
+    - blog-card
+  blog_message_text: 'More coming soon 🙂'
+  projects_message_text: 'More coming soon 🤞'

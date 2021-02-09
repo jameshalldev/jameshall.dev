@@ -1,7 +1,7 @@
 {{ technology_stack as="loop" }}
     <ul class="flex flex-wrap sm:justify-end space-x-2">
         {{ loop }}
-            <span class="text-accent fill-current mb-2">
+            <span class="text-accent fill-current mb-2" style="height: 24px; width: 24px;">
                 {{ partial src="partials.icons.{value}" }}
             </span>
         {{ /loop }}
