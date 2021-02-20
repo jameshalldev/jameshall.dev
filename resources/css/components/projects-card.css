@@ -1,0 +1,27 @@
+ .projects-card {
+     @apply w-full bg-gray_light text-white p-8;
+
+     &__top {
+        @apply flex justify-between flex-col;
+        @screen xs {
+            @apply flex-row;
+        }
+     }
+
+     &__title {
+        @apply text-text leading-none mb-2;
+     }
+     
+     &__date {
+        @apply text-sm text-gray mb-4;
+     }
+
+     &__desc {
+        @apply text-text text-tiny mb-6;
+     }
+
+     &__bottom {
+
+     }
+
+ }

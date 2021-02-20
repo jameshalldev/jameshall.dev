@@ -1,19 +1,45 @@
-.about {
-    &__inner {
-
+.home {
+    .text-size-h1 {
+        @apply text-center;
     }
+}
 
+.about {
     &__image {
+        @apply rounded-full mx-auto;
         max-width: 320px;
-        @apply
-            rounded-full
-            mx-auto
-        ;
     }
     
     &__text {
-        h3 {
-            
-        }
+
+    }
+
+    &__text-header {
+
+    }
+
+    &__text-body {
+
+    }
+}
+
+.skills {
+    &__list {
+        @apply flex flex-wrap;
+    }
+
+    &__item {
+        @apply flex flex-col justify-center items-center my-8;
+        width: 25%;
+    }
+
+    &__icon {
+        @apply text-accent fill-current block mb-4;
+        width: 100px;
+        height: 100px;
+    }
+
+    &__label {
+        @apply text-tiny text-gray;
     }
 }

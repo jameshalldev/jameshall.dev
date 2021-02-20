@@ -3,7 +3,6 @@
         min-h-screen
         flex
         flex-col 
-        font-medium 
         bg-background
         text-text
         antialiased
@@ -14,10 +13,16 @@
 
 .main {
     margin-top: 78px;
-
-    @apply
-        font-normal
-    ;
 }
 
 /* See footer.css for footer styles */
+
+/* Highlighted text */
+::selection {
+    color: white; /* WebKit/Blink Browsers */
+    background: #56B6FF;
+  }
+::-moz-selection {
+    color: white; /* Gecko Browsers */
+    background: #56B6FF;
+}

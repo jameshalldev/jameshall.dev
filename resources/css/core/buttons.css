@@ -1,0 +1,45 @@
+.btn {
+    @apply inline-block;
+
+    &__inner {
+        @apply block bg-accent_dark px-8 py-3 text-white font-bold rounded;
+        will-change: background, transform;
+        transition: 0.25s ease-out;
+        transition-property: background, transform;
+    }
+
+    &--large {
+        @apply px-16 py-4;
+    }
+}
+
+.btn:hover .btn__inner {
+    @apply bg-accent;
+    transform: translateY(-3px);
+}
+
+/* Example
+
+================================
+=== Using the button element ===
+================================
+
+<button class="btn">
+    <span class="btn__inner btn--large">
+        Submit
+    </span>
+</button> 
+
+
+===============================
+=== Using an anchor element ===
+===============================
+
+<a href="/" target="_blank" role="button" class="btn">
+    <span class="btn__inner">
+        Submit
+    </span>
+</a>
+
+
+ */

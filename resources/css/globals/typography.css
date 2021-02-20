@@ -1,0 +1,42 @@
+html {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+body {
+  line-height: 1.65;
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.15;
+    margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+.text-size-h1 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 3.05em;
+  font-weight: bold;
+}
+
+.text-size-h2 {
+    font-size: 2.44em;
+}
+
+.text-size-h3 {
+    font-size: 1.95em;
+}
+
+.text-size-h4 {
+    font-size: 1.56em;
+}
+
+.text-size-h5 {
+    font-size: 1.25em;
+}

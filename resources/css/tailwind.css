@@ -9,11 +9,13 @@
 @import "globals/typography";
 
 /* Components */
+@import "components/blog-card";
 @import "components/contact";
 @import "components/footer";
 @import "components/front-page";
 @import "components/header";
 @import "components/home";
+@import "components/projects-card";
 
 /* Core */
 @import "core/buttons";

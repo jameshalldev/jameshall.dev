@@ -1,31 +1,21 @@
 .front-page {
-    @apply 
-        flex
-        flex-col
-        justify-center
-    ;
-
+    @apply flex flex-col justify-center;
     min-height: calc(100vh - 180px);
 
     &__inner {
-        @apply
-            font-bold
-            mx-auto
-        ;
-
+        @apply font-bold mx-auto;
         font-size: 6.5vw;
         margin-top: 5vw;
         margin-bottom: 5vw;
         max-width: 72vw;
         pointer-events: none;
-
+        
         @screen xl {
             font-size: 91px;
             margin-top: 70px;
             margin-bottom: 70px;
             max-width: 1008px;
         }
-
     }
 
     &__shopify-logo {
@@ -40,17 +30,11 @@
     }
 
     &__arrow {
-        @apply 
-            cursor-pointer
-            mx-auto
-        ;
-
+        @apply cursor-pointer mx-auto;
         min-width: 24px;
         min-height: 24px;
-
         width: 3.5vw;
         height: 3.5vw;
-
         max-width: 48px;
         max-height: 48px;
     }

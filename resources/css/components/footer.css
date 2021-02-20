@@ -1,38 +1,20 @@
 .footer {
+    @apply bg-gray_dark text-white py-12 px-10;
     margin-top: auto !important;
 
-    @apply
-        bg-gray_dark
-        text-white
-        py-16
-    ;
-
     &__inner {
-        @apply
-            flex
-            flex-col
-            justify-between
-        ;
+        @apply flex flex-col justify-between;
 
         @screen sm {
-            @apply
-                flex-row
-            ;
+            @apply flex-row;
         }
     }
 
     &__social-media {
-        @apply
-            flex
-            flex-col
-            justify-between
-        ;
+        @apply flex flex-col justify-between;
         
         h2 {
-            @apply
-                mb-4
-                text-xl
-            ;
+            @apply mb-4 text-xl;
         }
     }
 }

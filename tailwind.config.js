@@ -17,11 +17,13 @@ module.exports = {
             text: '#2b2b2b',
             text_light: '#535353',
             background: '#fff',
-            gray: '#253540',
-            gray_light: '#F4F5F7',
+
+            gray: '#718096',
             gray_dark: '#1b1e23',
+            gray_light: '#F4F5F7',
+
             accent: '#74c2ff',
-            accent_bold: '#56B6FF',
+            accent_dark: '#56B6FF',
             accent_light: '#99D3FF',
 
             // General colours

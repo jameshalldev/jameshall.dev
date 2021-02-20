@@ -1,11 +1,10 @@
 title: '2. Settings'
 data:
   homepage_content:
-    - about
     - my_skills
     - blog
+    - projects
   about_image: profile-1612475015.jpg
-  about_header: 'I''m also a drummer, juggler, and member of the team at Thought and Mortar.'
   about_body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
   my_skills:
     - html
