@@ -1,1 +1,40 @@
+.blog-card {
+    @apply px-0 pb-0 m-0 bg-accent relative;
+    
+    min-height: 160px;
+    height: 160px;
 
+    @screen sm {
+        min-height: 0;
+        height: 0;
+        padding-top: 27.78% !important;
+    }
+
+    &__image {
+        @apply object-cover;
+    }
+    
+    &__image-overlay {
+        @apply bg-black opacity-25 pointer-events-none;
+    }
+
+    &__inner {
+        @apply absolute top-0 bottom-0 left-0 right-0 w-full h-full;
+    }
+
+    &__text {
+        @apply text-white flex flex-col justify-center items-start p-4;
+
+        @screen sm {
+            @apply p-12;
+        }
+
+        h2 {
+            @apply m-0 text-left;
+        }
+
+        p {
+            @apply m-0 text-tiny; 
+        }
+    }
+}

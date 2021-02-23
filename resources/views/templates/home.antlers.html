@@ -19,8 +19,8 @@
         {{# MY_SKILLS #}}
         {{ if value == 'my_skills' }}
             <div class="panel">
-                <section class="section section--sm skills">
-                    <h2 class="text-size-h1">Technologies</h2>
+                <section class="section section--md skills">
+                    <h2 class="text-size-h1">Skills</h2>
                     <ul class="skills__list">
                         {{ settings.my_skills as="loop" }} 
                             {{ loop }}
@@ -57,7 +57,7 @@
                         {{# No of columns #}}
                         cols_mobile="1"
                         cols_desktop="1"
-                        grid_gap="gap-8"
+                        grid_gap="gap-4 sm:gap-8"
                     }}
                 </section>
             </div>
@@ -83,7 +83,7 @@
                         {{# No of columns #}}
                         cols_mobile="1"
                         cols_desktop="1"
-                        grid_gap="gap-8"
+                        grid_gap="gap-4 sm:gap-8"
                     }}
                 </section>
             </div>

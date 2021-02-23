@@ -1,26 +1,28 @@
-<div class="contact max-w-screen-md mx-auto w-full mx-auto">
+<div class="panel">
+    <div class="section section--sm contact">
+        <h1 class="text-size-h1 text-center">{{ title }}</h1> 
+        <div class="mb-4">{{ content }}</div>
 
-    <div class="mb-4">{{ content }}</div>
-
-    {{ form:contact id="contact-form" }}
-        {{ if success }}
-            <div class="bg-green-500 rounded text-white p-4">
-                {{ success }}
-            </div>
-        {{ else }}
-            {{ fields }}
-                <div class="py-2">
-                    <div>{{ field }}</div>
-                    {{ if error }}
-                        <p class="text-red-500 text-xs">{{ error }}</p>
-                    {{ /if }}
+        {{ form:contact id="contact-form" }}
+            {{ if success }}
+                <div class="bg-green-500 rounded text-white p-4">
+                    {{ success }}
                 </div>
-            {{ /fields }}
-            <button type="submit" class="btn">
-                <span class="btn__inner btn--large">
-                    Submit
-                </span>
-            </button>
-        {{ /if }}
-    {{ /form:contact }}
+            {{ else }}
+                {{ fields }}
+                    <div class="py-2">
+                        <div>{{ field }}</div>
+                        {{ if error }}
+                            <p class="text-red-500 text-xs">{{ error }}</p>
+                        {{ /if }}
+                    </div>
+                {{ /fields }}
+                <button type="submit" class="btn">
+                    <span class="btn__inner btn--large">
+                        Submit
+                    </span>
+                </button>
+            {{ /if }}
+        {{ /form:contact }}
+    </div>
 </div>

@@ -14,8 +14,7 @@ module.exports = {
       extend: {
         colors: {
             // Core colours
-            text: '#2b2b2b',
-            text_light: '#535353',
+            text: '#3b3b3b',
             background: '#fff',
 
             gray: '#718096',

@@ -1,16 +1,10 @@
-<a class="w-full h-full  {{ classes }}" href="{{ url }}">
-    <div class="relative flex justify-center items-center">
-        <img class="h-48 sm:h-64 w-full object-cover" src="{{ featured_image }}" alt="{{ featured_image:alt }}" title="{{ featured_image:alt }}">
-        <div class="absolute top-0 bottom-0 w-full bg-black opacity-25 pointer-events-none"></div>
-        <div class="absolute top-0 bottom-0 w-full flex justify-center items-center pointer-events-none">
-            <h2 class="p-8 text-xl sm:text-2xl text-white">{{ title }}</h2>
-        </div>
-    </div>
-    <article class="p-4 bg-gray_light text-text">
-        <div class="flex items-center mt-auto">
-            <div class="leading-tight">
-                <p class="text-sm text-gray-600 mb-0">{{ date }}</p>
-            </div>
+<a class="w-full h-full {{ classes }}" href="{{ url }}">
+    <article class="blog-card">
+        <img class="blog-card__inner blog-card__image" src="{{ featured_image }}" alt="{{ featured_image:alt }}" title="{{ featured_image:alt }}">
+        <div class="blog-card__inner blog-card__image-overlay"></div>
+        <div class="blog-card__inner blog-card__text">
+            <h2 class="blog-card__title text-size-h2 font-bold">{{ title }}</h2>
+            <p class="blog-card__date">{{ date }}</p>
         </div>
     </article>
 </a>

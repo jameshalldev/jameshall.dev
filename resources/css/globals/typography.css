@@ -13,30 +13,49 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-  font-size: 1em;
   margin-bottom: 0.5rem;
   font-weight: 400;
+
+  font-size: 0.875em;
+  
+  @screen sm {
+    font-size: 1em;
+  }
 }
 
 .text-size-h1 {
   margin-top: 0;
   margin-bottom: 2rem;
-  font-size: 3.05em;
   font-weight: bold;
+  
+  font-size: 2.44em;
+  @screen sm {
+    font-size: 3.05em;
+  }
 }
 
 .text-size-h2 {
+  font-size: 1.95em;
+  @screen sm {
     font-size: 2.44em;
+  }
 }
 
 .text-size-h3 {
+  font-size: 1.56em;
+  @screen sm {
     font-size: 1.95em;
+  }
 }
 
 .text-size-h4 {
+  font-size: 1.25rem;
+  @screen sm {
     font-size: 1.56em;
+  }
 }
 
 .text-size-h5 {
-    font-size: 1.25em;
+  text-decoration: italic;
+  font-size: 1.25em;
 }
