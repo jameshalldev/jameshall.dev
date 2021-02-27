@@ -1,5 +1,5 @@
  .projects-card {
-     @apply w-full bg-gray_light text-white p-8;
+     @apply w-full bg-background_light text-white p-8;
 
      &__top {
         @apply flex justify-between flex-col;

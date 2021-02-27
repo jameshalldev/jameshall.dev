@@ -8,7 +8,7 @@ sections:
           inline: false
           options:
             about: 'About section'
-            my_skills: 'My skills section'
+            skills: 'Skills section'
             blog: 'Blog posts section'
             projects: 'Projects section'
           display: 'Homepage content'
@@ -42,19 +42,20 @@ sections:
           icon: textarea
           listable: hidden
       -
-        handle: my_skills
+        handle: skills
         field:
           inline: false
           options:
             html: HTML
             css: CSS
             javascript: JavaScript
-            sass: Sass
             git: Git
-            liquid: Liquid
+            sass: Sass
+            npm: NPM
             shopify: Shopify
+            liquid: Liquid
             responsive-design: 'Responsive design'
-          display: 'My skills'
+          display: Skills
           type: checkboxes
           icon: checkboxes
           listable: hidden

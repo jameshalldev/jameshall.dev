@@ -4,27 +4,31 @@
 
     &__inner {
         @apply font-bold mx-auto;
-        font-size: 6.5vw;
+        font-size: 7.5vw;
         margin-top: 5vw;
         margin-bottom: 5vw;
-        max-width: 72vw;
+        max-width: 85vw;
         pointer-events: none;
         
         @screen xl {
-            font-size: 91px;
+            font-size: 105px;
             margin-top: 70px;
             margin-bottom: 70px;
-            max-width: 1008px;
+            max-width: 1190px;
         }
+    }
+
+    &__title {
+        @apply mb-0;
+        line-height: 1.125 !important;
     }
 
     &__shopify-logo {
         fill: #95BF47;
-        width: 20vw;
-        margin-bottom: 0.5vw;
+        width: 28vw;
 
         @screen xl {
-            width: 148px;
+            width: 218px;
             flex: none;
         }
     }

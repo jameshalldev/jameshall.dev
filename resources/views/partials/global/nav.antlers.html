@@ -2,9 +2,9 @@
     {{ nav:main }}
         {{ settings.nav_items }}
             {{ if value == title }}
-                <li class="{{ li_classes }} hover:underline
+                <li class="{{ li_classes }}
                     {{ if url | segment:1 == is_parent || is_current }} underline{{ endif }}
-                "><a href="{{ url }}">{{ title }}</a></li>
+                "><a class="no-underline" href="{{ url }}">{{ title }}</a></li>
             {{ endif }}
         {{ /settings.nav_items }}
     {{ /nav:main }}

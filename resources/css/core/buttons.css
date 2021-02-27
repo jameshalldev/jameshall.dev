@@ -1,8 +1,8 @@
 .btn {
-    @apply inline-block;
+    @apply inline-block no-underline mt-1;
 
     &__inner {
-        @apply block bg-accent_dark px-8 py-3 text-white font-bold rounded;
+        @apply block bg-accent px-8 py-3 text-white font-bold rounded;
         will-change: background, transform;
         transition: 0.25s ease-out;
         transition-property: background, transform;
@@ -14,7 +14,7 @@
 }
 
 .btn:hover .btn__inner {
-    @apply bg-accent;
+    @apply bg-accent_secondary;
     transform: translateY(-3px);
 }
 

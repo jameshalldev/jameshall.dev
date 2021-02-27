@@ -14,16 +14,17 @@ module.exports = {
       extend: {
         colors: {
             // Core colours
-            text: '#3b3b3b',
-            background: '#fff',
+            text: '#fff3e3',
+            background: '#262b35', 
+            background_light: '#2F3646', 
+            background_dark: '#1f242d', 
 
             gray: '#718096',
             gray_dark: '#1b1e23',
             gray_light: '#F4F5F7',
 
-            accent: '#74c2ff',
-            accent_dark: '#56B6FF',
-            accent_light: '#99D3FF',
+            accent: '#6669b1',
+            accent_secondary: '#7075ff',
 
             // General colours
             red: "#FFB3BA",
@@ -40,6 +41,7 @@ module.exports = {
         md: '768px',
         lg: '1024px',
         xl: '1400px',
+        xxl: '1920px',
       },
       fontSize: {
         'sm': '0.64rem',

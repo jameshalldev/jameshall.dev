@@ -10,6 +10,7 @@
 
 /* Components */
 @import "components/blog-card";
+@import "components/contact-info";
 @import "components/contact";
 @import "components/footer";
 @import "components/front-page";

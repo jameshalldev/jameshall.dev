@@ -1,5 +1,5 @@
 .footer {
-    @apply bg-gray_dark text-white py-12 px-10;
+    @apply py-12 px-10 bg-background_dark;
     margin-top: auto !important;
 
     &__inner {

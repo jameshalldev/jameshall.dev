@@ -1,12 +1,12 @@
 .panel {
     width: 100%;
     min-width: 100%;
-    max-width: none !important;
+    max-width: none;
 
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 1.5rem 1.5rem 3rem 1.5rem;
 
     @screen sm {
-        padding: 2rem 2rem 4rem 2rem;
+        padding: 3rem 3rem 6rem 3rem;
     }
 }
 

@@ -1,9 +1,3 @@
-.home {
-    .text-size-h1 {
-        @apply text-center;
-    }
-}
-
 .about {
     &__image {
         @apply rounded-full mx-auto;
@@ -42,4 +36,11 @@
     &__label {
         @apply text-tiny text-gray;
     }
+}
+
+.about, 
+.skills,
+.latest-blog-posts,
+.latest-projects {
+    
 }

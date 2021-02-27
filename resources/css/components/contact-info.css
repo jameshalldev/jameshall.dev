@@ -1,0 +1,19 @@
+.contact-info {
+    @apply text-base;
+    
+    &__item {  
+        @apply mb-4 flex flex-row-reverse justify-end;
+    }
+    
+    &__anchor {
+        @apply no-underline;
+    }
+
+    &__icon {
+        @apply mr-4 text-accent fill-current;
+    }
+}
+
+.contact-info__anchor:hover + .contact-info__icon {
+    @apply text-accent_secondary;
+}

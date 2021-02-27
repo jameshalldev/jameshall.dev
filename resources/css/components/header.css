@@ -1,8 +1,7 @@
 .header {
-    @apply bg-white py-6 fixed z-20;
+    @apply bg-background py-6 fixed z-20 border-background_light border-b;
 
     &--shadow {
-        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
         transition: box-shadow 0.4s ease-in-out;
     }
 
@@ -12,11 +11,11 @@
 
 
     &__site-title {
-        @apply font-bold text-lg mb-0;
+        @apply font-bold text-lg mb-0 no-underline;
     }
 
     &__nav {
-        @apply;
+        @apply no-underline;
     }
 
     &__nav-toggle {

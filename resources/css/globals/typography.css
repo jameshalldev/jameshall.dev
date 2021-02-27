@@ -12,6 +12,17 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 1.5rem;
 }
 
+a {
+  @apply text-text underline;
+  will-change: background, transform;
+  transition-property: color, fill;
+  transition: 0.25s ease-out;
+
+  &:hover {
+    @apply text-accent_secondary;
+  }
+}
+
 p {
   margin-bottom: 0.5rem;
   font-weight: 400;

@@ -1,17 +1,20 @@
-<ul class="text-base {{ classes }}">
+<ul class="contact-info {{ classes }}">
     {{ if details:phone_number }}
-        <li class="mb-4 flex">
-            <span class="mr-4 text-accent fill-current">{{ partial:partials/icons/phone }}</span><a href="tel:{{ details:phone_number }}">{{ details:phone_number }}</a>
+        <li class="contact-info__item">
+            <a target="_blank" class="contact-info__anchor" href="tel:{{ details:phone_number }}">{{ details:phone_number }}</a>
+            <span class="contact-info__icon">{{ partial:partials/icons/phone }}</span>
         </li>
     {{ endif }}
     {{ if details:email_address }}
-        <li class="mb-4 flex">
-            <span class="mr-4 text-accent fill-current">{{ partial:partials/icons/email }}</span><a href="mailto:{{ details:email_address }}">{{ details:email_address }}</a>
+        <li class="contact-info__item">
+            <a target="_blank" class="contact-info__anchor" href="mailto:{{ details:email_address }}">{{ details:email_address }}</a>
+            <span class="contact-info__icon">{{ partial:partials/icons/email }}</span>
         </li>
     {{ endif }}
     {{ if details:location }}
-        <li class="flex mb-0">
-            <span class="mr-4 text-accent fill-current">{{ partial:partials/icons/pin }}</span>{{ details:location }}
+        <li class="contact-info__item mb-0">
+            <a target="_blank" class="contact-info__anchor" href="https://goo.gl/maps/UewrmR26du59LJAg6">{{ details:location }}</a>
+            <span class="contact-info__icon">{{ partial:partials/icons/pin }}</span>
         </li>
     {{ endif }}
 </ul>

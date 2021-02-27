@@ -1,6 +1,6 @@
 .contact {
     input, textarea {
-        @apply border-2 border-gray_light rounded w-full p-4;
+        @apply rounded w-full p-4 bg-background_light;
         &::placeholder {
             @apply text-text;
         }
