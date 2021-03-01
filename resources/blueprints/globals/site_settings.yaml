@@ -1,16 +1,32 @@
 sections:
-  homepage_settings:
-    display: 'Homepage settings'
+  global:
+    display: Global
+    fields:
+      -
+        handle: nav_items
+        field:
+          inline: false
+          options:
+            Home: Home
+            Projects: Projects
+            Blog: Blog
+            Contact: Contact
+          display: 'Nav Items'
+          type: checkboxes
+          icon: checkboxes
+          listable: hidden
+  homepage:
+    display: Homepage
     fields:
       -
         handle: homepage_content
         field:
           inline: false
           options:
-            about: 'About section'
-            skills: 'Skills section'
-            projects: 'Projects section'
-            blog: 'Blog posts section'
+            skills: Skills
+            projects: Projects
+            blog: Blog
+            about: About
           display: 'Homepage content'
           type: checkboxes
           icon: checkboxes
@@ -28,24 +44,8 @@ sections:
             npm: NPM
             shopify: Shopify
             liquid: Liquid
-            responsive-design: 'Responsive design'
+            responsive-design: 'Responsive Design'
           display: Skills
-          type: checkboxes
-          icon: checkboxes
-          listable: hidden
-  navigation_toggles:
-    display: 'Navigation toggles'
-    fields:
-      -
-        handle: nav_items
-        field:
-          inline: true
-          options:
-            Home: Home
-            Projects: Projects
-            Blog: Blog
-            Contact: Contact
-          display: 'Nav items'
           type: checkboxes
           icon: checkboxes
           listable: hidden
@@ -56,26 +56,18 @@ sections:
         handle: enable_messages
         field:
           inline: false
+          options:
+            blog-card: 'Blog card'
+            projects-card: 'Projects card'
           display: 'Enable messages'
           type: checkboxes
           icon: checkboxes
           listable: hidden
-          options:
-            blog-card: Blog
-            projects-card: Projects
       -
         handle: blog_message_text
         field:
-          input_type: text
-          display: 'Blog – Message text'
           type: text
-          icon: text
-          listable: hidden
       -
         handle: projects_message_text
         field:
-          input_type: text
-          display: 'Projects – Message text'
           type: text
-          icon: text
-          listable: hidden

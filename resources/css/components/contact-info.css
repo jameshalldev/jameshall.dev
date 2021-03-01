@@ -10,10 +10,15 @@
     }
 
     &__icon {
-        @apply mr-4 text-accent fill-current;
+        @apply mr-4;
+
+        svg {
+            @apply text-accent fill-current;
+            transition: all 0.25s ease-out;
+        }
     }
 }
 
-.contact-info__anchor:hover + .contact-info__icon {
+.contact-info__anchor:hover + .contact-info__icon svg {
     @apply text-accent_secondary;
 }

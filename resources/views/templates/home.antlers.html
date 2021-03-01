@@ -1,28 +1,15 @@
 {{ partial src="front-page" }}
 
-{{ settings.homepage_content }}
-
-    {{# ABOUT #}}
-    {{ if value == 'about' }}
-        <div class="panel">
-            <section class="section section--sm about">
-                <img class="about__image" src="{{ settings.about_image }}" alt="{{ settings.about_image.alt }}">
-                <div class="about__text">
-                    <h3 class="about__text-header">{{ settings.about_header }}</h3>
-                    <p class="about__text-body">{{ settings.about_body }}</p>
-                </div>
-            </section>
-        </div>
-    {{ endif }}
-
+{{ site_settings.homepage_content }}
     {{# MY_SKILLS #}}
     {{ if value == 'skills' }}
         <div class="panel">
             <section class="section section--md skills">
                 <h2 class="text-size-h2">
-                    I work at <a target="_blank" href="https://www.thoughtandmortar.com">Thought and Mortar</a> – a Bristol based web agency specialising in Shopify development. Here, I've gained knowledge and experience in a multitude of skills:</h2>
+                    {{ site_content:skills_header }}
+                </h2>
                 <ul class="skills__list">
-                    {{ settings.skills as="loop" }} 
+                    {{ site_settings.skills as="loop" }} 
                         {{ loop }}
                         <li class="skills__item">
                             <span class="skills__icon">
@@ -31,8 +18,36 @@
                             <span class="skills__label">{{ label }}</span>
                         </li>
                         {{ /loop }}
-                    {{ /settings.skills }}
+                    {{ /site_settings.skills }}
                 </ul>
+            </section>
+        </div>
+    {{ endif }}
+
+    {{# PROJECTS #}}
+    {{ if value == 'projects' }}
+        <div class="panel">
+            <section class="section section--md latest-projects">
+                <h2 class="text-size-h2">
+                    {{ site_content:featured_project_header }}
+                </h2>
+                {{ 
+                    partial:partials/pagination 
+                    collection_type="projects"
+                    card_type="projects-card"
+                    container_classes=""
+            
+                    {{# Show pagination controls #}}
+                    show_controls="false"
+            
+                    {{# No of loops per page #}}
+                    pagination_value="1"
+            
+                    {{# No of columns #}}
+                    cols_mobile="1"
+                    cols_desktop="1"
+                    grid_gap="gap-4 sm:gap-8"
+                }}
             </section>
         </div>
     {{ endif }}
@@ -41,7 +56,9 @@
     {{ if value == 'blog' }}
         <div class="panel">
             <section class="section section--md latest-blog-posts">
-                <h2 class="text-size-h2">I also release the occasional <a href="/blog">blog</a> post, discussing themes of work, personal development and hobbies:</h2>
+                <h2 class="text-size-h2">
+                    {{ site_content:featured_blog_header }}
+                </h2>
                 {{ 
                     partial:partials/pagination 
                     collection_type="blog"
@@ -63,29 +80,19 @@
         </div>
     {{ endif }}
 
-    {{# PROJECTS #}}
-    {{ if value == 'projects' }}
+    {{# ABOUT #}}
+    {{ if value == 'about' }}
         <div class="panel">
-            <section class="section section--md latest-projects">
-                <h2 class="text-size-h2">I document my <a href="/projects">personal projects</a> too:</h2>
-                {{ 
-                    partial:partials/pagination 
-                    collection_type="projects"
-                    card_type="projects-card"
-                    container_classes=""
-            
-                    {{# Show pagination controls #}}
-                    show_controls="false"
-            
-                    {{# No of loops per page #}}
-                    pagination_value="1"
-            
-                    {{# No of columns #}}
-                    cols_mobile="1"
-                    cols_desktop="1"
-                    grid_gap="gap-4 sm:gap-8"
-                }}
+            <section class="section section--md about">
+                <div class="about__inner">
+                    <img class="about__image" src="{{ site_content:about_image }}" alt="{{ site_content:about_image.alt }}">
+                    <div class="about__text">
+                        <h2 class="text-size-h2 about__text-header">{{ site_content:about_header }}</h2>
+                        <p class="about__text-body mb-4">{{ site_content:about_body }}</p>
+                        <p class="about__text-footer text-tiny">{{ site_content:about_footer }}</p>
+                    </div>
+                </div>
             </section>
         </div>
     {{ endif }}
-{{ /settings.homepage_content }}
+{{ /site_settings.homepage_content }}

@@ -10,19 +10,19 @@
             {{ paginate }}
 
                 {{ if !next_page }}
-                    {{ settings:enable_messages }}
+                    {{ site_settings:enable_messages }}
                         {{ if card_type == value }}
                             <div class="flex justify-center">
-                                <p class="bg-gray_light py-4 px-8 rounded mt-8">
+                                <p class="bg-background_dark py-4 px-8 rounded-md mt-8">
                                     {{ if card_type == 'blog-card' }}
-                                        {{ settings:blog_message_text }}
+                                        {{ site_settings:blog_message_text }}
                                     {{ elseif card_type == 'projects-card' }}
-                                        {{ settings:projects_message_text }}
+                                        {{ site_settings:projects_message_text }}
                                     {{ endif }}
                                 </p>
                             </div>
                         {{ endif }}
-                    {{ /settings:enable_messages }}
+                    {{ /site_settings:enable_messages }}
                 {{ endif }}
                 
                 <div class="text-base flex justify-center items-center space-x-8 text-center mx-auto mt-auto py-8">

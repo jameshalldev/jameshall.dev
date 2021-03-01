@@ -1,5 +1,5 @@
 .blog-card {
-    @apply px-0 pb-0 m-0 bg-accent relative;
+    @apply px-0 pb-0 m-0 relative;
     
     min-height: 160px;
     height: 160px;
@@ -11,11 +11,11 @@
     }
 
     &__image {
-        @apply object-cover;
+        @apply object-cover rounded-md;
     }
     
     &__image-overlay {
-        @apply bg-black opacity-25 pointer-events-none;
+        @apply bg-black opacity-25 pointer-events-none rounded-md;
     }
 
     &__inner {
@@ -23,7 +23,7 @@
     }
 
     &__text {
-        @apply text-white flex flex-col justify-center items-start p-4;
+        @apply text-text flex flex-col justify-center items-start p-4;
 
         @screen sm {
             @apply p-12;

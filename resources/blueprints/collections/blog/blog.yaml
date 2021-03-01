@@ -71,29 +71,6 @@ sections:
           localizable: true
           validate:
             - required
-      -
-        handle: article_colour
-        field:
-          theme: classic
-          lock_opacity: false
-          default_color_mode: HEXA
-          color_modes:
-            - hex
-          display: 'Article colour'
-          type: color
-          icon: color
-          listable: hidden
-      -
-        handle: author
-        field:
-          max_items: 1
-          mode: select
-          display: Author
-          type: users
-          icon: users
-          listable: hidden
-          validate:
-            - required
   meta:
     display: Meta
     fields:

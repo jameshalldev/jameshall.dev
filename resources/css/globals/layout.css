@@ -3,10 +3,10 @@
     min-width: 100%;
     max-width: none;
 
-    padding: 1.5rem 1.5rem 3rem 1.5rem;
+    padding: 1.5rem 1.5rem 2.5rem 1.5rem;
 
     @screen sm {
-        padding: 3rem 3rem 6rem 3rem;
+        padding: 3rem 3rem 5rem 3rem;
     }
 }
 

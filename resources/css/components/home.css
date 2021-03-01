@@ -1,19 +1,28 @@
 .about {
+    &__inner {
+        @apply flex flex-col items-center;
+        @screen md {
+            @apply flex-row;
+        }
+    }
+
     &__image {
         @apply rounded-full mx-auto;
-        max-width: 320px;
+        max-width: 50.078vw;
+        max-height: 50.078vw;
+
+        @screen sm {
+            max-width: 320px;
+            max-height: 320px;
+        }
     }
     
     &__text {
+        @apply mt-8 ml-0;
 
-    }
-
-    &__text-header {
-
-    }
-
-    &__text-body {
-
+        @screen md {
+            @apply mt-0 ml-12;
+        }
     }
 }
 
@@ -29,8 +38,14 @@
 
     &__icon {
         @apply text-accent fill-current block mb-4;
-        width: 100px;
-        height: 100px;
+
+        width: 10vw;
+        height: 10vw;
+
+        @screen xl {
+            width: 140px;
+            height: 140px;
+        }
     }
 
     &__label {

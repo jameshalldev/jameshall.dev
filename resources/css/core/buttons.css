@@ -1,8 +1,8 @@
 .btn {
-    @apply inline-block no-underline mt-1;
+    @apply inline-block no-underline mt-2;
 
     &__inner {
-        @apply block bg-accent px-8 py-3 text-white font-bold rounded;
+        @apply block bg-accent px-8 py-3 text-text font-bold rounded-md;
         will-change: background, transform;
         transition: 0.25s ease-out;
         transition-property: background, transform;

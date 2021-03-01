@@ -1,0 +1,45 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: skills_header
+        field:
+          type: text
+      -
+        handle: featured_project_header
+        field:
+          type: text
+      -
+        handle: featured_blog_header
+        field:
+          type: text
+      -
+        handle: about_image
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: 'About – Image'
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: about_header
+        field:
+          type: text
+      -
+        handle: about_body
+        field:
+          display: 'About Body'
+          type: textarea
+          icon: textarea
+          listable: hidden
+      -
+        handle: about_footer
+        field:
+          display: 'About Footer'
+          type: textarea
+          icon: textarea
+          listable: hidden

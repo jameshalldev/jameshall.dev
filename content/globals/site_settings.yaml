@@ -1,0 +1,26 @@
+title: '2. Settings'
+data:
+  nav_items:
+    - Home
+    - Projects
+    - Blog
+    - Contact
+  homepage_content:
+    - skills
+    - projects
+    - blog
+    - about
+  skills:
+    - html
+    - css
+    - javascript
+    - git
+    - sass
+    - npm
+    - shopify
+    - liquid
+  enable_messages:
+    - blog-card
+    - projects-card
+  blog_message_text: 'More coming soon ⏰'
+  projects_message_text: 'More coming soon ⏰'
