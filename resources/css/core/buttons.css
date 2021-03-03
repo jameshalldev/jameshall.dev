@@ -14,7 +14,7 @@
 }
 
 .btn:hover .btn__inner {
-    @apply bg-accent_secondary;
+    @apply bg-accent_bold;
     transform: translateY(-3px);
 }
 

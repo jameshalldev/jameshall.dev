@@ -1,19 +1,13 @@
 .panel {
-    width: 100%;
-    min-width: 100%;
-    max-width: none;
-
-    padding: 1.5rem 1.5rem 2.5rem 1.5rem;
+    @apply w-full min-w-full max-w-none p-6 pb-10;
 
     @screen sm {
-        padding: 3rem 3rem 5rem 3rem;
+        @apply p-12 pb-20;
     }
 }
 
 .section {
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
+    @apply max-w-screen-xl mx-auto;
 
     &--xxl {
         max-width: 1920px !important; 

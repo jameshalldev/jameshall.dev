@@ -19,8 +19,8 @@
 
 /* Highlighted text */
 ::selection {
-    @apply bg-accent_secondary text-text;
+    @apply bg-accent_bold text-text;
   }
 ::-moz-selection {
-    @apply bg-accent_secondary text-text;
+    @apply bg-accent_bold text-text;
 }

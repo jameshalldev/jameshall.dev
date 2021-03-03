@@ -3,32 +3,41 @@
     min-height: calc(100vh - 180px);
 
     &__inner {
-        @apply font-bold mx-auto;
-        font-size: 7.5vw;
+        @apply flex items-end font-bold mx-auto;
         margin-top: 5vw;
         margin-bottom: 5vw;
+        width: 85vw;
         max-width: 85vw;
-        pointer-events: none;
         
         @screen xl {
-            font-size: 105px;
             margin-top: 70px;
             margin-bottom: 70px;
+            width: 1190px;
             max-width: 1190px;
         }
     }
 
     &__title {
         @apply mb-0;
-        line-height: 1.125 !important;
+        width: 70vw;
+        min-width: 70vw;
+        max-width: 70vw;
+        font-size: 7.5vw;
+        @screen xl {
+            width: 980px;
+            min-width: 980px;
+            max-width: 980px;
+            font-size: 105px;
+        }
     }
 
     &__shopify-logo {
         fill: #95BF47;
-        width: 28vw;
+        flex: auto;
 
         @screen xl {
             width: 218px;
+            height: 218px;
             flex: none;
         }
     }

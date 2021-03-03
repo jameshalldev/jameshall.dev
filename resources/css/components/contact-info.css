@@ -20,5 +20,5 @@
 }
 
 .contact-info__anchor:hover + .contact-info__icon svg {
-    @apply text-accent_secondary;
+    @apply text-accent_bold;
 }

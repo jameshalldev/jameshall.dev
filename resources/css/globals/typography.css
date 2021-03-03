@@ -8,8 +8,8 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-    line-height: 1.15;
-    margin-bottom: 1.5rem;
+  line-height: 1.15;
+  margin-bottom: 1.5rem;
 }
 
 a {
@@ -19,16 +19,14 @@ a {
   transition: 0.25s ease-out;
 
   &:hover {
-    @apply text-accent_secondary;
+    @apply text-accent_bold;
   }
 }
 
 p {
   margin-bottom: 0.5rem;
   font-weight: 400;
-
   font-size: 0.875rem;
-  
   @screen sm {
     font-size: 1rem;
   }
@@ -38,35 +36,46 @@ p {
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: bold;
-  
-  font-size: 2.44rem;
+  font-size: 2.25rem;
+  @screen xs {
+    font-size: 2.5rem;
+  }
   @screen sm {
-    font-size: 3.05rem;
+    font-size: 3.0rem;
   }
 }
 
 .text-size-h2 {
-  font-size: 1.95rem;
+  font-size: 1.75rem;
+  @screen xs {
+    font-size: 2rem;
+  }
   @screen sm {
-    font-size: 2.44rem;
+    font-size: 2.5rem;
   }
 }
 
 .text-size-h3 {
-  font-size: 1.56rem;
+  font-size: 1.25rem;
+  @screen xs {
+    font-size: 1.5rem;
+  }
   @screen sm {
-    font-size: 1.95rem;
+    font-size: 2rem;
   }
 }
 
 .text-size-h4 {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
+  @screen xs {
+    font-size: 1.25rem;
+  }
   @screen sm {
-    font-size: 1.56rem;
+    font-size: 1.5rem;
   }
 }
 
 .text-size-h5 {
   text-decoration: italic;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
