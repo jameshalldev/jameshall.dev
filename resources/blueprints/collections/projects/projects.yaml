@@ -11,17 +11,6 @@ sections:
           validate:
             - required
       -
-        handle: image
-        field:
-          mode: grid
-          restrict: false
-          allow_uploads: true
-          max_files: 1
-          display: Image
-          type: assets
-          icon: assets
-          listable: hidden
-      -
         handle: description
         field:
           character_limit: '500'
@@ -52,16 +41,18 @@ sections:
       -
         handle: github
         field:
+          input_type: text
           display: Github
-          type: link
-          icon: link
+          type: text
+          icon: text
           listable: hidden
       -
         handle: view
         field:
+          input_type: text
           display: View
-          type: link
-          icon: link
+          type: text
+          icon: text
           listable: hidden
   sidebar:
     display: Sidebar
@@ -92,35 +83,3 @@ sections:
           listable: hidden
           validate:
             - required
-      -
-        handle: color
-        field:
-          theme: classic
-          lock_opacity: false
-          default_color_mode: HEXA
-          color_modes:
-            - hex
-          display: Color
-          type: color
-          icon: color
-          listable: hidden
-  meta:
-    display: Meta
-    fields:
-      -
-        handle: meta_title
-        field:
-          input_type: text
-          character_limit: 60
-          display: 'Meta title'
-          type: text
-          icon: text
-          listable: hidden
-      -
-        handle: meta_description
-        field:
-          character_limit: '160'
-          display: 'Meta description'
-          type: textarea
-          icon: textarea
-          listable: hidden

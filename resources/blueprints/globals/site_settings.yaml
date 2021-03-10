@@ -39,12 +39,15 @@ sections:
             html: HTML
             css: CSS
             javascript: JavaScript
-            git: Git
-            sass: Sass
-            npm: NPM
             shopify: Shopify
             liquid: Liquid
-            responsive-design: 'Responsive Design'
+            sass: Sass
+            craft-cms: 'Craft CMS'
+            statamic: Statamic
+            git: Git
+            jquery: jQuery
+            npm: NPM
+            webpack: Webpack
           display: Skills
           type: checkboxes
           icon: checkboxes

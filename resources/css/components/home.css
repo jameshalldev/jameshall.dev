@@ -2,7 +2,7 @@
     &__inner {
         @apply flex flex-col items-center;
         @screen md {
-            @apply flex-row;
+            @apply flex-row-reverse;
         }
     }
 
@@ -32,24 +32,32 @@
     }
 
     &__item {
-        @apply flex flex-col justify-center items-center my-8;
+        @apply flex flex-col justify-center items-center mt-6;
         width: 25%;
+        @screen sm {
+            @apply mt-12;
+        }
     }
 
     &__icon {
         @apply text-accent fill-current block mb-4;
 
-        width: 10vw;
-        height: 10vw;
+        width: 11.71875vw;
+        height: 11.71875vw;
 
-        @screen xl {
-            width: 140px;
-            height: 140px;
+        @screen lg {
+            width: 120px;
+            height: 120px;
         }
+
+        @screen xl
     }
 
     &__label {
-        @apply text-tiny text-gray;
+        @apply text-sm text-gray;
+        @screen xs {
+            @apply text-tiny;
+        }
     }
 }
 

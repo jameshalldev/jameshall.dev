@@ -4,9 +4,8 @@
         <a class="no-underline" href="/">
             <h1 class="header__site-title">{{ site_details:website_title }}</h1>
         </a>
-        <nav class="header__nav hidden md:block">
-            {{ partial:partials/global/nav ul_classes="flex" li_classes="px-1 ml-5 mb-0 font-medium" }}
-        </nav>
+        {{ partial:partials/global/nav classes="desktop-nav nav hidden md:block"}}
+        
         <div class="header__nav-toggle block md:hidden">
             <div class="">Menu</div>
         </div>

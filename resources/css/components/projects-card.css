@@ -16,7 +16,7 @@
    }
 
    &__date {
-      @apply text-sm text-gray mb-4;
+      @apply text-tiny text-gray mb-4;
    }
 
    &__desc {

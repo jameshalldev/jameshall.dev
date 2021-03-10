@@ -16,6 +16,7 @@
 @import "components/front-page";
 @import "components/header";
 @import "components/home";
+@import "components/nav";
 @import "components/projects-card";
 
 /* Core */

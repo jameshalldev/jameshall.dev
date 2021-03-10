@@ -1,8 +1,8 @@
 title: '3. Content'
 data:
-  skills_header: 'I work for <a href="https://www.thoughtandmortar.com" target="_blank">Thought and Mortar</a>, a Bristol-based web agency that specialises in Shopify development. Since joining in 2019, I''ve been building a multitude of skills:'
-  featured_project_header: 'I also share my personal <a href="/projects">project</a> here:'
-  featured_blog_header: 'And publish <a href="/blog">blog posts</a> too:'
+  skills_header: 'I work for <a href="https://www.thoughtandmortar.com" target="_blank">Thought and Mortar</a>, a Bristol-based web agency that specialises in Shopify development. Working here, I''ve gained experience using a multitude of technologies:'
+  featured_project_header: 'This site exists as a space for me to host my personal <a href="/projects">projects</a>:'
+  featured_blog_header: 'And publish the occasional <a href="/blog">blog post</a> too:'
   about_image: profile-1612475015.jpg
   about_header: 'About me 👋🏼'
   about_body: 'I''m a web developer with a wealth of experience in a variety of development practices and am also knowledgable in UX design, SEO, accessibility and the Shopify platform. I''m a bit of a perfectionist, have a great idea for detail, and love seeing beautiful designs come to life.'

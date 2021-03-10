@@ -14,11 +14,15 @@ data:
     - html
     - css
     - javascript
-    - git
-    - sass
-    - npm
     - shopify
     - liquid
+    - sass
+    - craft-cms
+    - statamic
+    - git
+    - jquery
+    - npm
+    - webpack
   enable_messages:
     - blog-card
     - projects-card

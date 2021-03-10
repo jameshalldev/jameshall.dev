@@ -1,11 +1,11 @@
 <ul class="text-base {{ classes }}">
     {{ if site_details:instagram }}
-        <li class="mr-4"><a class="text-accent hover:text-accent_bold" href="{{ site_details:instagram }}" target="_blank"><span class="fill-current">{{ partial:partials/icons/instagram }}</span></a></li>
+        <li class="mr-4"><a class="text-accent hover:text-accent_bold" href="{{ site_details:instagram }}" target="_blank"><span class="hidden">Instagram</span><span class="fill-current">{{ partial:partials/icons/instagram }}</span></a></li>
     {{ endif }}
     {{ if site_details:twitter }}
-        <li class="mr-4"><a class="text-accent hover:text-accent_bold" href="{{ site_details:twitter }}" target="_blank"><span class="fill-current">{{ partial:partials/icons/twitter }}</span></a></li>
+        <li class="mr-4"><a class="text-accent hover:text-accent_bold" href="{{ site_details:twitter }}" target="_blank"><span class="hidden">Twitter</span><span class="fill-current">{{ partial:partials/icons/twitter }}</span></a></li>
     {{ endif }}
     {{ if site_details:linkedin }}
-        <li class="mr-4"><a class="text-accent hover:text-accent_bold" href="{{ site_details:linkedin }}" target="_blank"><span class="fill-current">{{ partial:partials/icons/linkedin }}</span></a></li>
+        <li class="mr-4"><a class="text-accent hover:text-accent_bold" href="{{ site_details:linkedin }}" target="_blank"><span class="hidden">LinkedIn</span><span class="fill-current">{{ partial:partials/icons/linkedin }}</span></a></li>
     {{ endif }}
 </ul>

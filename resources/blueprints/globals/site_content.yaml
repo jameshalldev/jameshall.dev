@@ -5,7 +5,10 @@ sections:
       -
         handle: skills_header
         field:
-          type: text
+          display: 'Skills Header'
+          type: textarea
+          icon: textarea
+          listable: hidden
       -
         handle: featured_project_header
         field:

@@ -1,5 +1,5 @@
 title: Projects
-template: templates/projects
+template: templates/projects-post
 layout: layout
 revisions: false
 route: '/projects/{slug}'

@@ -97,14 +97,30 @@
 
 /***/ }),
 
+/***/ "./resources/js/components/navigation.js":
+/*!***********************************************!*\
+  !*** ./resources/js/components/navigation.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+console.log('navigation.js');
+
+/***/ }),
+
 /***/ "./resources/js/site.js":
 /*!******************************!*\
   !*** ./resources/js/site.js ***!
   \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _components_navigation_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/navigation.js */ "./resources/js/components/navigation.js");
+/* harmony import */ var _components_navigation_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_navigation_js__WEBPACK_IMPORTED_MODULE_0__);
 
+console.log('Webpack running');
 
 /***/ }),
 

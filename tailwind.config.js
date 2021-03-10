@@ -19,10 +19,10 @@ module.exports = {
             background_light: '#303644', 
             background_dark: '#22272f', 
 
-            gray: '#69799c',
+            gray: '#a8aaff',
 
-            accent: '#7579d8',
-            accent_bold: '#7075ff',
+            accent: '#787df1',
+            accent_bold: '#5D61FF',
 
             // General colours
             red: "#FFB3BA",

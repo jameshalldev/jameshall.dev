@@ -1,8 +1,8 @@
 .header {
-    @apply bg-background py-6 fixed z-20 border-background_light;
+    @apply bg-background py-5 fixed z-20 border-background_light;
 
     &--scrolled {
-        @apply ;
+        @apply border-b border-background_light;
     }
 
     &__inner {
