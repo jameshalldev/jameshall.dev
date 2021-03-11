@@ -13,13 +13,18 @@
                     {{ site_settings:enable_messages }}
                         {{ if card_type == value }}
                             <div class="flex justify-center">
-                                <p class="bg-background_dark py-4 px-8 rounded-md mt-8">
-                                    {{ if card_type == 'blog-card' }}
-                                        {{ site_settings:blog_message_text }}
-                                    {{ elseif card_type == 'projects-card' }}
-                                        {{ site_settings:projects_message_text }}
-                                    {{ endif }}
-                                </p>
+                                <span class="bg-background_dark py-4 px-8 rounded-md mt-8 flex justify-center items-center">
+                                    <p class="mb-0 pr-2">
+                                        {{ if card_type == 'blog-card' }}
+                                            {{ site_settings:blog_message_text }}
+                                        {{ elseif card_type == 'projects-card' }}
+                                            {{ site_settings:projects_message_text }}
+                                        {{ endif }}
+                                    </p>
+                                    <span class="text-text fill-current" style="width: 18px; height: 18px;">
+                                        {{ partial:partials/icons/clock }}
+                                    </span>
+                                </span>
                             </div>
                         {{ endif }}
                     {{ /site_settings:enable_messages }}
