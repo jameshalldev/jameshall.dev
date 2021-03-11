@@ -19,7 +19,7 @@ module.exports = {
             background_light: '#303644', 
             background_dark: '#22272f', 
 
-            gray: '#a8aaff',
+            gray: '#c4c5e2',
 
             accent: '#787df1',
             accent_bold: '#5D61FF',

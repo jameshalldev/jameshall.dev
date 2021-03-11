@@ -1170,8 +1170,8 @@ video {
 
 .divide-gray > :not(template) ~ :not(template) {
   --divide-opacity: 1 !important;
-  border-color: #a8aaff !important;
-  border-color: rgba(168, 170, 255, var(--divide-opacity)) !important;
+  border-color: #c4c5e2 !important;
+  border-color: rgba(196, 197, 226, var(--divide-opacity)) !important;
 }
 
 .divide-red > :not(template) ~ :not(template) {
@@ -1599,8 +1599,8 @@ video {
 
 .bg-gray {
   --bg-opacity: 1 !important;
-  background-color: #a8aaff !important;
-  background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+  background-color: #c4c5e2 !important;
+  background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
 }
 
 .bg-red {
@@ -1907,8 +1907,8 @@ video {
 
 .hover\:bg-gray:hover {
   --bg-opacity: 1 !important;
-  background-color: #a8aaff !important;
-  background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+  background-color: #c4c5e2 !important;
+  background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
 }
 
 .hover\:bg-red:hover {
@@ -2215,8 +2215,8 @@ video {
 
 .focus\:bg-gray:focus {
   --bg-opacity: 1 !important;
-  background-color: #a8aaff !important;
-  background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+  background-color: #c4c5e2 !important;
+  background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
 }
 
 .focus\:bg-red:focus {
@@ -2558,8 +2558,8 @@ video {
 }
 
 .from-gray {
-  --gradient-from-color: #a8aaff !important;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+  --gradient-from-color: #c4c5e2 !important;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
 }
 
 .from-red {
@@ -2818,8 +2818,8 @@ video {
 }
 
 .via-gray {
-  --gradient-via-color: #a8aaff !important;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+  --gradient-via-color: #c4c5e2 !important;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
 }
 
 .via-red {
@@ -3074,7 +3074,7 @@ video {
 }
 
 .to-gray {
-  --gradient-to-color: #a8aaff !important;
+  --gradient-to-color: #c4c5e2 !important;
 }
 
 .to-red {
@@ -3286,8 +3286,8 @@ video {
 }
 
 .hover\:from-gray:hover {
-  --gradient-from-color: #a8aaff !important;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+  --gradient-from-color: #c4c5e2 !important;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
 }
 
 .hover\:from-red:hover {
@@ -3546,8 +3546,8 @@ video {
 }
 
 .hover\:via-gray:hover {
-  --gradient-via-color: #a8aaff !important;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+  --gradient-via-color: #c4c5e2 !important;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
 }
 
 .hover\:via-red:hover {
@@ -3802,7 +3802,7 @@ video {
 }
 
 .hover\:to-gray:hover {
-  --gradient-to-color: #a8aaff !important;
+  --gradient-to-color: #c4c5e2 !important;
 }
 
 .hover\:to-red:hover {
@@ -4014,8 +4014,8 @@ video {
 }
 
 .focus\:from-gray:focus {
-  --gradient-from-color: #a8aaff !important;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+  --gradient-from-color: #c4c5e2 !important;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
 }
 
 .focus\:from-red:focus {
@@ -4274,8 +4274,8 @@ video {
 }
 
 .focus\:via-gray:focus {
-  --gradient-via-color: #a8aaff !important;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+  --gradient-via-color: #c4c5e2 !important;
+  --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
 }
 
 .focus\:via-red:focus {
@@ -4530,7 +4530,7 @@ video {
 }
 
 .focus\:to-gray:focus {
-  --gradient-to-color: #a8aaff !important;
+  --gradient-to-color: #c4c5e2 !important;
 }
 
 .focus\:to-red:focus {
@@ -4883,8 +4883,8 @@ video {
 
 .border-gray {
   --border-opacity: 1 !important;
-  border-color: #a8aaff !important;
-  border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+  border-color: #c4c5e2 !important;
+  border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
 }
 
 .border-red {
@@ -5191,8 +5191,8 @@ video {
 
 .hover\:border-gray:hover {
   --border-opacity: 1 !important;
-  border-color: #a8aaff !important;
-  border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+  border-color: #c4c5e2 !important;
+  border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
 }
 
 .hover\:border-red:hover {
@@ -5499,8 +5499,8 @@ video {
 
 .focus\:border-gray:focus {
   --border-opacity: 1 !important;
-  border-color: #a8aaff !important;
-  border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+  border-color: #c4c5e2 !important;
+  border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
 }
 
 .focus\:border-red:focus {
@@ -9268,20 +9268,20 @@ video {
 
 .placeholder-gray::-moz-placeholder {
   --placeholder-opacity: 1 !important;
-  color: #a8aaff !important;
-  color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+  color: #c4c5e2 !important;
+  color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
 }
 
 .placeholder-gray:-ms-input-placeholder {
   --placeholder-opacity: 1 !important;
-  color: #a8aaff !important;
-  color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+  color: #c4c5e2 !important;
+  color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
 }
 
 .placeholder-gray::placeholder {
   --placeholder-opacity: 1 !important;
-  color: #a8aaff !important;
-  color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+  color: #c4c5e2 !important;
+  color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
 }
 
 .placeholder-red::-moz-placeholder {
@@ -10192,20 +10192,20 @@ video {
 
 .focus\:placeholder-gray:focus::-moz-placeholder {
   --placeholder-opacity: 1 !important;
-  color: #a8aaff !important;
-  color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+  color: #c4c5e2 !important;
+  color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
 }
 
 .focus\:placeholder-gray:focus:-ms-input-placeholder {
   --placeholder-opacity: 1 !important;
-  color: #a8aaff !important;
-  color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+  color: #c4c5e2 !important;
+  color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
 }
 
 .focus\:placeholder-gray:focus::placeholder {
   --placeholder-opacity: 1 !important;
-  color: #a8aaff !important;
-  color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+  color: #c4c5e2 !important;
+  color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
 }
 
 .focus\:placeholder-red:focus::-moz-placeholder {
@@ -11471,8 +11471,8 @@ video {
 
 .text-gray {
   --text-opacity: 1 !important;
-  color: #a8aaff !important;
-  color: rgba(168, 170, 255, var(--text-opacity)) !important;
+  color: #c4c5e2 !important;
+  color: rgba(196, 197, 226, var(--text-opacity)) !important;
 }
 
 .text-red {
@@ -11779,8 +11779,8 @@ video {
 
 .hover\:text-gray:hover {
   --text-opacity: 1 !important;
-  color: #a8aaff !important;
-  color: rgba(168, 170, 255, var(--text-opacity)) !important;
+  color: #c4c5e2 !important;
+  color: rgba(196, 197, 226, var(--text-opacity)) !important;
 }
 
 .hover\:text-red:hover {
@@ -12087,8 +12087,8 @@ video {
 
 .focus\:text-gray:focus {
   --text-opacity: 1 !important;
-  color: #a8aaff !important;
-  color: rgba(168, 170, 255, var(--text-opacity)) !important;
+  color: #c4c5e2 !important;
+  color: rgba(196, 197, 226, var(--text-opacity)) !important;
 }
 
 .focus\:text-red:focus {
@@ -16206,16 +16206,16 @@ p {
 .text-size-h5 {
   font-style: italic;
   --text-opacity: 1;
-  color: #a8aaff;
-  color: rgba(168, 170, 255, var(--text-opacity));
+  color: #c4c5e2;
+  color: rgba(196, 197, 226, var(--text-opacity));
   font-size: 1.125rem;
 }
 
 .text-size-h6 {
   font-style: italic;
   --text-opacity: 1;
-  color: #a8aaff;
-  color: rgba(168, 170, 255, var(--text-opacity));
+  color: #c4c5e2;
+  color: rgba(196, 197, 226, var(--text-opacity));
   font-size: 1rem;
 }
 
@@ -16612,8 +16612,8 @@ p {
 .skills__label {
     font-size: 0.64rem;
     --text-opacity: 1;
-    color: #a8aaff;
-    color: rgba(168, 170, 255, var(--text-opacity));
+    color: #c4c5e2;
+    color: rgba(196, 197, 226, var(--text-opacity));
   }
 
 @media (min-width: 500px) {
@@ -16707,8 +16707,8 @@ p {
 .projects-card__date {
     font-size: 0.8rem;
     --text-opacity: 1;
-    color: #a8aaff;
-    color: rgba(168, 170, 255, var(--text-opacity));
+    color: #c4c5e2;
+    color: rgba(196, 197, 226, var(--text-opacity));
     margin-bottom: 1rem;
   }
 
@@ -16755,6 +16755,9 @@ p {
   }
 
 .btn:hover .btn__inner {
+  --bg-opacity: 1;
+  background-color: #787df1;
+  background-color: rgba(120, 125, 241, var(--bg-opacity));
   transform: translateY(-3px);
 }
 
@@ -17373,8 +17376,8 @@ p {
 
   .xs\:divide-gray > :not(template) ~ :not(template) {
     --divide-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--divide-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--divide-opacity)) !important;
   }
 
   .xs\:divide-red > :not(template) ~ :not(template) {
@@ -17802,8 +17805,8 @@ p {
 
   .xs\:bg-gray {
     --bg-opacity: 1 !important;
-    background-color: #a8aaff !important;
-    background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+    background-color: #c4c5e2 !important;
+    background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
   }
 
   .xs\:bg-red {
@@ -18110,8 +18113,8 @@ p {
 
   .xs\:hover\:bg-gray:hover {
     --bg-opacity: 1 !important;
-    background-color: #a8aaff !important;
-    background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+    background-color: #c4c5e2 !important;
+    background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
   }
 
   .xs\:hover\:bg-red:hover {
@@ -18418,8 +18421,8 @@ p {
 
   .xs\:focus\:bg-gray:focus {
     --bg-opacity: 1 !important;
-    background-color: #a8aaff !important;
-    background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+    background-color: #c4c5e2 !important;
+    background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
   }
 
   .xs\:focus\:bg-red:focus {
@@ -18761,8 +18764,8 @@ p {
   }
 
   .xs\:from-gray {
-    --gradient-from-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-from-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .xs\:from-red {
@@ -19021,8 +19024,8 @@ p {
   }
 
   .xs\:via-gray {
-    --gradient-via-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-via-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .xs\:via-red {
@@ -19277,7 +19280,7 @@ p {
   }
 
   .xs\:to-gray {
-    --gradient-to-color: #a8aaff !important;
+    --gradient-to-color: #c4c5e2 !important;
   }
 
   .xs\:to-red {
@@ -19489,8 +19492,8 @@ p {
   }
 
   .xs\:hover\:from-gray:hover {
-    --gradient-from-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-from-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .xs\:hover\:from-red:hover {
@@ -19749,8 +19752,8 @@ p {
   }
 
   .xs\:hover\:via-gray:hover {
-    --gradient-via-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-via-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .xs\:hover\:via-red:hover {
@@ -20005,7 +20008,7 @@ p {
   }
 
   .xs\:hover\:to-gray:hover {
-    --gradient-to-color: #a8aaff !important;
+    --gradient-to-color: #c4c5e2 !important;
   }
 
   .xs\:hover\:to-red:hover {
@@ -20217,8 +20220,8 @@ p {
   }
 
   .xs\:focus\:from-gray:focus {
-    --gradient-from-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-from-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .xs\:focus\:from-red:focus {
@@ -20477,8 +20480,8 @@ p {
   }
 
   .xs\:focus\:via-gray:focus {
-    --gradient-via-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-via-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .xs\:focus\:via-red:focus {
@@ -20733,7 +20736,7 @@ p {
   }
 
   .xs\:focus\:to-gray:focus {
-    --gradient-to-color: #a8aaff !important;
+    --gradient-to-color: #c4c5e2 !important;
   }
 
   .xs\:focus\:to-red:focus {
@@ -21086,8 +21089,8 @@ p {
 
   .xs\:border-gray {
     --border-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
   }
 
   .xs\:border-red {
@@ -21394,8 +21397,8 @@ p {
 
   .xs\:hover\:border-gray:hover {
     --border-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
   }
 
   .xs\:hover\:border-red:hover {
@@ -21702,8 +21705,8 @@ p {
 
   .xs\:focus\:border-gray:focus {
     --border-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
   }
 
   .xs\:focus\:border-red:focus {
@@ -25471,20 +25474,20 @@ p {
 
   .xs\:placeholder-gray::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .xs\:placeholder-gray:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .xs\:placeholder-gray::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .xs\:placeholder-red::-moz-placeholder {
@@ -26395,20 +26398,20 @@ p {
 
   .xs\:focus\:placeholder-gray:focus::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .xs\:focus\:placeholder-gray:focus:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .xs\:focus\:placeholder-gray:focus::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .xs\:focus\:placeholder-red:focus::-moz-placeholder {
@@ -27674,8 +27677,8 @@ p {
 
   .xs\:text-gray {
     --text-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--text-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--text-opacity)) !important;
   }
 
   .xs\:text-red {
@@ -27982,8 +27985,8 @@ p {
 
   .xs\:hover\:text-gray:hover {
     --text-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--text-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--text-opacity)) !important;
   }
 
   .xs\:hover\:text-red:hover {
@@ -28290,8 +28293,8 @@ p {
 
   .xs\:focus\:text-gray:focus {
     --text-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--text-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--text-opacity)) !important;
   }
 
   .xs\:focus\:text-red:focus {
@@ -32715,8 +32718,8 @@ p {
 
   .sm\:divide-gray > :not(template) ~ :not(template) {
     --divide-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--divide-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--divide-opacity)) !important;
   }
 
   .sm\:divide-red > :not(template) ~ :not(template) {
@@ -33144,8 +33147,8 @@ p {
 
   .sm\:bg-gray {
     --bg-opacity: 1 !important;
-    background-color: #a8aaff !important;
-    background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+    background-color: #c4c5e2 !important;
+    background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
   }
 
   .sm\:bg-red {
@@ -33452,8 +33455,8 @@ p {
 
   .sm\:hover\:bg-gray:hover {
     --bg-opacity: 1 !important;
-    background-color: #a8aaff !important;
-    background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+    background-color: #c4c5e2 !important;
+    background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
   }
 
   .sm\:hover\:bg-red:hover {
@@ -33760,8 +33763,8 @@ p {
 
   .sm\:focus\:bg-gray:focus {
     --bg-opacity: 1 !important;
-    background-color: #a8aaff !important;
-    background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+    background-color: #c4c5e2 !important;
+    background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
   }
 
   .sm\:focus\:bg-red:focus {
@@ -34103,8 +34106,8 @@ p {
   }
 
   .sm\:from-gray {
-    --gradient-from-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-from-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .sm\:from-red {
@@ -34363,8 +34366,8 @@ p {
   }
 
   .sm\:via-gray {
-    --gradient-via-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-via-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .sm\:via-red {
@@ -34619,7 +34622,7 @@ p {
   }
 
   .sm\:to-gray {
-    --gradient-to-color: #a8aaff !important;
+    --gradient-to-color: #c4c5e2 !important;
   }
 
   .sm\:to-red {
@@ -34831,8 +34834,8 @@ p {
   }
 
   .sm\:hover\:from-gray:hover {
-    --gradient-from-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-from-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .sm\:hover\:from-red:hover {
@@ -35091,8 +35094,8 @@ p {
   }
 
   .sm\:hover\:via-gray:hover {
-    --gradient-via-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-via-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .sm\:hover\:via-red:hover {
@@ -35347,7 +35350,7 @@ p {
   }
 
   .sm\:hover\:to-gray:hover {
-    --gradient-to-color: #a8aaff !important;
+    --gradient-to-color: #c4c5e2 !important;
   }
 
   .sm\:hover\:to-red:hover {
@@ -35559,8 +35562,8 @@ p {
   }
 
   .sm\:focus\:from-gray:focus {
-    --gradient-from-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-from-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .sm\:focus\:from-red:focus {
@@ -35819,8 +35822,8 @@ p {
   }
 
   .sm\:focus\:via-gray:focus {
-    --gradient-via-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-via-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .sm\:focus\:via-red:focus {
@@ -36075,7 +36078,7 @@ p {
   }
 
   .sm\:focus\:to-gray:focus {
-    --gradient-to-color: #a8aaff !important;
+    --gradient-to-color: #c4c5e2 !important;
   }
 
   .sm\:focus\:to-red:focus {
@@ -36428,8 +36431,8 @@ p {
 
   .sm\:border-gray {
     --border-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
   }
 
   .sm\:border-red {
@@ -36736,8 +36739,8 @@ p {
 
   .sm\:hover\:border-gray:hover {
     --border-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
   }
 
   .sm\:hover\:border-red:hover {
@@ -37044,8 +37047,8 @@ p {
 
   .sm\:focus\:border-gray:focus {
     --border-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
   }
 
   .sm\:focus\:border-red:focus {
@@ -40813,20 +40816,20 @@ p {
 
   .sm\:placeholder-gray::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .sm\:placeholder-gray:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .sm\:placeholder-gray::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .sm\:placeholder-red::-moz-placeholder {
@@ -41737,20 +41740,20 @@ p {
 
   .sm\:focus\:placeholder-gray:focus::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .sm\:focus\:placeholder-gray:focus:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .sm\:focus\:placeholder-gray:focus::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .sm\:focus\:placeholder-red:focus::-moz-placeholder {
@@ -43016,8 +43019,8 @@ p {
 
   .sm\:text-gray {
     --text-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--text-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--text-opacity)) !important;
   }
 
   .sm\:text-red {
@@ -43324,8 +43327,8 @@ p {
 
   .sm\:hover\:text-gray:hover {
     --text-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--text-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--text-opacity)) !important;
   }
 
   .sm\:hover\:text-red:hover {
@@ -43632,8 +43635,8 @@ p {
 
   .sm\:focus\:text-gray:focus {
     --text-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--text-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--text-opacity)) !important;
   }
 
   .sm\:focus\:text-red:focus {
@@ -48057,8 +48060,8 @@ p {
 
   .md\:divide-gray > :not(template) ~ :not(template) {
     --divide-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--divide-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--divide-opacity)) !important;
   }
 
   .md\:divide-red > :not(template) ~ :not(template) {
@@ -48486,8 +48489,8 @@ p {
 
   .md\:bg-gray {
     --bg-opacity: 1 !important;
-    background-color: #a8aaff !important;
-    background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+    background-color: #c4c5e2 !important;
+    background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
   }
 
   .md\:bg-red {
@@ -48794,8 +48797,8 @@ p {
 
   .md\:hover\:bg-gray:hover {
     --bg-opacity: 1 !important;
-    background-color: #a8aaff !important;
-    background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+    background-color: #c4c5e2 !important;
+    background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
   }
 
   .md\:hover\:bg-red:hover {
@@ -49102,8 +49105,8 @@ p {
 
   .md\:focus\:bg-gray:focus {
     --bg-opacity: 1 !important;
-    background-color: #a8aaff !important;
-    background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+    background-color: #c4c5e2 !important;
+    background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
   }
 
   .md\:focus\:bg-red:focus {
@@ -49445,8 +49448,8 @@ p {
   }
 
   .md\:from-gray {
-    --gradient-from-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-from-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .md\:from-red {
@@ -49705,8 +49708,8 @@ p {
   }
 
   .md\:via-gray {
-    --gradient-via-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-via-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .md\:via-red {
@@ -49961,7 +49964,7 @@ p {
   }
 
   .md\:to-gray {
-    --gradient-to-color: #a8aaff !important;
+    --gradient-to-color: #c4c5e2 !important;
   }
 
   .md\:to-red {
@@ -50173,8 +50176,8 @@ p {
   }
 
   .md\:hover\:from-gray:hover {
-    --gradient-from-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-from-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .md\:hover\:from-red:hover {
@@ -50433,8 +50436,8 @@ p {
   }
 
   .md\:hover\:via-gray:hover {
-    --gradient-via-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-via-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .md\:hover\:via-red:hover {
@@ -50689,7 +50692,7 @@ p {
   }
 
   .md\:hover\:to-gray:hover {
-    --gradient-to-color: #a8aaff !important;
+    --gradient-to-color: #c4c5e2 !important;
   }
 
   .md\:hover\:to-red:hover {
@@ -50901,8 +50904,8 @@ p {
   }
 
   .md\:focus\:from-gray:focus {
-    --gradient-from-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-from-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .md\:focus\:from-red:focus {
@@ -51161,8 +51164,8 @@ p {
   }
 
   .md\:focus\:via-gray:focus {
-    --gradient-via-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-via-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .md\:focus\:via-red:focus {
@@ -51417,7 +51420,7 @@ p {
   }
 
   .md\:focus\:to-gray:focus {
-    --gradient-to-color: #a8aaff !important;
+    --gradient-to-color: #c4c5e2 !important;
   }
 
   .md\:focus\:to-red:focus {
@@ -51770,8 +51773,8 @@ p {
 
   .md\:border-gray {
     --border-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
   }
 
   .md\:border-red {
@@ -52078,8 +52081,8 @@ p {
 
   .md\:hover\:border-gray:hover {
     --border-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
   }
 
   .md\:hover\:border-red:hover {
@@ -52386,8 +52389,8 @@ p {
 
   .md\:focus\:border-gray:focus {
     --border-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
   }
 
   .md\:focus\:border-red:focus {
@@ -56155,20 +56158,20 @@ p {
 
   .md\:placeholder-gray::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .md\:placeholder-gray:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .md\:placeholder-gray::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .md\:placeholder-red::-moz-placeholder {
@@ -57079,20 +57082,20 @@ p {
 
   .md\:focus\:placeholder-gray:focus::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .md\:focus\:placeholder-gray:focus:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .md\:focus\:placeholder-gray:focus::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .md\:focus\:placeholder-red:focus::-moz-placeholder {
@@ -58358,8 +58361,8 @@ p {
 
   .md\:text-gray {
     --text-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--text-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--text-opacity)) !important;
   }
 
   .md\:text-red {
@@ -58666,8 +58669,8 @@ p {
 
   .md\:hover\:text-gray:hover {
     --text-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--text-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--text-opacity)) !important;
   }
 
   .md\:hover\:text-red:hover {
@@ -58974,8 +58977,8 @@ p {
 
   .md\:focus\:text-gray:focus {
     --text-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--text-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--text-opacity)) !important;
   }
 
   .md\:focus\:text-red:focus {
@@ -63399,8 +63402,8 @@ p {
 
   .lg\:divide-gray > :not(template) ~ :not(template) {
     --divide-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--divide-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--divide-opacity)) !important;
   }
 
   .lg\:divide-red > :not(template) ~ :not(template) {
@@ -63828,8 +63831,8 @@ p {
 
   .lg\:bg-gray {
     --bg-opacity: 1 !important;
-    background-color: #a8aaff !important;
-    background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+    background-color: #c4c5e2 !important;
+    background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
   }
 
   .lg\:bg-red {
@@ -64136,8 +64139,8 @@ p {
 
   .lg\:hover\:bg-gray:hover {
     --bg-opacity: 1 !important;
-    background-color: #a8aaff !important;
-    background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+    background-color: #c4c5e2 !important;
+    background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
   }
 
   .lg\:hover\:bg-red:hover {
@@ -64444,8 +64447,8 @@ p {
 
   .lg\:focus\:bg-gray:focus {
     --bg-opacity: 1 !important;
-    background-color: #a8aaff !important;
-    background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+    background-color: #c4c5e2 !important;
+    background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
   }
 
   .lg\:focus\:bg-red:focus {
@@ -64787,8 +64790,8 @@ p {
   }
 
   .lg\:from-gray {
-    --gradient-from-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-from-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .lg\:from-red {
@@ -65047,8 +65050,8 @@ p {
   }
 
   .lg\:via-gray {
-    --gradient-via-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-via-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .lg\:via-red {
@@ -65303,7 +65306,7 @@ p {
   }
 
   .lg\:to-gray {
-    --gradient-to-color: #a8aaff !important;
+    --gradient-to-color: #c4c5e2 !important;
   }
 
   .lg\:to-red {
@@ -65515,8 +65518,8 @@ p {
   }
 
   .lg\:hover\:from-gray:hover {
-    --gradient-from-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-from-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .lg\:hover\:from-red:hover {
@@ -65775,8 +65778,8 @@ p {
   }
 
   .lg\:hover\:via-gray:hover {
-    --gradient-via-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-via-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .lg\:hover\:via-red:hover {
@@ -66031,7 +66034,7 @@ p {
   }
 
   .lg\:hover\:to-gray:hover {
-    --gradient-to-color: #a8aaff !important;
+    --gradient-to-color: #c4c5e2 !important;
   }
 
   .lg\:hover\:to-red:hover {
@@ -66243,8 +66246,8 @@ p {
   }
 
   .lg\:focus\:from-gray:focus {
-    --gradient-from-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-from-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .lg\:focus\:from-red:focus {
@@ -66503,8 +66506,8 @@ p {
   }
 
   .lg\:focus\:via-gray:focus {
-    --gradient-via-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-via-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .lg\:focus\:via-red:focus {
@@ -66759,7 +66762,7 @@ p {
   }
 
   .lg\:focus\:to-gray:focus {
-    --gradient-to-color: #a8aaff !important;
+    --gradient-to-color: #c4c5e2 !important;
   }
 
   .lg\:focus\:to-red:focus {
@@ -67112,8 +67115,8 @@ p {
 
   .lg\:border-gray {
     --border-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
   }
 
   .lg\:border-red {
@@ -67420,8 +67423,8 @@ p {
 
   .lg\:hover\:border-gray:hover {
     --border-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
   }
 
   .lg\:hover\:border-red:hover {
@@ -67728,8 +67731,8 @@ p {
 
   .lg\:focus\:border-gray:focus {
     --border-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
   }
 
   .lg\:focus\:border-red:focus {
@@ -71497,20 +71500,20 @@ p {
 
   .lg\:placeholder-gray::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .lg\:placeholder-gray:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .lg\:placeholder-gray::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .lg\:placeholder-red::-moz-placeholder {
@@ -72421,20 +72424,20 @@ p {
 
   .lg\:focus\:placeholder-gray:focus::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .lg\:focus\:placeholder-gray:focus:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .lg\:focus\:placeholder-gray:focus::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .lg\:focus\:placeholder-red:focus::-moz-placeholder {
@@ -73700,8 +73703,8 @@ p {
 
   .lg\:text-gray {
     --text-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--text-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--text-opacity)) !important;
   }
 
   .lg\:text-red {
@@ -74008,8 +74011,8 @@ p {
 
   .lg\:hover\:text-gray:hover {
     --text-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--text-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--text-opacity)) !important;
   }
 
   .lg\:hover\:text-red:hover {
@@ -74316,8 +74319,8 @@ p {
 
   .lg\:focus\:text-gray:focus {
     --text-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--text-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--text-opacity)) !important;
   }
 
   .lg\:focus\:text-red:focus {
@@ -78741,8 +78744,8 @@ p {
 
   .xl\:divide-gray > :not(template) ~ :not(template) {
     --divide-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--divide-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--divide-opacity)) !important;
   }
 
   .xl\:divide-red > :not(template) ~ :not(template) {
@@ -79170,8 +79173,8 @@ p {
 
   .xl\:bg-gray {
     --bg-opacity: 1 !important;
-    background-color: #a8aaff !important;
-    background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+    background-color: #c4c5e2 !important;
+    background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
   }
 
   .xl\:bg-red {
@@ -79478,8 +79481,8 @@ p {
 
   .xl\:hover\:bg-gray:hover {
     --bg-opacity: 1 !important;
-    background-color: #a8aaff !important;
-    background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+    background-color: #c4c5e2 !important;
+    background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
   }
 
   .xl\:hover\:bg-red:hover {
@@ -79786,8 +79789,8 @@ p {
 
   .xl\:focus\:bg-gray:focus {
     --bg-opacity: 1 !important;
-    background-color: #a8aaff !important;
-    background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+    background-color: #c4c5e2 !important;
+    background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
   }
 
   .xl\:focus\:bg-red:focus {
@@ -80129,8 +80132,8 @@ p {
   }
 
   .xl\:from-gray {
-    --gradient-from-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-from-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .xl\:from-red {
@@ -80389,8 +80392,8 @@ p {
   }
 
   .xl\:via-gray {
-    --gradient-via-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-via-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .xl\:via-red {
@@ -80645,7 +80648,7 @@ p {
   }
 
   .xl\:to-gray {
-    --gradient-to-color: #a8aaff !important;
+    --gradient-to-color: #c4c5e2 !important;
   }
 
   .xl\:to-red {
@@ -80857,8 +80860,8 @@ p {
   }
 
   .xl\:hover\:from-gray:hover {
-    --gradient-from-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-from-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .xl\:hover\:from-red:hover {
@@ -81117,8 +81120,8 @@ p {
   }
 
   .xl\:hover\:via-gray:hover {
-    --gradient-via-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-via-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .xl\:hover\:via-red:hover {
@@ -81373,7 +81376,7 @@ p {
   }
 
   .xl\:hover\:to-gray:hover {
-    --gradient-to-color: #a8aaff !important;
+    --gradient-to-color: #c4c5e2 !important;
   }
 
   .xl\:hover\:to-red:hover {
@@ -81585,8 +81588,8 @@ p {
   }
 
   .xl\:focus\:from-gray:focus {
-    --gradient-from-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-from-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .xl\:focus\:from-red:focus {
@@ -81845,8 +81848,8 @@ p {
   }
 
   .xl\:focus\:via-gray:focus {
-    --gradient-via-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-via-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .xl\:focus\:via-red:focus {
@@ -82101,7 +82104,7 @@ p {
   }
 
   .xl\:focus\:to-gray:focus {
-    --gradient-to-color: #a8aaff !important;
+    --gradient-to-color: #c4c5e2 !important;
   }
 
   .xl\:focus\:to-red:focus {
@@ -82454,8 +82457,8 @@ p {
 
   .xl\:border-gray {
     --border-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
   }
 
   .xl\:border-red {
@@ -82762,8 +82765,8 @@ p {
 
   .xl\:hover\:border-gray:hover {
     --border-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
   }
 
   .xl\:hover\:border-red:hover {
@@ -83070,8 +83073,8 @@ p {
 
   .xl\:focus\:border-gray:focus {
     --border-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
   }
 
   .xl\:focus\:border-red:focus {
@@ -86839,20 +86842,20 @@ p {
 
   .xl\:placeholder-gray::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .xl\:placeholder-gray:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .xl\:placeholder-gray::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .xl\:placeholder-red::-moz-placeholder {
@@ -87763,20 +87766,20 @@ p {
 
   .xl\:focus\:placeholder-gray:focus::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .xl\:focus\:placeholder-gray:focus:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .xl\:focus\:placeholder-gray:focus::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .xl\:focus\:placeholder-red:focus::-moz-placeholder {
@@ -89042,8 +89045,8 @@ p {
 
   .xl\:text-gray {
     --text-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--text-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--text-opacity)) !important;
   }
 
   .xl\:text-red {
@@ -89350,8 +89353,8 @@ p {
 
   .xl\:hover\:text-gray:hover {
     --text-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--text-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--text-opacity)) !important;
   }
 
   .xl\:hover\:text-red:hover {
@@ -89658,8 +89661,8 @@ p {
 
   .xl\:focus\:text-gray:focus {
     --text-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--text-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--text-opacity)) !important;
   }
 
   .xl\:focus\:text-red:focus {
@@ -94083,8 +94086,8 @@ p {
 
   .xxl\:divide-gray > :not(template) ~ :not(template) {
     --divide-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--divide-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--divide-opacity)) !important;
   }
 
   .xxl\:divide-red > :not(template) ~ :not(template) {
@@ -94512,8 +94515,8 @@ p {
 
   .xxl\:bg-gray {
     --bg-opacity: 1 !important;
-    background-color: #a8aaff !important;
-    background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+    background-color: #c4c5e2 !important;
+    background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
   }
 
   .xxl\:bg-red {
@@ -94820,8 +94823,8 @@ p {
 
   .xxl\:hover\:bg-gray:hover {
     --bg-opacity: 1 !important;
-    background-color: #a8aaff !important;
-    background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+    background-color: #c4c5e2 !important;
+    background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
   }
 
   .xxl\:hover\:bg-red:hover {
@@ -95128,8 +95131,8 @@ p {
 
   .xxl\:focus\:bg-gray:focus {
     --bg-opacity: 1 !important;
-    background-color: #a8aaff !important;
-    background-color: rgba(168, 170, 255, var(--bg-opacity)) !important;
+    background-color: #c4c5e2 !important;
+    background-color: rgba(196, 197, 226, var(--bg-opacity)) !important;
   }
 
   .xxl\:focus\:bg-red:focus {
@@ -95471,8 +95474,8 @@ p {
   }
 
   .xxl\:from-gray {
-    --gradient-from-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-from-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .xxl\:from-red {
@@ -95731,8 +95734,8 @@ p {
   }
 
   .xxl\:via-gray {
-    --gradient-via-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-via-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .xxl\:via-red {
@@ -95987,7 +95990,7 @@ p {
   }
 
   .xxl\:to-gray {
-    --gradient-to-color: #a8aaff !important;
+    --gradient-to-color: #c4c5e2 !important;
   }
 
   .xxl\:to-red {
@@ -96199,8 +96202,8 @@ p {
   }
 
   .xxl\:hover\:from-gray:hover {
-    --gradient-from-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-from-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .xxl\:hover\:from-red:hover {
@@ -96459,8 +96462,8 @@ p {
   }
 
   .xxl\:hover\:via-gray:hover {
-    --gradient-via-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-via-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .xxl\:hover\:via-red:hover {
@@ -96715,7 +96718,7 @@ p {
   }
 
   .xxl\:hover\:to-gray:hover {
-    --gradient-to-color: #a8aaff !important;
+    --gradient-to-color: #c4c5e2 !important;
   }
 
   .xxl\:hover\:to-red:hover {
@@ -96927,8 +96930,8 @@ p {
   }
 
   .xxl\:focus\:from-gray:focus {
-    --gradient-from-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-from-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .xxl\:focus\:from-red:focus {
@@ -97187,8 +97190,8 @@ p {
   }
 
   .xxl\:focus\:via-gray:focus {
-    --gradient-via-color: #a8aaff !important;
-    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(168, 170, 255, 0)) !important;
+    --gradient-via-color: #c4c5e2 !important;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-via-color), var(--gradient-to-color, rgba(196, 197, 226, 0)) !important;
   }
 
   .xxl\:focus\:via-red:focus {
@@ -97443,7 +97446,7 @@ p {
   }
 
   .xxl\:focus\:to-gray:focus {
-    --gradient-to-color: #a8aaff !important;
+    --gradient-to-color: #c4c5e2 !important;
   }
 
   .xxl\:focus\:to-red:focus {
@@ -97796,8 +97799,8 @@ p {
 
   .xxl\:border-gray {
     --border-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
   }
 
   .xxl\:border-red {
@@ -98104,8 +98107,8 @@ p {
 
   .xxl\:hover\:border-gray:hover {
     --border-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
   }
 
   .xxl\:hover\:border-red:hover {
@@ -98412,8 +98415,8 @@ p {
 
   .xxl\:focus\:border-gray:focus {
     --border-opacity: 1 !important;
-    border-color: #a8aaff !important;
-    border-color: rgba(168, 170, 255, var(--border-opacity)) !important;
+    border-color: #c4c5e2 !important;
+    border-color: rgba(196, 197, 226, var(--border-opacity)) !important;
   }
 
   .xxl\:focus\:border-red:focus {
@@ -102181,20 +102184,20 @@ p {
 
   .xxl\:placeholder-gray::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .xxl\:placeholder-gray:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .xxl\:placeholder-gray::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .xxl\:placeholder-red::-moz-placeholder {
@@ -103105,20 +103108,20 @@ p {
 
   .xxl\:focus\:placeholder-gray:focus::-moz-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .xxl\:focus\:placeholder-gray:focus:-ms-input-placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .xxl\:focus\:placeholder-gray:focus::placeholder {
     --placeholder-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--placeholder-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--placeholder-opacity)) !important;
   }
 
   .xxl\:focus\:placeholder-red:focus::-moz-placeholder {
@@ -104384,8 +104387,8 @@ p {
 
   .xxl\:text-gray {
     --text-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--text-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--text-opacity)) !important;
   }
 
   .xxl\:text-red {
@@ -104692,8 +104695,8 @@ p {
 
   .xxl\:hover\:text-gray:hover {
     --text-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--text-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--text-opacity)) !important;
   }
 
   .xxl\:hover\:text-red:hover {
@@ -105000,8 +105003,8 @@ p {
 
   .xxl\:focus\:text-gray:focus {
     --text-opacity: 1 !important;
-    color: #a8aaff !important;
-    color: rgba(168, 170, 255, var(--text-opacity)) !important;
+    color: #c4c5e2 !important;
+    color: rgba(196, 197, 226, var(--text-opacity)) !important;
   }
 
   .xxl\:focus\:text-red:focus {
