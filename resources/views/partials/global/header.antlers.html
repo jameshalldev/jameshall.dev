@@ -1,9 +1,11 @@
 <!-- <header class="panel header" data-header>  -->
 <header class="panel header header--scrolled" data-header> 
     <div class="section header__inner">
-        <a class="no-underline" href="/">
-            <h1 class="header__site-title">{{ site_details:website_title }}</h1>
-        </a>
+        {{ if title == 'Home' }}
+            <h1 class="header__site-title pointer-events-none">{{ site_details:website_title }}</h1>
+        {{ else }}
+            <a class="no-underline" href="/"><h1 class="header__site-title">{{ site_details:website_title }}</h1></a>
+        {{ endif }}
         {{ partial:partials/global/nav classes="desktop-nav nav hidden md:block"}}
         
         <button style="height: 40px; width: 40px;"class="text-text fill-current header__nav-toggle block md:hidden">
