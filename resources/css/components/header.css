@@ -1,12 +1,17 @@
 .header {
-    @apply bg-background py-5 fixed z-20 border-background_light;
+    @apply bg-background py-0 fixed z-20 border-b-2 border-background flex;
+    transition: 0.2s ease-in;
+    transition-property: border;
+    will-change: border;
+
+    height: 70px;
 
     &--scrolled {
-        @apply border-b border-background_light;
+        @apply border-b-2 border-background_light;
     }
 
     &__inner {
-        @apply flex flex-row justify-between items-center;
+        @apply flex flex-row justify-between items-center w-full;
     }
 
 
@@ -19,6 +24,12 @@
     }
 
     &__nav-toggle {
-        @apply cursor-pointer;
+        @apply cursor-pointer text-text fill-current block z-40;
+        height: 40px;
+        width: 40px;
+
+        @screen md {
+            @apply hidden;
+        }
     }
 }

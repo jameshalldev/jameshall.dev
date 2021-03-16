@@ -1,3 +1,6 @@
-import navigation from './components/navigation.js';
+import headerScroll from './components/headerScroll.js';
+import mobileNav from './components/mobileNav.js';
 
-console.log('Webpack running');
+window.onload = () => {
+    document.querySelector('body').classList.remove('preload');
+}

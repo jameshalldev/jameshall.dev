@@ -16,8 +16,10 @@
 @import "components/front-page";
 @import "components/header";
 @import "components/home";
-@import "components/nav";
+@import "components/mobile-nav";
+@import "components/desktop-nav";
 @import "components/projects-card";
+@import "components/skip-to-content.css";
 
 /* Core */
 @import "core/buttons";

@@ -97,14 +97,35 @@
 
 /***/ }),
 
-/***/ "./resources/js/components/navigation.js":
-/*!***********************************************!*\
-  !*** ./resources/js/components/navigation.js ***!
-  \***********************************************/
+/***/ "./resources/js/components/headerScroll.js":
+/*!*************************************************!*\
+  !*** ./resources/js/components/headerScroll.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-console.log('navigation.js');
+console.log('Header scroll');
+var header = document.querySelector('[data-header]');
+var frontPageTitle = document.querySelector('front-page__inner');
+var headerScrollValue = 25;
+window.addEventListener('scroll', function () {
+  if (window.pageYOffset > headerScrollValue) {
+    header.classList.add('header--scrolled');
+  } else {
+    header.classList.remove('header--scrolled');
+  }
+});
+
+/***/ }),
+
+/***/ "./resources/js/components/mobileNav.js":
+/*!**********************************************!*\
+  !*** ./resources/js/components/mobileNav.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+console.log('Navigation');
 
 /***/ }),
 
@@ -117,10 +138,16 @@ console.log('navigation.js');
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _components_navigation_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/navigation.js */ "./resources/js/components/navigation.js");
-/* harmony import */ var _components_navigation_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_navigation_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_headerScroll_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/headerScroll.js */ "./resources/js/components/headerScroll.js");
+/* harmony import */ var _components_headerScroll_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_headerScroll_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_mobileNav_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/mobileNav.js */ "./resources/js/components/mobileNav.js");
+/* harmony import */ var _components_mobileNav_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_mobileNav_js__WEBPACK_IMPORTED_MODULE_1__);
 
-console.log('Webpack running');
+
+
+window.onload = function () {
+  document.querySelector('body').classList.remove('preload');
+};
 
 /***/ }),
 

@@ -1,3 +1,10 @@
+.desktop-nav {
+    @apply hidden;
+    @screen md {
+        @apply block;
+    }
+}
+
 .desktop-nav .nav {
     &__list {
         @apply flex;
@@ -9,7 +16,7 @@
 
     &__item-inner {
         @apply inline-block py-2 px-4 mb-0 font-medium rounded-md;
-        transition: 0.15s ease-in-out;
+        transition: 0.2s ease-in;
         transition-property: background-color;
         will-change: background-color;
 

@@ -23,8 +23,5 @@ data:
     - jquery
     - npm
     - webpack
-  enable_messages:
-    - blog-card
-    - projects-card
   blog_message_text: 'More coming soon!'
   projects_message_text: 'More coming soon!'

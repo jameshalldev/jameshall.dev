@@ -17,7 +17,7 @@ a {
   will-change: background, transform;
   
   &:hover {
-  @apply text-accent_bold;
+  @apply text-accent;
   }
 }
 
