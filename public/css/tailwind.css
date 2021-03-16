@@ -16209,29 +16209,34 @@ video {
   }
 
 .section {
+  /* 1400 by default*/
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .section--xxl {
-    max-width: 1920px !important;
+    max-width: 1920px;
   }
 
 .section--xl {
-    max-width: 1660px !important;
+    max-width: 1400px;
+  }
+
+.section--lg {
+    max-width: 1024px;
   }
 
 .section--md {
-    max-width: 1140px !important;
+    max-width: 768px;
   }
 
 .section--sm {
-    max-width: 880px !important;
+    max-width: 640px;
   }
 
 .section--xs {
-    max-width: 620px !important;
+    max-width: 500px;
   }
 
 html {
@@ -16701,6 +16706,7 @@ p {
     border-radius: 9999px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1.5rem;
     max-width: 50.078vw;
     max-height: 50.078vw;
   }
@@ -16708,6 +16714,8 @@ p {
 @media (min-width: 640px) {
 
 .about__image {
+      margin-top: 0;
+
       max-width: 320px;
 
       max-height: 320px

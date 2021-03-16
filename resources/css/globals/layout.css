@@ -7,25 +7,30 @@
 }
 
 .section {
+    /* 1400 by default*/
     @apply max-w-screen-xl mx-auto;
 
     &--xxl {
-        max-width: 1920px !important; 
+        @apply max-w-screen-xxl;
     }
 
     &--xl {
-        max-width: 1660px !important;
+        @apply max-w-screen-xl;
+    }
+
+    &--lg {
+        @apply max-w-screen-lg;
     }
 
     &--md {
-        max-width: 1140px !important;
+        @apply max-w-screen-md;
     }
 
     &--sm {
-        max-width: 880px !important;
+        @apply max-w-screen-sm;
     }
 
     &--xs {
-        max-width: 620px !important;
+        @apply max-w-screen-xs;
     }
 }

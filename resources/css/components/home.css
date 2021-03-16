@@ -7,13 +7,15 @@
     }
 
     &__image {
-        @apply rounded-full mx-auto;
+        @apply rounded-full mx-auto mt-6;
         max-width: 50.078vw;
         max-height: 50.078vw;
 
         @screen sm {
+            @apply mt-0;
             max-width: 320px;
             max-height: 320px;
+
         }
     }
     
