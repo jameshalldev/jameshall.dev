@@ -3,16 +3,19 @@
         {{ if title == 'Home' }}
             <h1 class="header__site-title pointer-events-none">{{ site_details:website_title }}</h1>
         {{ else }}
-            <a tabindex="2" class="no-underline" href="/"><h1 class="header__site-title">{{ site_details:website_title }}</h1></a>
+            <a tabindex="0" class="no-underline" href="/"><h1 class="header__site-title">{{ site_details:website_title }}</h1></a>
         {{ endif }}
         
         {{ partial:partials/global/nav id="desktop-nav" classes="desktop-nav nav"}}
         
-        <button aria-expanded="false" aria-controls="menu" tabindex="3" class="header__nav-toggle">
-            {{ partial:partials/icons/menu }}
-            <!-- {{ partial:partials/icons/close }} -->
+        <button aria-expanded="false" aria-controls="menu" tabindex="0" class="header__nav-toggle" data-nav-toggle>
+            <span data-nav-menu-icon class="hidden">
+                {{ partial:partials/icons/menu }}
+            </span>
+            <span data-nav-close-icon>
+                {{ partial:partials/icons/close }}
+            </span>
         </button>
-
     </div>
 </header> 
-{{ partial:partials/global/nav id="mobile-nav" classes="mobile-nav nav" }} 
+{{ partial:partials/global/nav id="mobile-nav" classes="mobile-nav nav" data="data-mobile-nav" }} 

@@ -14,7 +14,7 @@
 
         svg {
             @apply text-accent fill-current;
-            transition: all 0.25s ease-out;
+            transition: all 0.2s ease-in;
         }
     }
 }

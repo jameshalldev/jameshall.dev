@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5 {
 
 a {
   @apply text-text underline;
-  transition: 0.15s ease-in-out;
+  transition: 0.2s ease-in;
   transition-property: color, fill;
   will-change: background, transform;
   
@@ -29,14 +29,14 @@ p {
 }
 
 .text-size-h1 {
-  @apply font-bold;
+  @apply font-bold mb-8;
 
-  font-size: 2.125rem;
+  font-size: 2.375rem;
   @screen xs {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
   }
   @screen sm {
-    font-size: 3.0rem;
+    font-size: 3.25rem;
   }
 }
 

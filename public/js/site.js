@@ -104,9 +104,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-console.log('Header scroll');
 var header = document.querySelector('[data-header]');
-var frontPageTitle = document.querySelector('front-page__inner');
 var headerScrollValue = 25;
 window.addEventListener('scroll', function () {
   if (window.pageYOffset > headerScrollValue) {
@@ -125,7 +123,31 @@ window.addEventListener('scroll', function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-console.log('Navigation');
+var mobileNav = document.querySelector('[data-mobile-nav]');
+var navToggle = document.querySelector('[data-nav-toggle]');
+var navMenuIcon = document.querySelector('[data-nav-menu-icon]');
+var navCloseIcon = document.querySelector('[data-nav-close-icon]');
+var main = document.querySelector('.main');
+var isNavOpen = true;
+
+var toggleNav = function toggleNav() {
+  if (isNavOpen == true) {
+    mobileNav.classList.add('hidden');
+    navCloseIcon.classList.add('hidden');
+    navMenuIcon.classList.remove('hidden');
+    isNavOpen = false;
+  } else {
+    mobileNav.classList.remove('hidden');
+    navCloseIcon.classList.remove('hidden');
+    navMenuIcon.classList.add('hidden');
+    isNavOpen = true;
+  }
+};
+
+navToggle.addEventListener('click', function () {
+  toggleNav();
+});
+toggleNav();
 
 /***/ }),
 

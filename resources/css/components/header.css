@@ -3,7 +3,6 @@
     transition: 0.2s ease-in;
     transition-property: border;
     will-change: border;
-
     height: 70px;
 
     &--scrolled {
@@ -24,12 +23,25 @@
     }
 
     &__nav-toggle {
-        @apply cursor-pointer text-text fill-current block z-40;
-        height: 40px;
-        width: 40px;
+        @apply cursor-pointer text-text fill-current block z-40 rounded-full;
+        will-change: background;
+        transition: 0.2s ease-in;
+        transition-property: background;
 
-        @screen md {
+        height: 50px;
+        width: 50px;
+        padding: 5px;
+
+        @screen sm {
             @apply hidden;
+        }
+
+        &:hover {
+            @apply bg-background_lighter;
+        }
+
+        &.active {
+            @apply bg-background_lighter;
         }
     }
 }

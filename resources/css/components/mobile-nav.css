@@ -1,16 +1,16 @@
 .mobile-nav {
-    @apply fixed bg-background flex justify-center items-start z-30 border-2 border-background_lighter rounded-md text-lg;
-    top: 80px;
-    right: 13px;
+    @apply fixed bg-background flex justify-center items-start z-30 border-2 border-text text-lg rounded-md;
+    top: 75px;
+    right: 28px;
 
-    @screen md {
+    @screen sm {
         @apply hidden;
     }
 }
 
 .mobile-nav .nav {
     &__list {
-        @apply flex flex-col items-center;
+        @apply flex flex-col items-center w-full;
     }
     
     &__item {
@@ -24,11 +24,11 @@
         will-change: background-color;
 
         &:hover {
-            @apply text-text bg-background_light;
+            @apply text-text bg-background_lighter;
         }
 
         &--active {
-            @apply bg-background_lighter;
+            @apply bg-text text-background_lighter;
         }
     }
 }

@@ -1,7 +1,7 @@
 .panel {
     @apply w-full min-w-full max-w-none p-6 pb-10;
 
-    @screen sm {
+    @screen md {
         @apply p-12 pb-20;
     }
 }

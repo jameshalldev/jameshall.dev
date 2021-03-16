@@ -1,8 +1,7 @@
 <div class="panel">
-    <div class="section section--lg contact">
+    <div class="section section--xxl contact">
         <h1 class="mb-8 text-size-h1 text-center">{{ content | raw }}</h1>
-
-        {{ form:contact id="contact-form" }}
+        {{ form:contact id="contact-form" class="max-w-screen-sm mx-auto"}}
             {{ if success }}
                 <div class="bg-green-500 rounded p-4">
                     {{ success }}

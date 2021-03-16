@@ -1,7 +1,4 @@
-console.log('Header scroll');
-
 const header = document.querySelector('[data-header]');
-const frontPageTitle = document.querySelector('front-page__inner');
 const headerScrollValue = 25;
 
 window.addEventListener('scroll', () => {

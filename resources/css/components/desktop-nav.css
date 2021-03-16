@@ -1,6 +1,6 @@
 .desktop-nav {
     @apply hidden;
-    @screen md {
+    @screen sm {
         @apply block;
     }
 }
