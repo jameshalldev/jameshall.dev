@@ -6,6 +6,7 @@ const main = document.querySelector('.main');
 
 let isNavOpen = true; 
 
+
 const toggleNav = () => {
     if (isNavOpen == true) {
         mobileNav.classList.add('hidden')
@@ -21,7 +22,7 @@ const toggleNav = () => {
 }
 
 navToggle.addEventListener('click', () => {
-     toggleNav();
+    toggleNav();
 })
 
 toggleNav();

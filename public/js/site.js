@@ -160,10 +160,10 @@ toggleNav();
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _components_headerScroll_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/headerScroll.js */ "./resources/js/components/headerScroll.js");
-/* harmony import */ var _components_headerScroll_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_headerScroll_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_mobileNav_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/mobileNav.js */ "./resources/js/components/mobileNav.js");
-/* harmony import */ var _components_mobileNav_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_mobileNav_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_mobileNav_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/mobileNav.js */ "./resources/js/components/mobileNav.js");
+/* harmony import */ var _components_mobileNav_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_mobileNav_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_headerScroll_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/headerScroll.js */ "./resources/js/components/headerScroll.js");
+/* harmony import */ var _components_headerScroll_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_headerScroll_js__WEBPACK_IMPORTED_MODULE_1__);
 
 
 

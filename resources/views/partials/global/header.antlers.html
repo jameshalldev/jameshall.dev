@@ -8,11 +8,11 @@
         
         {{ partial:partials/global/nav id="desktop-nav" classes="desktop-nav nav"}}
         
-        <button aria-expanded="false" aria-controls="menu" tabindex="0" class="header__nav-toggle" data-nav-toggle>
+        <button aria-label="Mobile navigation" aria-expanded="false" aria-controls="menu" tabindex="0" class="header__nav-toggle" data-nav-toggle>
             <span data-nav-menu-icon class="hidden">
                 {{ partial:partials/icons/menu }}
             </span>
-            <span data-nav-close-icon>
+            <span data-nav-close-icon class="">
                 {{ partial:partials/icons/close }}
             </span>
         </button>

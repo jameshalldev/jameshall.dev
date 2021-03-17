@@ -1,7 +1,7 @@
 .mobile-nav {
     @apply fixed bg-background flex justify-center items-start z-30 border-2 border-text text-lg rounded-md;
     top: 75px;
-    right: 28px;
+    right: 24px;
 
     @screen sm {
         @apply hidden;
