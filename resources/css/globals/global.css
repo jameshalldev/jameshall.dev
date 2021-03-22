@@ -1,21 +1,11 @@
 .body {
-    @apply
-        min-h-screen
-        flex
-        flex-col 
-        bg-background
-        text-text
-        antialiased
-    ;
+    min-width: 320px !important;
+    @apply min-h-screen flex flex-col  bg-background text-text antialiased;
 }
-
-/* See header.css for header styles */
 
 .main {
     margin-top: 75px;
 }
-
-/* See footer.css for footer styles */
 
 /* Highlighted text */
 ::selection {
@@ -32,4 +22,4 @@
     -moz-transition: none !important;
     -ms-transition: none !important;
     -o-transition: none !important;
-  }
+}

@@ -6,44 +6,42 @@
             {{ /loop }}
         </div>
 
-        {{ if show_controls == "true" }}
-            {{ paginate }}
-
-                {{ if !next_page }}
-                    {{ site_settings:enable_messages }}
-                        {{ if card_type == value }}
-                            <div class="flex justify-center">
-                                <span class="bg-background_dark py-4 px-8 rounded-md mt-8 flex justify-center items-center">
-                                    <p class="mb-0 pr-2">
-                                        {{ if card_type == 'blog-card' }}
-                                            {{ site_settings:blog_message_text }}
-                                        {{ elseif card_type == 'projects-card' }}
-                                            {{ site_settings:projects_message_text }}
-                                        {{ endif }}
-                                    </p>
-                                    <span class="text-text fill-current" style="width: 18px; height: 18px;">
-                                        {{ partial:partials/icons/clock }}
-                                    </span>
-                                </span>
-                            </div>
+        {{ if show_controls == "true"  }}
+                {{ paginate }}
+                    {{ if next_page || prev_page }}
+                        {{ if !next_page }}
+                            {{ site_settings:enable_messages }}
+                                {{ if card_type == value }}
+                                    <div class="flex justify-center">
+                                        <span class="bg-background_dark py-4 px-8 rounded-md mt-8 flex justify-center items-center">
+                                            <p class="mb-0 pr-2">
+                                                {{ if card_type == 'blog-card' }}
+                                                    {{ site_settings:blog_message_text }}
+                                                {{ elseif card_type == 'projects-card' }}
+                                                    {{ site_settings:projects_message_text }}
+                                                {{ endif }}
+                                            </p>
+                                            <span class="text-text fill-current" style="width: 18px; height: 18px;">
+                                                {{ partial:partials/icons/clock }}
+                                            </span>
+                                        </span>
+                                    </div>
+                                {{ endif }}
+                            {{ /site_settings:enable_messages }}
                         {{ endif }}
-                    {{ /site_settings:enable_messages }}
-                {{ endif }}
-                
-                <div class="text-base flex justify-center items-center space-x-8 text-center mx-auto mt-auto py-8">
-                    {{ if prev_page }}
-                        <a href="{{ prev_page }}">&larr; Previous</a>
-                    {{ else }}
-                        <a class="pointer-events-none opacity-25">&larr; Previous</a>
-                    {{ endif }}
+                        
+                        <div class="text-base flex justify-center items-center space-x-8 text-center mx-auto mt-auto py-8">
+                            {{ if prev_page }}
+                                <a href="{{ prev_page }}">&larr; Previous</a>
+                            {{ endif }}
 
-                    {{ if next_page }}
-                        <a href="{{ next_page }}">Next &rarr;</a>
-                    {{ else }}
-                        <a class="pointer-events-none opacity-25">Next &rarr;</a>
+                            {{ if next_page }}
+                                <a href="{{ next_page }}">Next &rarr;</a>
+                            {{ endif }}
+                        </div>
                     {{ endif }}
-                </div>
-            {{ /paginate }}
+                {{ /paginate }}
+
         {{ endif }}
     {{ /collection }}
 </div>

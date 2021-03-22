@@ -1,5 +1,5 @@
 .projects-card {
-   @apply w-full bg-background_light rounded-md p-6 block;
+   @apply w-full bg-text bg-background_dark rounded-md p-6 block;
    @screen sm {
       @apply p-12;
    }
@@ -16,7 +16,7 @@
    }
 
    &__date {
-      @apply text-tiny text-gray mb-4;
+      @apply text-tiny text-accent_light font-medium mb-4;
    }
 
    &__desc {

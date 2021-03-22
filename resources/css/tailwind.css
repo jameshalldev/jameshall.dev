@@ -6,10 +6,12 @@
 /* Global */
 @import "globals/global";
 @import "globals/layout";
+@import "globals/rte";
 @import "globals/typography";
 
 /* Components */
 @import "components/blog-card";
+@import "components/blog-post";
 @import "components/contact-info";
 @import "components/contact";
 @import "components/footer";

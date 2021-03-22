@@ -1,13 +1,28 @@
-<img class="h-64 w-full object-cover mb-8" src="{{ featured_image }}" alt="{{ featured_image:alt }}" title="{{ featured_image:alt }}">
-<div class="max-w-screen-md mx-auto">
-    <h1 class="mb-8 text-xl sm:text-2xl leading-none">{{ title }}</h1/>
-    <div class="flex items-center mb-16">
-        <div class="leading-tight ml-3">
-            <p class="font-bold">{{ author:name }}</p>
-            <p class="text-sm text-gray-600">{{ date }}</p>
+<article class="blog-post">
+    <div class="panel blog-post__header">
+        <img class="blog-post__header-inner blog-post__header-image" src="{{ featured_image }}" alt="{{ featured_image:alt }}" title="{{ featured_image:alt }}">
+        <div class="blog-post__header-inner blog-post__header-image-overlay"></div>
+        <div class="blog-post__header-inner blog-post__header-text section">
+            <h3 class="blog-post__title text-size-h2 font-bold">{{ title }}</h3>
+            <p class="blog-post__date">{{ date }}</p>
         </div>
     </div>
-    <div class="space-y-12 mb-12 rte">
-        {{ article_content }}
+
+    <div class="panel">
+        <section class="section">
+            <div class="rte">
+                {{ article_content }}
+                    {{ if type == "text" }}
+                        {{ text }}
+                    {{ elseif type == 'code_block' }}
+                        <pre>
+                            <code class="language-{{ language_selector }}">
+                                {{ code_snippet }}
+                            </code>
+                        </pre>
+                    {{ endif }}
+                {{ /article_content }}
+            </div>
+        </section>
     </div>
-</div>
+</article>

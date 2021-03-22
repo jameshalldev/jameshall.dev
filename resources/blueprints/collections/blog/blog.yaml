@@ -25,7 +25,7 @@ sections:
       -
         handle: article_content
         field:
-          always_show_set_button: false
+          always_show_set_button: true
           buttons:
             - h2
             - h3
@@ -33,18 +33,18 @@ sections:
             - italic
             - unorderedlist
             - orderedlist
-            - removeformat
             - quote
             - anchor
             - image
             - table
-            - strikethrough
             - code
             - codeblock
+            - underline
+            - strikethrough
           save_html: false
           toolbar_mode: fixed
           link_noopener: false
-          link_noreferrer: false
+          link_noreferrer: true
           target_blank: true
           reading_time: true
           fullscreen: true
@@ -53,6 +53,32 @@ sections:
           type: bard
           icon: bard
           listable: hidden
+          sets:
+            code_block:
+              display: 'Code block'
+              fields:
+                -
+                  handle: language_selector
+                  field:
+                    options:
+                      html: HTML
+                      css: CSS
+                      javascript: JavaScript
+                      liquid: Liquid
+                    inline: false
+                    cast_booleans: false
+                    display: 'Language selector'
+                    type: radio
+                    icon: radio
+                    instructions: 'Select language of code block'
+                    listable: true
+                -
+                  handle: code_snippet
+                  field:
+                    display: 'Code snippet'
+                    type: textarea
+                    icon: textarea
+                    listable: hidden
   sidebar:
     display: Sidebar
     fields:
