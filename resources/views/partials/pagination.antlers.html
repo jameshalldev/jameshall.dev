@@ -12,16 +12,16 @@
                         {{ if !next_page }}
                             {{ site_settings:enable_messages }}
                                 {{ if card_type == value }}
-                                    <div class="flex justify-center">
-                                        <span class="bg-background_dark py-4 px-8 rounded-md mt-8 flex justify-center items-center">
-                                            <p class="mb-0 pr-2">
+                                    <div class="pagination-message">
+                                        <span class="pagination-message__inner">
+                                            <p class="pagination-message__text">
                                                 {{ if card_type == 'blog-card' }}
                                                     {{ site_settings:blog_message_text }}
                                                 {{ elseif card_type == 'projects-card' }}
                                                     {{ site_settings:projects_message_text }}
                                                 {{ endif }}
                                             </p>
-                                            <span class="text-text fill-current" style="width: 18px; height: 18px;">
+                                            <span class="pagination-message__icon">
                                                 {{ partial:partials/icons/clock }}
                                             </span>
                                         </span>
@@ -30,13 +30,13 @@
                             {{ /site_settings:enable_messages }}
                         {{ endif }}
                         
-                        <div class="text-base flex justify-center items-center space-x-8 text-center mx-auto mt-auto py-8">
+                        <div class="pagination-controls">
                             {{ if prev_page }}
-                                <a href="{{ prev_page }}">&larr; Previous</a>
+                                <a class="pagination-controls__select" href="{{ prev_page }}">&larr; Previous</a>
                             {{ endif }}
 
                             {{ if next_page }}
-                                <a href="{{ next_page }}">Next &rarr;</a>
+                                <a class="pagination-controls__select" href="{{ next_page }}">Next &rarr;</a>
                             {{ endif }}
                         </div>
                     {{ endif }}

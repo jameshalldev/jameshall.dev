@@ -79,6 +79,20 @@ sections:
                     type: textarea
                     icon: textarea
                     listable: hidden
+                -
+                  handle: code
+                  field:
+                    theme: material
+                    mode: htmlmixed
+                    indent_type: tabs
+                    indent_size: 4
+                    key_map: default
+                    line_numbers: true
+                    line_wrapping: true
+                    display: Code
+                    type: code
+                    icon: code
+                    listable: hidden
   sidebar:
     display: Sidebar
     fields:

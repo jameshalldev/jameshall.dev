@@ -1,0 +1,32 @@
+.pagination-message {
+    @apply flex justify-center;
+
+    &__inner {
+        @apply bg-background_dark py-4 px-8 rounded-md mt-8 flex justify-center items-center;
+    }
+
+    &__text {
+        @apply mb-0 pr-2;
+    }
+
+    &__icon {
+        @apply text-text fill-current;
+        width: 18px;
+        height: 18px;
+    }
+}
+
+.pagination-controls {
+    @apply text-base flex justify-center items-center text-center mx-auto mt-auto py-8;
+
+    &__select {
+        @apply px-4 py-2 font-medium rounded-md no-underline mx-1;
+        transition: 0.2s ease-in;
+        transition-property: background-color;
+        will-change: background-color;
+
+        &:hover {
+            @apply text-text bg-background_light no-underline;
+        }
+    }
+}

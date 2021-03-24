@@ -14,12 +14,13 @@
 @import "components/blog-post";
 @import "components/contact-info";
 @import "components/contact";
+@import "components/desktop-nav";
 @import "components/footer";
 @import "components/front-page";
 @import "components/header";
 @import "components/home";
 @import "components/mobile-nav";
-@import "components/desktop-nav";
+@import "components/pagination";
 @import "components/projects-card";
 @import "components/skip-to-content.css";
 

@@ -1,5 +1,5 @@
 .mobile-nav {
-    @apply fixed bg-background flex justify-center items-start z-30 border-2 border-text text-lg rounded-md;
+    @apply fixed bg-background flex justify-center items-start z-30 border-2 border-text rounded-md;
     top: 75px;
     right: 24px;
 

@@ -3,13 +3,13 @@
         <img class="blog-post__header-inner blog-post__header-image" src="{{ featured_image }}" alt="{{ featured_image:alt }}" title="{{ featured_image:alt }}">
         <div class="blog-post__header-inner blog-post__header-image-overlay"></div>
         <div class="blog-post__header-inner blog-post__header-text section">
-            <h3 class="blog-post__title text-size-h2 font-bold">{{ title }}</h3>
-            <p class="blog-post__date">{{ date }}</p>
+            <h3 class="blog-post__title text-size-h2 font-bold">{{ title }}</h3>            
         </div>
     </div>
 
     <div class="panel">
-        <section class="section">
+        <section class="section section--md">
+            <p class="blog-post__date">{{ date }}</p>
             <div class="rte">
                 {{ article_content }}
                     {{ if type == "text" }}
@@ -17,7 +17,7 @@
                     {{ elseif type == 'code_block' }}
                         <pre>
                             <code class="language-{{ language_selector }}">
-                                {{ code_snippet }}
+                                {{ code }}
                             </code>
                         </pre>
                     {{ endif }}

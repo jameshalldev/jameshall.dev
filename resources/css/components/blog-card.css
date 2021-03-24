@@ -1,6 +1,5 @@
 .blog-card {
     @apply px-0 pb-0 m-0 relative;
-    
     min-height: 160px;
     height: 160px;
 
@@ -28,17 +27,29 @@
         @screen sm {
             @apply p-12;
         }
+    }
 
-        h3 {
-            @apply m-0;
-            text-shadow: 1px 1px 50px black;
-            box-shadow: none;
+    &__title {
+        @apply m-0 text-center mb-1;
+        text-shadow: 1px 1px 50px black;
+        box-shadow: none;
+
+        font-size: 28px;
+        @screen md {
+            font-size: 3.714285714vw;
         }
+        @screen xl {
+            font-size: 52px;
+        }
+    }
 
-        p {
-            @apply m-0 text-tiny; 
-            text-shadow: 1px 1px 50px black;
-            box-shadow: none;
+    &__date {
+        @apply m-0 text-sm; 
+        text-shadow: 1px 1px 50px black;
+        box-shadow: none;
+
+        @screen sm {
+            @apply text-tiny;
         }
     }
 }
