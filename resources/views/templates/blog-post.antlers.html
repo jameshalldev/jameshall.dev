@@ -9,18 +9,17 @@
 
     <div class="panel">
         <section class="section section--md">
-            <p class="blog-post__date">{{ date }}</p>
+            <div class="blog-post__upper flex mb-6">
+                <img class="rounded-full w-16 h-16" src="{{ user:avatar }}" alt="{{ user:name }}'s avatar image">
+                <div class="flex flex-col justify-end pl-4">
+                    <span class="text-lg">{{ user:name }}</span>
+                    <span class="blog-post__date text-tiny">{{ date }}</span>
+                </div>
+            </div>
             <div class="rte">
+                <p class="mb-6 font-bold italic">{{ excerpt }}</p>
                 {{ article_content }}
-                    {{ if type == "text" }}
-                        {{ text }}
-                    {{ elseif type == 'code_block' }}
-                        <pre>
-                            <code class="language-{{ language_selector }}">
-                                {{ code }}
-                            </code>
-                        </pre>
-                    {{ endif }}
+                    {{ partial src="sets/{type}" }}
                 {{ /article_content }}
             </div>
         </section>

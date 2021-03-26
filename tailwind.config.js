@@ -14,11 +14,12 @@ module.exports = {
       extend: {
         colors: {
             // Core colours
-            text: '#fff5e8',
+            text: '#fff4e7',
             background: '#262b35', 
             background_light: '#303644', 
             background_lighter: '#353a46', 
             background_dark: '#20252D', 
+            background_darker: '#16191f', 
 
             gray: '#c4c5e2',
 

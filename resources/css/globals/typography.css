@@ -17,15 +17,12 @@ a {
   will-change: background, transform;
   
   &:hover {
-  @apply text-accent;
+  @apply text-accent_light;
   }
 }
 
 p {
-  @apply mb-2 font-normal text-tiny;
-  @screen sm {
-    @apply text-base;
-  }
+  @apply mb-2 font-normal text-base;
 }
 
 .text-size-h1 {

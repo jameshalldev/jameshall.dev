@@ -217,7 +217,7 @@ window.onload = function () {
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {/* PrismJS 1.23.0
-https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+git+json+liquid */
+https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript+liquid */
 var _self = "undefined" != typeof window ? window : "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? self : {},
     Prism = function (u) {
   var c = /\blang(?:uage)?-([\w-]+)\b/i,
@@ -864,44 +864,6 @@ Prism.languages.javascript = Prism.languages.extend("clike", {
     }
   }
 }), Prism.languages.markup && (Prism.languages.markup.tag.addInlined("script", "javascript"), Prism.languages.markup.tag.addAttribute("on(?:abort|blur|change|click|composition(?:end|start|update)|dblclick|error|focus(?:in|out)?|key(?:down|up)|load|mouse(?:down|enter|leave|move|out|over|up)|reset|resize|scroll|select|slotchange|submit|unload|wheel)", "javascript")), Prism.languages.js = Prism.languages.javascript;
-Prism.languages.git = {
-  comment: /^#.*/m,
-  deleted: /^[-–].*/m,
-  inserted: /^\+.*/m,
-  string: /("|')(?:\\.|(?!\1)[^\\\r\n])*\1/m,
-  command: {
-    pattern: /^.*\$ git .*$/m,
-    inside: {
-      parameter: /\s--?\w+/m
-    }
-  },
-  coord: /^@@.*@@$/m,
-  "commit-sha1": /^commit \w{40}$/m
-};
-Prism.languages.json = {
-  property: {
-    pattern: /(^|[^\\])"(?:\\.|[^\\"\r\n])*"(?=\s*:)/,
-    lookbehind: !0,
-    greedy: !0
-  },
-  string: {
-    pattern: /(^|[^\\])"(?:\\.|[^\\"\r\n])*"(?!\s*:)/,
-    lookbehind: !0,
-    greedy: !0
-  },
-  comment: {
-    pattern: /\/\/.*|\/\*[\s\S]*?(?:\*\/|$)/,
-    greedy: !0
-  },
-  number: /-?\b\d+(?:\.\d+)?(?:e[+-]?\d+)?\b/i,
-  punctuation: /[{}[\],]/,
-  operator: /:/,
-  "boolean": /\b(?:true|false)\b/,
-  "null": {
-    pattern: /\bnull\b/,
-    alias: "keyword"
-  }
-}, Prism.languages.webmanifest = Prism.languages.json;
 Prism.languages.liquid = {
   keyword: /\b(?:comment|endcomment|if|elsif|else|endif|unless|endunless|for|endfor|case|endcase|when|in|break|assign|continue|limit|offset|range|reversed|raw|endraw|capture|endcapture|tablerow|endtablerow)\b/,
   number: /\b0b[01]+\b|\b0x(?:\.[\da-fp-]+|[\da-f]+(?:\.[\da-fp-]+)?)\b|(?:\b\d+(?:\.\d*)?|\B\.\d+)(?:e[+-]?\d+)?[df]?/i,

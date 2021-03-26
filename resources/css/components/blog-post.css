@@ -29,10 +29,6 @@
         text-shadow: 1px 1px 50px black;
         box-shadow: none;
     }
-
-    &__date {
-        @apply italic text-tiny;
-    }
 }
 
 pre {
