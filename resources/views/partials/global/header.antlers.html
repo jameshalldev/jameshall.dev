@@ -1,9 +1,9 @@
-<header class="panel header" data-header> 
+<header class="panel header headroom headroom--pinned" data-header> 
     <div class="section header__inner">
         {{ if title == 'Home' }}
-            <h1 class="header__site-title pointer-events-none">{{ site_details:website_title }}</h1>
+            <span class="header__site-title pointer-events-none">{{ site_details:website_title }}</span>
         {{ else }}
-            <a tabindex="0" class="no-underline" href="/"><h1 class="header__site-title">{{ site_details:website_title }}</h1></a>
+            <a tabindex="0" class="no-underline" href="/"><span class="header__site-title">{{ site_details:website_title }}</span></a>
         {{ endif }}
         
         {{ partial:partials/global/nav id="desktop-nav" classes="desktop-nav nav"}}

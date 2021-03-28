@@ -34,3 +34,5 @@ sections:
           icon: textarea
           listable: hidden
           placeholder: 'Your message'
+          validate:
+            - required

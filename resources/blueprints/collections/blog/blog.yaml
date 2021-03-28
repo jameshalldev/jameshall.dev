@@ -167,8 +167,8 @@ sections:
       -
         handle: meta_description
         field:
-          character_limit: '160'
           display: 'Meta description'
           type: textarea
           icon: textarea
           listable: hidden
+          character_limit: '160'

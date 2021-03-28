@@ -63,9 +63,16 @@
     }
 }
 
-.about, 
-.skills,
 .latest-blog-posts,
 .latest-projects {
-    
+    &__view {
+        @apply inline-block mx-auto mt-2 px-4 py-2 rounded-md no-underline text-tiny;
+        transition: 0.2s ease-in;
+        transition-property: background-color;
+        will-change: background-color;
+
+        &:hover {
+            @apply text-text bg-background_light no-underline;
+        }
+    }
 }

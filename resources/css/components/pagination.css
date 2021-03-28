@@ -6,13 +6,7 @@
     }
 
     &__text {
-        @apply mb-0 pr-2;
-    }
-
-    &__icon {
-        @apply text-text fill-current;
-        width: 18px;
-        height: 18px;
+        @apply mb-0;
     }
 }
 

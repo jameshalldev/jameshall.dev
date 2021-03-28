@@ -18,6 +18,7 @@
 @import "components/footer";
 @import "components/front-page";
 @import "components/header";
+@import "components/header-scroll";
 @import "components/home";
 @import "components/mobile-nav";
 @import "components/pagination";

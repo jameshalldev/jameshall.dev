@@ -6,6 +6,23 @@
         }
     }
 
+    &__input-container {
+        @apply py-2;
+
+        input::placeholder {
+            @apply font-bold;
+        }
+
+        textarea::placeholder {
+            @apply font-bold;
+        }
+
+        .error {
+            @apply border-2;
+            border-color: #f56565;
+        }
+    }
+
     button {
         @apply transition-colors ease-in-out block mx-auto;
     }

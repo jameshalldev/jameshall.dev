@@ -1,6 +1,10 @@
 .footer {
-    @apply py-12 px-10 bg-background_dark;
+    @apply px-6 py-12 bg-background_dark;
     margin-top: auto !important;
+    
+    @screen md {
+        @apply px-12 py-16;
+    }
 
     &__inner {
         @apply flex flex-col justify-between;

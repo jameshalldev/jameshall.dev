@@ -1,9 +1,10 @@
 .header {
     @apply bg-background py-0 fixed z-20 border-b-2 border-background flex;
-    transition: 0.2s ease-in;
-    transition-property: border;
-    will-change: border;
+    transition: 0.3s ease-in-out;
+    transition-property: border, transform;
+    will-change: border, transform;
     height: 70px;
+
 
     &--scrolled {
         @apply border-b-2 border-background_light;

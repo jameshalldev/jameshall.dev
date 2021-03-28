@@ -8,28 +8,24 @@
 
         {{ if show_controls == "true"  }}
                 {{ paginate }}
+                    {{ if !next_page }}
+                        {{ site_settings:enable_messages }}
+                            {{ if card_type == value }}
+                                <div class="pagination-message">
+                                    <span class="pagination-message__inner">
+                                        <p class="pagination-message__text">
+                                            {{ if card_type == 'blog-card' }}
+                                                {{ site_settings:blog_message_text }}
+                                            {{ elseif card_type == 'projects-card' }}
+                                                {{ site_settings:projects_message_text }}
+                                            {{ endif }}
+                                        </p>
+                                    </span>
+                                </div>
+                            {{ endif }}
+                        {{ /site_settings:enable_messages }}
+                    {{ endif }}
                     {{ if next_page || prev_page }}
-                        {{ if !next_page }}
-                            {{ site_settings:enable_messages }}
-                                {{ if card_type == value }}
-                                    <div class="pagination-message">
-                                        <span class="pagination-message__inner">
-                                            <p class="pagination-message__text">
-                                                {{ if card_type == 'blog-card' }}
-                                                    {{ site_settings:blog_message_text }}
-                                                {{ elseif card_type == 'projects-card' }}
-                                                    {{ site_settings:projects_message_text }}
-                                                {{ endif }}
-                                            </p>
-                                            <span class="pagination-message__icon">
-                                                {{ partial:partials/icons/clock }}
-                                            </span>
-                                        </span>
-                                    </div>
-                                {{ endif }}
-                            {{ /site_settings:enable_messages }}
-                        {{ endif }}
-                        
                         <div class="pagination-controls">
                             {{ if prev_page }}
                                 <a class="pagination-controls__select" href="{{ prev_page }}">&larr; Previous</a>
@@ -41,7 +37,6 @@
                         </div>
                     {{ endif }}
                 {{ /paginate }}
-
         {{ endif }}
     {{ /collection }}
 </div>

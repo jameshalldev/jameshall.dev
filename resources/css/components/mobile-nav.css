@@ -1,7 +1,10 @@
 .mobile-nav {
     @apply fixed bg-background flex justify-center items-start z-30 border-2 border-text rounded-md;
+    transition: 0.3s ease-in-out;
+    transition-property: transform;
+    will-change: transform;
     top: 75px;
-    right: 24px;
+    right: 14px;
 
     @screen sm {
         @apply hidden;
