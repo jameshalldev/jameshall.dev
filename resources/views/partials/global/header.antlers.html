@@ -1,9 +1,17 @@
 <header class="panel header headroom headroom--pinned" data-header> 
     <div class="section header__inner">
         {{ if title == 'Home' }}
-            <span class="header__site-title pointer-events-none">{{ site_details:website_title }}</span>
+            <div class="header__site-title pointer-events-none">
+                <span>{{ site_details:website_title }}</span>
+                <span class="header__site-logo">{{ partial:partials/icons/brick }}</span>
+            </div>
         {{ else }}
-            <a tabindex="0" class="no-underline" href="/"><span class="header__site-title">{{ site_details:website_title }}</span></a>
+            <a tabindex="0" class="no-underline" href="/">
+                <div class="header__site-title">
+                    <span>{{ site_details:website_title }}</span>
+                    <span class="header__site-logo">{{ partial:partials/icons/brick }}</span>
+                </div>
+            </a>
         {{ endif }}
         
         {{ partial:partials/global/nav id="desktop-nav" classes="desktop-nav nav"}}

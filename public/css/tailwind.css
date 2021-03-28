@@ -17245,6 +17245,18 @@ pre {
     font-size: 1.25rem;
     margin-bottom: 0;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+.header__site-logo {
+    --text-opacity: 1;
+    color: #6F74F1;
+    color: rgba(111, 116, 241, var(--text-opacity));
+    fill: currentColor;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.75rem;
   }
 
 .header__nav {

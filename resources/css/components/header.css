@@ -16,7 +16,11 @@
 
 
     &__site-title {
-        @apply font-bold text-lg mb-0 no-underline;
+        @apply font-bold text-lg mb-0 no-underline flex items-center;
+    }
+
+    &__site-logo {
+        @apply text-accent fill-current w-6 h-6 ml-3;
     }
 
     &__nav {
