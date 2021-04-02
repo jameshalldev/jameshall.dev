@@ -37,6 +37,10 @@
         width: 50px;
         padding: 5px;
 
+        &:focus {
+            @apply outline-none;
+        }
+
         @screen sm {
             @apply hidden;
         }

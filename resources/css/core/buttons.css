@@ -11,6 +11,10 @@
     &--large {
         @apply px-16 py-4;
     }
+
+    &:focus {
+        outline: 5px auto #7a7ff3 !important; 
+    }
 }
 
 .btn:hover .btn__inner {

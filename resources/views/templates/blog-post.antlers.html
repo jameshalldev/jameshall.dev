@@ -1,12 +1,11 @@
 <article class="blog-post">
-    <div class="panel blog-post__header">
-        <img class="blog-post__header-inner blog-post__header-image" src="{{ featured_image }}" alt="{{ featured_image:alt }}" title="{{ featured_image:alt }}">
+    <div class="blog-post__header">
+        {{ banner_image }}
         <div class="blog-post__header-inner blog-post__header-image-overlay"></div>
         <div class="blog-post__header-inner blog-post__header-text section">
             <h3 class="blog-post__title text-size-h2 font-bold">{{ title }}</h3>            
         </div>
     </div>
-
     <div class="panel">
         <section class="section section--md">
             <div class="blog-post__upper flex mb-8">
@@ -15,7 +14,7 @@
                     <span class="text-lg">{{ user:name }}</span>
                     <span class="blog-post__date text-tiny">{{ date }}</span>
                 </div>
-                {{ partial src="partials/sharing-links" classes="ml-auto items-end"}}
+                {{ partial src="partials/sharing-links" classes="ml-auto items-center justify-center"}}
             </div>
             <div class="rte">
                 <p class="mb-6 font-bold italic">{{ excerpt }}</p>

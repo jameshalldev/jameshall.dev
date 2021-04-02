@@ -17,10 +17,6 @@ data:
     - sass
     - craft-cms
     - statamic
-    - git
-    - jquery
-    - npm
-    - webpack
   enable_messages:
     - blog-card
   blog_message_text: 'More coming soon!'

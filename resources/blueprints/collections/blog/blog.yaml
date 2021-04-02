@@ -11,6 +11,17 @@ sections:
           validate:
             - required
       -
+        handle: banner_image
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: 'Banner image'
+          type: assets
+          icon: assets
+          listable: hidden
+      -
         handle: excerpt
         field:
           display: Excerpt
@@ -113,18 +124,6 @@ sections:
                     type: text
                     icon: text
                     listable: hidden
-      -
-        handle: featured_image
-        field:
-          mode: grid
-          container: assets
-          restrict: false
-          allow_uploads: true
-          max_files: 1
-          display: 'Featured image'
-          type: assets
-          icon: assets
-          listable: hidden
   sidebar:
     display: Sidebar
     fields:

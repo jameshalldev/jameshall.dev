@@ -590,7 +590,7 @@ __webpack_require__.r(__webpack_exports__);
 var options = {
   offset: {
     up: 10,
-    down: 175
+    down: 150
   },
   tolerance: {
     up: 10,

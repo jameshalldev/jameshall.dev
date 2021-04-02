@@ -26,6 +26,7 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
+        "lazyload": "^2.0.0-rc.2",
         "picoapp": "^3.6.2"
     }
 }

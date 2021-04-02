@@ -1,6 +1,61 @@
 name: 'James Hall'
 super: true
-avatar: work-profile-1616704926.jpg
+bard:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Blog posts about '
+  -
+    type: bullet_list
+    content:
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '''this'''
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: Promises
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'JS classes'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'General ES6 stuff'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Shopify cool stuff'
+avatar: work-profile.jpg
 id: 403ea432-7b6b-4563-85db-6c5802a00727
 password_hash: $2y$10$dc3NdZhK/8iXPvVFveYyW.p4bGdEj0JaLHKTv5RSxRduj1POcBGZm
 preferences:
@@ -18,4 +73,4 @@ preferences:
         - article_content
   assets:
     assets:
-      mode: table
+      mode: grid
