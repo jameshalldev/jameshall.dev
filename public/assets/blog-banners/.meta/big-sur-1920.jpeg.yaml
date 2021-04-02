@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'An image of Big Sur, California'
 size: 173426
 last_modified: 1617379324
 width: 1920

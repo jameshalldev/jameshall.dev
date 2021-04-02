@@ -2,11 +2,13 @@ name: 'James Hall'
 super: true
 bard:
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 3
     content:
       -
         type: text
-        text: 'Blog posts about '
+        text: 'Blog posts ideas '
   -
     type: bullet_list
     content:
@@ -55,7 +57,45 @@ bard:
               -
                 type: text
                 text: 'Shopify cool stuff'
-avatar: work-profile.jpg
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: To-do
+  -
+    type: bullet_list
+    content:
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Add fonts'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Structured data'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Meta images & data for social media'
+avatar: general/profile-100.jpg
 id: 403ea432-7b6b-4563-85db-6c5802a00727
 password_hash: $2y$10$dc3NdZhK/8iXPvVFveYyW.p4bGdEj0JaLHKTv5RSxRduj1POcBGZm
 preferences:

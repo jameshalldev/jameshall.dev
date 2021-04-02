@@ -34,6 +34,7 @@ sections:
           folder: general
           restrict: false
           allow_uploads: true
+          width: 25
   site_notes:
     display: 'Site notes'
     fields:

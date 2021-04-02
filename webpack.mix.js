@@ -7,6 +7,7 @@ mix.postCss('resources/css/tailwind.css', 'public/css', [
     require('postcss-nested'),
     require('postcss-preset-env')({stage: 0})
 ])
+
 mix.browserSync({
     proxy: 'jameshalldev.test',
     files: [

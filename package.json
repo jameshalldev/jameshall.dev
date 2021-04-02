@@ -16,6 +16,7 @@
         "cross-env": "^5.1",
         "headroom.js": "^0.12.0",
         "laravel-mix": "^4.0",
+        "laravel-mix-purgecss": "^6.0.0",
         "postcss-import": "^12.0.1",
         "postcss-nested": "^4.2.1",
         "postcss-preset-env": "^6.7.0",
@@ -26,7 +27,6 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
-        "lazyload": "^2.0.0-rc.2",
         "picoapp": "^3.6.2"
     }
 }

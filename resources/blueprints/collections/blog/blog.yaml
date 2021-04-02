@@ -151,6 +151,8 @@ sections:
           icon: users
           listable: hidden
           max_items: 1
+          validate:
+            - required
   meta:
     display: Meta
     fields:
@@ -163,6 +165,9 @@ sections:
           icon: text
           listable: hidden
           character_limit: 60
+          antlers: false
+          validate:
+            - required
       -
         handle: meta_description
         field:
@@ -171,3 +176,6 @@ sections:
           icon: textarea
           listable: hidden
           character_limit: '160'
+          antlers: false
+          validate:
+            - required

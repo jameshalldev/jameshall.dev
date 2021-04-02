@@ -1,8 +1,8 @@
 {{ if caption }}
     <figure class="my-8">
-        <img src="{{ image_src }}" alt="{{ image_src:alt }}">
+        {{ responsive:image_src alt="{image_src:alt}"}}
         <figcaption class="italic pt-2">{{ caption }}</figcaption>
     </figure>
 {{ else }}
-    <img class="my-8" src="{{ image_src }}" alt="{{ image_src:alt }}">
+    {{ responsive:image_src alt="{image_src:alt}" class="my-8" }}
 {{ endif }}

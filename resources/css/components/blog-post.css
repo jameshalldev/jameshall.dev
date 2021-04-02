@@ -2,14 +2,6 @@
     &__header {
         @apply min-h-0 h-0 relative;
         padding-top: 33.33% !important;
-
-        picture {
-            @apply absolute top-0 bottom-0 left-0 right-0 w-full h-full object-cover;    
-        }
-
-        img {
-            @apply h-full;
-        }
     }
 
     &__header-inner {

@@ -5,6 +5,7 @@
 
 /* Global */
 @import "globals/global";
+@import "globals/helpers";
 @import "globals/layout";
 @import "globals/rte";
 @import "globals/typography";
