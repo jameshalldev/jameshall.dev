@@ -1,6 +1,7 @@
 .body {
-    min-width: 320px !important;
     @apply min-h-screen flex flex-col  bg-background text-text antialiased;
+    min-width: 320px !important;
+    font-family: 'Nunito', system-ui;
 }
 
 .main {

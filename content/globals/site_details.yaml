@@ -1,9 +1,9 @@
 title: '1. Details'
 data:
   website_title: 'James Hall'
-  phone_number: '07802539967'
+  phone_number: '07802 539967'
   email_address: hello@jameshalldev.com
   location: 'Bristol, UK'
-  instagram: 'https://www.instagram.com/jameshalldev'
   twitter: 'https://twitter.com/jameshalldev'
   linkedin: 'https://www.linkedin.com/in/jameshalldev/'
+  github: 'https://github.com/jameshalldev'

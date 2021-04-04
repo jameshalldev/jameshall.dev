@@ -37,6 +37,9 @@ sections:
         handle: instagram
         field:
           type: text
+          listable: hidden
+          input_type: text
+          antlers: false
       -
         handle: twitter
         field:
@@ -45,3 +48,25 @@ sections:
         handle: linkedin
         field:
           type: text
+          display: LinkedIn
+          listable: hidden
+          input_type: text
+          antlers: false
+      -
+        handle: github
+        field:
+          input_type: text
+          antlers: false
+          display: GitHub
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: codepen
+        field:
+          input_type: text
+          antlers: false
+          display: CodePen
+          type: text
+          icon: text
+          listable: hidden

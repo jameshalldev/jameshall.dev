@@ -4,6 +4,7 @@
 @import "tailwindcss/utilities";
 
 /* Global */
+@import "globals/fonts";
 @import "globals/global";
 @import "globals/helpers";
 @import "globals/layout";
