@@ -1,20 +1,20 @@
 <div class="panel">
     <section class="section section--md contact">
-        <h1 class="mb-8 text-size-h1 text-center">{{ content | raw }}</h1>
+        <h1 class="mb-8 text-center text-size-h1">{{ content | raw }}</h1>
         {{ form:set is="contact" }}
             {{ form:create id="contact-form" }}
                 {{ if success }}
-                    <div class="bg-green-500 rounded p-4">
-                        {{ success }}
+                    <div class="success-message">
+                        Message submitted! 🎉
                     </div>
                 {{ else }}
                     {{ if error }}
                     <p>Oops, something went wrong!</p>
-                    <ul class="list-disc list-inside mb-4">
-                        {{ if error:name }}<li><span class="text-red-500 text-tiny italic">The name field is required</span></li>{{ /if }}
-                        {{ if error:email }}<li><span class="text-red-500 text-tiny italic">The email field is required</span></li>{{ /if }}
-                        {{ if error:message }}<li><span class="text-red-500 text-tiny italic">The message field is required</span></li>{{ /if }}
-                    </ul>
+                        <ul class="mb-4 list-disc list-inside">
+                            {{ if error:name }}<li><span class="italic text-red text-tiny">The name field is required</span></li>{{ /if }}
+                            {{ if error:email }}<li><span class="italic text-red text-tiny">The email field is required</span></li>{{ /if }}
+                            {{ if error:message }}<li><span class="italic text-red text-tiny">The message field is required</span></li>{{ /if }}
+                        </ul>
                     {{ endif }}
                     <div class="contact__input-container">
                         <label class="hidden">Name</label>

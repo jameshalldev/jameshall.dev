@@ -1,6 +1,6 @@
 .contact {
     input, textarea {
-        @apply rounded w-full p-4 bg-background_light;
+        @apply w-full p-4 rounded bg-background_light;
         &::placeholder {
             @apply text-text;
         }
@@ -18,12 +18,15 @@
         }
 
         .error {
-            @apply border-2;
-            border-color: #f56565;
+            @apply border-2 border-red;
         }
     }
 
+    .success-message {
+        @apply p-4 text-center rounded-md bg-green; 
+    }
+    
     button {
-        @apply transition-colors ease-in-out block mx-auto;
+        @apply block mx-auto transition-colors ease-in-out;
     }
 }

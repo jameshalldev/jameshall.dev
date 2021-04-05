@@ -28,12 +28,8 @@ module.exports = {
             accent_light: '#878bff',
 
             // General colours
-            red: "#FFB3BA",
-            orange: "#FFDFB9",
-            yellow: "#FFE9C8",
-            green: "#BBFFC9",
-            blue: '#74c2ff',
-
+            red: "#F56565",
+            green: "#619F3B",
         }
       },
       screens: {
