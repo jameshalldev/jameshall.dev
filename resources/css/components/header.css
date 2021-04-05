@@ -1,5 +1,5 @@
 .header {
-    @apply bg-background py-0 fixed z-20 border-b-2 border-background flex;
+    @apply fixed z-20 flex py-0 font-bold border-b-2 bg-background border-background;
     transition: 0.3s ease-in-out;
     transition-property: border, transform;
     will-change: border, transform;
@@ -11,16 +11,16 @@
     }
 
     &__inner {
-        @apply flex flex-row justify-between items-center w-full;
+        @apply flex flex-row items-center justify-between w-full;
     }
 
 
     &__site-title {
-        @apply font-bold text-lg mb-0 no-underline flex items-center;
+        @apply flex items-center mb-0 text-lg font-bold no-underline;
     }
 
     &__site-logo {
-        @apply text-accent fill-current w-6 h-6 ml-3;
+        @apply w-6 h-6 ml-3 fill-current text-accent;
     }
 
     &__nav {
@@ -28,7 +28,7 @@
     }
 
     &__nav-toggle {
-        @apply cursor-pointer text-text fill-current block z-40 rounded-full;
+        @apply z-40 block rounded-full cursor-pointer fill-current text-text;
         will-change: background;
         transition: 0.2s ease-in;
         transition-property: background;

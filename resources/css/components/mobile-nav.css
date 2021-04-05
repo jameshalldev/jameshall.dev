@@ -1,5 +1,5 @@
 .mobile-nav {
-    @apply fixed bg-background flex justify-center items-start z-30 border-2 border-text rounded-md;
+    @apply fixed z-30 flex items-start justify-center border-2 rounded-md bg-background border-text;
     transition: 0.3s ease-in-out;
     transition-property: transform;
     will-change: transform;
@@ -21,7 +21,7 @@
     }
 
     &__item-inner {
-        @apply inline-block py-2 px-4 mb-0 font-medium w-full;
+        @apply inline-block w-full px-4 py-2 mb-0;
         transition: 0.2s ease-in;
         transition-property: background-color;
         will-change: background-color;

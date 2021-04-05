@@ -1,5 +1,5 @@
 html {
-    @apply text-base font-medium;
+    @apply text-base font-semibold;
 }
 
 body {
@@ -7,11 +7,11 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  @apply leading-tight mb-4;
+  @apply mb-4 font-bold leading-tight;
 }
 
 a {
-  @apply text-text underline;
+  @apply underline text-text;
   transition: 0.2s ease-in;
   transition-property: color, fill;
   will-change: background, transform;
@@ -22,11 +22,11 @@ a {
 }
 
 p {
-  @apply mb-2 font-normal text-base;
+  @apply mb-2 text-base font-normal;
 }
 
 .text-size-h1 {
-  @apply font-bold mb-8;
+  @apply mb-8 font-bold;
 
   font-size: 2.375rem;
   @screen xs {
