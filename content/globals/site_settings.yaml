@@ -15,8 +15,8 @@ data:
     - shopify
     - liquid
     - sass
-    - craft-cms
     - statamic
+    - git
   enable_messages:
     - blog-card
   blog_message_text: 'More coming soon!'

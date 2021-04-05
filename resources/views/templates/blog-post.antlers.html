@@ -9,20 +9,24 @@
     </div>
     <div class="panel">
         <section class="section section--md">
-            <div class="flex mb-8 blog-post__upper">
-                <img class="w-16 h-16 rounded-full" src="{{ user:avatar }}" alt="{{ user:name }}'s avatar image">
-                <div class="flex flex-col justify-end pl-4">
-                    <span class="text-lg">{{ user:name }}</span>
-                    <span class="blog-post__date text-tiny">{{ date }}</span>
+            <div class="flex justify-between mb-8 blog-post__upper">
+                <div class="flex">
+                    <img class="w-16 h-16 rounded-full" src="{{ user:avatar }}" alt="{{ user:name }}'s avatar image">
+                    <div class="flex flex-col justify-center pl-4">
+                        <span class="text-lg">{{ user:name }}</span>
+                        <span class="font-medium blog-post__date text-tiny">{{ date }}</span>
+                    </div>
                 </div>
-                {{ partial src="partials/sharing-links" classes="ml-auto items-center justify-center"}}
+                {{ partial src="partials/sharing-links" classes="hidden xs:block"}}
             </div>
             <div class="rte">
                 <p class="mb-6 font-bold">{{ excerpt }}</p>
                 {{ article_content }}
-                {{ partial src="sets/{type}" }}
+                    {{ partial src="sets/{type}" }}
                 {{ /article_content }}
             </div>
+            <hr>
+            {{ partial src="partials/sharing-links" classes="flex items-center flex-col" }}
         </section>
     </div>
 </article>

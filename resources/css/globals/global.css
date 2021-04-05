@@ -1,6 +1,5 @@
 .body {
-    @apply flex flex-col min-h-screen antialiased tracking-tight bg-background text-text;
-    min-width: 320px !important;
+    @apply flex flex-col min-h-screen antialiased font-semibold tracking-tight bg-background text-text;
     font-family: 'Nunito', system-ui;
 }
 

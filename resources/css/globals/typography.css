@@ -22,8 +22,14 @@ a {
 }
 
 p {
-  @apply mb-2 text-base font-normal;
+  @apply mb-2 text-base;
 }
+
+hr {
+  @apply my-12 border-t-2 border-background_lighter;
+}
+
+/* Pseudo-headers */
 
 .text-size-h1 {
   @apply mb-8 font-bold;

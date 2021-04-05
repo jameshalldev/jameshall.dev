@@ -1,5 +1,5 @@
 .blog-card {
-    @apply px-0 pb-0 m-0 relative;
+    @apply relative px-0 pb-0 m-0;
     min-height: 160px;
     height: 160px;
 
@@ -14,7 +14,7 @@
     }
     
     &__image-overlay {
-        @apply bg-black opacity-25 pointer-events-none rounded-md;
+        @apply bg-black rounded-md opacity-25 pointer-events-none;
     }
 
     &__inner {
@@ -22,7 +22,7 @@
     }
 
     &__text {
-        @apply text-text flex flex-col justify-center items-center p-4;
+        @apply flex flex-col items-center justify-center p-4 text-text;
 
         @screen sm {
             @apply p-12;
@@ -30,7 +30,7 @@
     }
 
     &__title {
-        @apply m-0 text-center mb-1;
+        @apply m-0 mb-1 text-center;
         text-shadow: 1px 1px 50px black;
         box-shadow: none;
 
@@ -44,7 +44,7 @@
     }
 
     &__date {
-        @apply m-0 text-sm; 
+        @apply m-0 text-sm font-medium; 
         text-shadow: 1px 1px 50px black;
         box-shadow: none;
 
