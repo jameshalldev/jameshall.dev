@@ -5,7 +5,7 @@ return [
     'sitekey' => env('CAPTCHA_SITEKEY', ''),
     'secret' => env('CAPTCHA_SECRET', ''),
     'collections' => [],
-    'forms' => [],
+    'forms' => ['contact'],
     'user_registration' => false,
     'error_message' => 'Captcha failed.',
     'disclaimer' => '',
