@@ -16,9 +16,9 @@ return [
     'sites' => [
 
         'default' => [
-            'name' => config('app.name'),
+            'name' => env('APP_NAME'),
             'locale' => 'en_US',
-            'url' => 'http://jameshalldev.test/',
+            'url' => env('APP_URL'),
         ],
 
     ],
