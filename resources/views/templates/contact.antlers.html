@@ -14,6 +14,7 @@
                             {{ if error:name }}<li><span class="italic text-red text-tiny">The name field is required</span></li>{{ /if }}
                             {{ if error:email }}<li><span class="italic text-red text-tiny">The email field is required</span></li>{{ /if }}
                             {{ if error:message }}<li><span class="italic text-red text-tiny">The message field is required</span></li>{{ /if }}
+                            {{ if error:captcha }}<li><span class="italic text-red text-tiny">The CAPTCHA input failed. Please try again. </span></li>{{ /if }}
                         </ul>
                     {{ endif }}
                     <div class="contact__input-container">
@@ -29,6 +30,10 @@
                     <div class="contact__input-container">
                         <label class="hidden">Message</label>
                         <textarea {{ if error:message }}class="error"{{ endif }} type="message" rows="5" id="message" name="message" value="{{ old:message }}" placeholder="Message" data-msg="A message is required"></textarea>
+                    </div>
+
+                    <div class="contact__input-container">
+                        {{ captcha }}
                     </div>
 
                     <button type="submit" class="btn">

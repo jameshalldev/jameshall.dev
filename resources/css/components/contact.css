@@ -20,6 +20,10 @@
         .error {
             @apply border-2 border-red;
         }
+
+        .g-recaptcha > div {
+            @apply mx-auto;
+        }
     }
 
     .success-message {

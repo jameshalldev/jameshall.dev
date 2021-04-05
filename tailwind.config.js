@@ -29,7 +29,7 @@ module.exports = {
 
             // General colours
             red: "#F56565",
-            green: "#619F3B",
+            green: "#64BD63",
         }
       },
       screens: {
