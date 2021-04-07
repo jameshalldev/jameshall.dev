@@ -20764,13 +20764,9 @@ pre {
 .header__nav-toggle:focus {
       outline: 2px solid transparent;
       outline-offset: 2px;
-    }
-
-@media (min-width: 640px) {
-
-.header__nav-toggle {
-      display: none
-  }
+      --bg-opacity: 1;
+      background-color: #353a46;
+      background-color: rgba(53, 58, 70, var(--bg-opacity));
     }
 
 .header__nav-toggle:hover {
@@ -20783,6 +20779,13 @@ pre {
       --bg-opacity: 1;
       background-color: #353a46;
       background-color: rgba(53, 58, 70, var(--bg-opacity));
+    }
+
+@media (min-width: 640px) {
+
+.header__nav-toggle {
+      display: none
+  }
     }
 
 /* Headroom default */

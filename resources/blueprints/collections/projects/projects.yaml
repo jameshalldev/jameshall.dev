@@ -83,3 +83,8 @@ sections:
           listable: hidden
           validate:
             - required
+  meta_data:
+    display: 'Meta data'
+    fields:
+      -
+        import: meta_details

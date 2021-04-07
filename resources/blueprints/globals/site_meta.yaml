@@ -1,0 +1,6 @@
+sections:
+  main:
+    display: 'Meta data'
+    fields:
+      -
+        import: meta_details

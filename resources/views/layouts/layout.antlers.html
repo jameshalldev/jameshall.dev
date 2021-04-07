@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ meta_title ?? title }}</title>
-        <meta name="description" content="{{ meta_description }}">
+        <title>{{ meta_title ?? site_meta:meta_title }}</title>
+        <meta name="description" content="{{ meta_description ?? site_meta:meta_description }}">
         <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
         <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
         <link rel="stylesheet" href="/css/prism.css">
@@ -28,7 +28,9 @@
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#262B36">
         
-        {{ if title == 'Contact' }}{{ captcha:head }}{{ endif }}
+        {{ if title == 'Contact' }}
+            {{ captcha:head }}
+        {{ endif }}
 
         {{# Global site tag (gtag.js) - Google Analytics #}}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z0TD91X99Y"></script>

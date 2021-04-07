@@ -11,11 +11,13 @@ const toggleNav = () => {
         mobileNav.classList.add('hidden')
         navCloseIcon.classList.add('hidden');
         navMenuIcon.classList.remove('hidden');
+        navToggle.setAttribute("aria-expanded", "false");
         isNavOpen = false;
     } else {
         mobileNav.classList.remove('hidden')
         navCloseIcon.classList.remove('hidden');
         navMenuIcon.classList.add('hidden');
+        navToggle.setAttribute("aria-expanded", "true");
         isNavOpen = true;
     }
 }

@@ -19,17 +19,17 @@
                     {{ endif }}
                     <div class="contact__input-container">
                         <label class="hidden">Name</label>
-                        <input {{ if error:name }}class="error"{{ endif }} type="text" id="name" name="name" value="{{ old:name }}" placeholder="Name" data-msg="A name is required" />
+                        <input {{ if error:name }}class="error"{{ endif }} type="text" id="name" name="name" value="{{ old:name }}" placeholder="Name" data-msg="A name is required" required/>
                     </div>
 
                     <div class="contact__input-container">
                         <label class="hidden">Email</label>
-                        <input {{ if error:email }}class="error"{{ endif }} type="email" id="email" name="email" value="{{ old:email }}" placeholder="Email" data-msg="An email address is required" />
+                        <input {{ if error:email }}class="error"{{ endif }} type="email" id="email" name="email" value="{{ old:email }}" placeholder="Email" data-msg="An email address is required" required/>
                     </div>
 
                     <div class="contact__input-container">
                         <label class="hidden">Message</label>
-                        <textarea {{ if error:message }}class="error"{{ endif }} type="message" rows="5" id="message" name="message" value="{{ old:message }}" placeholder="Message" data-msg="A message is required"></textarea>
+                        <textarea {{ if error:message }}class="error"{{ endif }} type="message" rows="5" id="message" name="message" value="{{ old:message }}" placeholder="Message" data-msg="A message is required" required></textarea>
                     </div>
 
                     <div class="contact__input-container">

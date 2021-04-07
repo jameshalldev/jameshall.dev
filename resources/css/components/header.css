@@ -32,25 +32,24 @@
         will-change: background;
         transition: 0.2s ease-in;
         transition-property: background;
-
         height: 50px;
         width: 50px;
         padding: 5px;
 
         &:focus {
-            @apply outline-none;
+            @apply outline-none bg-background_lighter;
         }
-
-        @screen sm {
-            @apply hidden;
-        }
-
+        
         &:hover {
             @apply bg-background_lighter;
         }
-
+        
         &.active {
             @apply bg-background_lighter;
+        }
+        
+        @screen sm {
+            @apply hidden;
         }
     }
 }

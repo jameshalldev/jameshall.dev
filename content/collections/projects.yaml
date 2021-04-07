@@ -1,8 +1,6 @@
 title: Projects
-template: templates/projects-post
 layout: layout
 revisions: false
-route: '/projects/{slug}'
 date: true
 sort_dir: asc
 date_behavior:

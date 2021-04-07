@@ -153,29 +153,8 @@ sections:
           max_items: 1
           validate:
             - required
-  meta:
-    display: Meta
+  meta_data:
+    display: 'Meta data'
     fields:
       -
-        handle: meta_title
-        field:
-          input_type: text
-          display: 'Meta title'
-          type: text
-          icon: text
-          listable: hidden
-          character_limit: 60
-          antlers: false
-          validate:
-            - required
-      -
-        handle: meta_description
-        field:
-          display: 'Meta description'
-          type: textarea
-          icon: textarea
-          listable: hidden
-          character_limit: '160'
-          antlers: false
-          validate:
-            - required
+        import: meta_details
