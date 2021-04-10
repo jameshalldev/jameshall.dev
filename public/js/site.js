@@ -575,6 +575,52 @@ module.exports = g;
 
 /***/ }),
 
+/***/ "./resources/js/components/contactForm.js":
+/*!************************************************!*\
+  !*** ./resources/js/components/contactForm.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var ajaxContactForm = function ajaxContactForm() {
+  var form = document.getElementById('contact-form');
+  var submit = document.querySelector('[data-contact-submit]');
+  var success = document.querySelector('[data-contact-success]');
+  var reCaptchaMessage = document.querySelector('[data-contact-recaptcha-fail]');
+
+  function isCaptchaChecked() {
+    return grecaptcha && grecaptcha.getResponse().length !== 0;
+  }
+
+  if (form != null) {
+    console.log('Contact form');
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var form = e.target;
+      var data = new FormData(form);
+      var request = new XMLHttpRequest();
+
+      if (isCaptchaChecked()) {
+        reCaptchaMessage.classList.add('hidden');
+
+        request.onreadystatechange = function () {
+          form.classList.add('hidden');
+          success.classList.remove('hidden');
+        };
+
+        request.open(form.method, form.action);
+        request.send(data);
+      } else {
+        reCaptchaMessage.classList.remove('hidden');
+      }
+    });
+  }
+};
+
+ajaxContactForm();
+
+/***/ }),
+
 /***/ "./resources/js/components/headerHide.js":
 /*!***********************************************!*\
   !*** ./resources/js/components/headerHide.js ***!
@@ -669,14 +715,17 @@ toggleNav();
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _components_headerScroll_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/headerScroll.js */ "./resources/js/components/headerScroll.js");
-/* harmony import */ var _components_headerScroll_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_headerScroll_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_headerHide_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/headerHide.js */ "./resources/js/components/headerHide.js");
-/* harmony import */ var _components_mobileNav_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/mobileNav.js */ "./resources/js/components/mobileNav.js");
-/* harmony import */ var _components_mobileNav_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_mobileNav_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _vendor_prism_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./vendor/prism.js */ "./resources/js/vendor/prism.js");
-/* harmony import */ var _vendor_prism_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_vendor_prism_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_contactForm_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/contactForm.js */ "./resources/js/components/contactForm.js");
+/* harmony import */ var _components_contactForm_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_contactForm_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_headerScroll_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/headerScroll.js */ "./resources/js/components/headerScroll.js");
+/* harmony import */ var _components_headerScroll_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_headerScroll_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_headerHide_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/headerHide.js */ "./resources/js/components/headerHide.js");
+/* harmony import */ var _components_mobileNav_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/mobileNav.js */ "./resources/js/components/mobileNav.js");
+/* harmony import */ var _components_mobileNav_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_components_mobileNav_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _vendor_prism_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./vendor/prism.js */ "./resources/js/vendor/prism.js");
+/* harmony import */ var _vendor_prism_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_vendor_prism_js__WEBPACK_IMPORTED_MODULE_4__);
 // Components
+
 
 
  // Vendor

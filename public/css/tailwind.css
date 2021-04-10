@@ -20509,6 +20509,23 @@ pre {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
+.contact input:-webkit-autofill,
+    .contact input:-webkit-autofill:hover,
+    .contact input:-webkit-autofill:focus,
+    .contact textarea:-webkit-autofill,
+    .contact textarea:-webkit-autofill:hover,
+    .contact textarea:-webkit-autofill:focus,
+    .contact select:-webkit-autofill,
+    .contact select:-webkit-autofill:hover,
+    .contact select:-webkit-autofill:focus {
+    -webkit-text-fill-color: #FFF4E5;
+    caret-color: #FFF4E5;
+    -webkit-box-shadow: 0 0 0px 1000px #303644 inset;
+    -webkit-transition: background-color 5000s ease-in-out 0s;
+    transition: background-color 5000s ease-in-out 0s;
+    font-weight: 700;
+  }
+
 .desktop-nav {
   display: none;
 }

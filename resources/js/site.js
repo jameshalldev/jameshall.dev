@@ -1,4 +1,5 @@
 // Components
+import contactForm from './components/contactForm.js';
 import headerScroll from './components/headerScroll.js';
 import headerHide from './components/headerHide.js';
 import mobileNav from './components/mobileNav.js';
