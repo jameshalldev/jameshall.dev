@@ -2,9 +2,11 @@ title: '2. Settings'
 data:
   nav_items:
     - Home
+    - Blog
     - Contact
   homepage_content:
     - skills
+    - blog
     - about
   skills:
     - html

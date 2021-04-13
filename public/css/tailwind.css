@@ -19838,7 +19838,6 @@ video {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
-  letter-spacing: -0.025em;
   --bg-opacity: 1;
   background-color: #262b35;
   background-color: rgba(38, 43, 53, var(--bg-opacity));
@@ -19969,10 +19968,11 @@ video {
   }
 
 .rte ul {
-    list-style-position: inside;
+    list-style-position: outside;
   }
 
 .rte ul li {
+      margin-bottom: 0.5rem;
       list-style-type: disc;
     }
 
@@ -19981,7 +19981,7 @@ video {
       }
 
 .rte ol {
-    list-style-position: inside;
+    list-style-position: outside;
   }
 
 .rte ol li {

@@ -12,9 +12,9 @@
     }
 
     ul {
-        @apply list-inside ;
+        @apply list-outside;
         li {
-            @apply list-disc;
+            @apply mb-2 list-disc;
             p {
                 @apply inline;
             }
@@ -22,7 +22,7 @@
     }
 
     ol {
-        @apply list-inside;
+        @apply list-outside;
         li {
             @apply list-decimal;
             p {
