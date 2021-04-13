@@ -153,6 +153,13 @@ sections:
           max_items: 1
           validate:
             - required
+      -
+        handle: disable_social_links
+        field:
+          display: 'Disable social links'
+          type: toggle
+          icon: toggle
+          listable: hidden
   meta_data:
     display: 'Meta data'
     fields:
