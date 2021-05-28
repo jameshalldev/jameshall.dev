@@ -3,7 +3,7 @@ Requires further work to link to article variables
 
 Use the following markup in layout.antlers.html :
 {{ if collection == 'blog' }}
-    {{ partial src="partials/structured-data/{collection}" }}
+    {{ partial src="partials/meta/{collection}-data" }}
 {{ endif }}
 
 {%- endcomment -%}

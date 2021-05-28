@@ -28,9 +28,9 @@
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#262B36">
         
-        {{ if title == 'Contact' }}
-            {{ captcha:head }}
-        {{ endif }}
+        {{ if title == 'Contact' }}{{ captcha:head }}{{ endif }}
+
+        {{ partial src="meta/opengraph" }}
 
         {{# Global site tag (gtag.js) - Google Analytics #}}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z0TD91X99Y"></script>

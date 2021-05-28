@@ -21,6 +21,7 @@ sections:
           type: assets
           icon: assets
           listable: hidden
+          instructions: 'Recommended dimensions: 1920 × 750'
       -
         handle: excerpt
         field:

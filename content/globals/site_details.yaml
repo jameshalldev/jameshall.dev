@@ -4,6 +4,6 @@ data:
   phone_number: '07802 539967'
   email_address: hello@jameshalldev.com
   location: 'Bristol, UK'
-  twitter: 'https://twitter.com/jameshalldev'
-  linkedin: 'https://www.linkedin.com/in/jameshalldev/'
-  github: 'https://github.com/jameshalldev'
+  twitter: jameshalldev
+  linkedin: jameshalldev
+  github: jameshalldev

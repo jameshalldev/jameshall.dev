@@ -3,6 +3,7 @@ const mix = require('laravel-mix');
 mix.js('resources/js/site.js', 'public/js')
 
 mix.copyDirectory('resources/fonts', 'public/fonts')
+mix.copyDirectory('resources/images', 'public/images')
 
 mix.postCss('resources/css/tailwind.css', 'public/css', [
     require('postcss-import'),
