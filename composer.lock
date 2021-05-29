@@ -4,8 +4,63 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b0beff50fcbe02b4fa6bbc3bf0ac490",
+    "content-hash": "a8dd6b292a3da17764114c0ecee30a40",
     "packages": [
+        {
+            "name": "aerni/imagekit",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aerni/statamic-imagekit.git",
+                "reference": "52804ac15dab70959486e3465496b38097e65793"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aerni/statamic-imagekit/zipball/52804ac15dab70959486e3465496b38097e65793",
+                "reference": "52804ac15dab70959486e3465496b38097e65793",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Imagekit",
+                    "description": "Easily generate ImageKit URLs"
+                },
+                "laravel": {
+                    "providers": [
+                        "Aerni\\Imagekit\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Aerni\\Imagekit\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Aerni",
+                    "email": "hello@michaelaerni.ch",
+                    "homepage": "https://www.michaelaerni.ch",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easily generate ImageKit URLs",
+            "homepage": "https://github.com/aerni/statamic-imagekit",
+            "keywords": [
+                "imagekit",
+                "statamic"
+            ],
+            "support": {
+                "issues": "https://github.com/aerni/statamic-imagekit/issues",
+                "source": "https://github.com/aerni/statamic-imagekit/tree/master"
+            },
+            "time": "2020-08-28T10:45:45+00:00"
+        },
         {
             "name": "aryehraber/statamic-captcha",
             "version": "v1.4.0",

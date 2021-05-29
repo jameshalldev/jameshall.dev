@@ -1,22 +1,11 @@
 <!-- Opengraph -->
+<meta property="og:title" content="{{ title }}"/>
+<meta property="og:type" content="Article"/>
+<meta property="og:url" content="{{ site | url }}{{ url }}"/>
 {{ if collection == 'blog' }}
-    <meta property="og:title" content="{{ title }}"/>
-    <meta property="og:type" content="Article"/>
-    <meta property="og:url" content="{{ site | url }}{{ url }}"/>
-    <!-- Apply specific og:image if available, or generic banner_image if not -->
-    <meta property="og:image" content="{{ banner_image }}">
-{{ elseif collection == 'projects' }}
-    <meta property="og:title" content="{{ title }}"/>
-    <meta property="og:type" content="Article"/>
-    <meta property="og:url" content="{{ site | url }}{{ url }}"/>
-    <!-- Apply projects image -->
-    <meta property="og:image" content=""/>
+    <meta property="og:image" content="{{ site | url }}{{ banner_image }}">
 {{ else }}
-    <meta property="og:title" content="{{ title }}"/>
-    <meta property="og:type" content="Website"/>
-    <meta property="og:url" content="{{ site | url }}{{ url }}"/>
-    <!-- Apply generic image -->
-    <meta property="og:image" content=""/>
+    <meta property="og:image" content="{{ site | url }}{{ site_meta:og_image }}">
 {{ endif }}
 
 <!-- Twitter -->
@@ -24,8 +13,9 @@
 <meta name="twitter:creator" content="James Hall">
 <meta name="twitter:title" content="{{ title }}">
 <meta name="twitter:card" content="summary_large_image">
-{{ if collection == 'blog' }}
-    <!-- Apply specific Twitter if available, or generic banner_image if not -->
+{{ if collection != 'blog' }}
+    <meta name="twitter:image" content="{{ site | url }}{{ site_meta:twitter_image }}">
+{{ else }}
     <meta name="twitter:image" content="{{ site | url }}{{ banner_image }}">
     {{ if meta_description }}
         <meta name="twitter:description" content="{{ meta_description ?? site_meta:meta_description }}">
@@ -36,7 +26,4 @@
             {{ endif }}
         {{ /collection }}
     {{ endif }}
-{{ else }}
-    <!-- Apply generic image -->
-    <meta name="twitter:image" content="">
 {{ endif }}

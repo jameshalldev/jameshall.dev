@@ -2,3 +2,5 @@ title: '4. Meta'
 data:
   meta_title: 'James Hall – Web developer'
   meta_description: 'James Hall is a Bristol-based web developer that specialises in Shopify development.'
+  og_image: meta-images/ogimage.png
+  twitter_image: meta-images/twitter.png

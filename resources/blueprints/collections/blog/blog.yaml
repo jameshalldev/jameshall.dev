@@ -166,3 +166,5 @@ sections:
     fields:
       -
         import: meta_details
+      -
+        import: meta_images

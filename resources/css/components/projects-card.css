@@ -1,5 +1,5 @@
 .projects-card {
-   @apply flex flex-col justify-start block w-full p-6 rounded-md bg-text bg-background_dark;
+   @apply flex flex-col justify-start block w-full p-6 rounded-md bg-text bg-background_light;
    @screen sm {
       @apply p-12;
    }

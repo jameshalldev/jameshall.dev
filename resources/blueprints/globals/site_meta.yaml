@@ -4,3 +4,8 @@ sections:
     fields:
       -
         import: meta_details
+  meta_images:
+    display: 'Meta images'
+    fields:
+      -
+        import: meta_images
