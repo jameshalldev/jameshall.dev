@@ -1,14 +1,25 @@
-<!-- Opengraph -->
 <meta property="og:title" content="{{ title }}"/>
 <meta property="og:type" content="Article"/>
 <meta property="og:url" content="{{ site | url }}{{ url }}"/>
-{{ if collection == 'blog' }}
-    <meta property="og:image" content="{{ site | url }}{{ banner_image }}">
-{{ else }}
+{{ if collection != 'blog' }}
     <meta property="og:image" content="{{ site | url }}{{ site_meta:og_image }}">
+    <meta property="og:description" content="{{ meta_description ?? site_meta:meta_description }}">
+{{ else }}
+    <meta property="og:image" content="{{ site | url }}{{ banner_image }}">
+    <meta property="og:description" content="{{ meta_description ?? site_meta:meta_description }}">
+    {{ if meta_description }}
+        <meta property="og:description" content="{{ meta_description }}">
+    {{ elseif excerpt }}
+        <meta property="og:description" content="{{ excerpt }}">
+    {{ else }}
+        {{ collection from="pages" }}
+            {{ if title == 'Blog' }}
+                <meta property="og:description" content="{{ meta_description ?? site_meta:meta_description }}">
+            {{ endif }}
+        {{ /collection }}
+    {{ endif }}
 {{ endif }}
 
-<!-- Twitter -->
 <meta name="twitter:site" content="{{ site_details:twitter insert="@|0" }}">
 <meta name="twitter:creator" content="James Hall">
 <meta name="twitter:title" content="{{ title }}">
@@ -20,15 +31,13 @@
     <meta name="twitter:image" content="{{ site | url }}{{ banner_image }}">
     {{ if meta_description }}
         <meta name="twitter:description" content="{{ meta_description }}">    
+    {{ elseif excerpt }}
+        <meta name="twitter:description" content="{{ excerpt }}">    
     {{ else }}
-        {{ if excerpt }}
-            <meta name="twitter:description" content="{{ excerpt }}">    
-        {{ else }}
-            {{ collection from="pages" }}
-                {{ if title == 'Blog' }}
-                    <meta name="twitter:description" content="{{ meta_description ?? site_meta:meta_description }}">
-                {{ endif }}
-            {{ /collection }}
-        {{ endif }}
+        {{ collection from="pages" }}
+            {{ if title == 'Blog' }}
+                <meta name="twitter:description" content="{{ meta_description ?? site_meta:meta_description }}">
+            {{ endif }}
+        {{ /collection }}
     {{ endif }}
 {{ endif }}
