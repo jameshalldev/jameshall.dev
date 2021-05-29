@@ -15,15 +15,20 @@
 <meta name="twitter:card" content="summary_large_image">
 {{ if collection != 'blog' }}
     <meta name="twitter:image" content="{{ site | url }}{{ site_meta:twitter_image }}">
+    <meta name="twitter:description" content="{{ meta_description ?? site_meta:meta_description }}">
 {{ else }}
     <meta name="twitter:image" content="{{ site | url }}{{ banner_image }}">
     {{ if meta_description }}
-        <meta name="twitter:description" content="{{ meta_description ?? site_meta:meta_description }}">
+        <meta name="twitter:description" content="{{ meta_description }}">    
     {{ else }}
-        {{ collection from="pages" }}
-            {{ if title == 'Blog' }}
-                <meta name="twitter:description" content="{{ meta_description ?? site_meta:meta_description }}">
-            {{ endif }}
-        {{ /collection }}
+        {{ if excerpt }}
+            <meta name="twitter:description" content="{{ excerpt }}">    
+        {{ else }}
+            {{ collection from="pages" }}
+                {{ if title == 'Blog' }}
+                    <meta name="twitter:description" content="{{ meta_description ?? site_meta:meta_description }}">
+                {{ endif }}
+            {{ /collection }}
+        {{ endif }}
     {{ endif }}
 {{ endif }}
