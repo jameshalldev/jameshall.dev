@@ -7,7 +7,9 @@
         <meta name="description" content="{{ meta_description ?? site_meta:meta_description }}">
         <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
         <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
-        <link rel="stylesheet" href="/css/prism.css">
+        {{ if collection == 'blog' }}
+            <link rel="stylesheet" href="/css/prism.css">
+        {{ endif }}
         
         {{# Favicons #}}
         <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
