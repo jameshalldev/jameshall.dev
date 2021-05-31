@@ -16,6 +16,7 @@
 @import "components/blog-post";
 @import "components/contact-info";
 @import "components/contact";
+@import "components/copy-to-clipboard";
 @import "components/desktop-nav";
 @import "components/footer";
 @import "components/front-page";
