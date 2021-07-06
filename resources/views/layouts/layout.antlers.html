@@ -52,7 +52,10 @@
             {{ template_content }}
         </main>
 
-        {{ partial:partials/global/footer }}
+        {{ if template != 'templates/contact' }}
+            {{ partial:partials/global/footer }}
+        {{ endif }}
+
         
         <script type="text/javascript" async="" src="{{ mix src='js/site.js' }}"></script>
     </body>

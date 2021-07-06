@@ -13,7 +13,7 @@ mix.postCss('resources/css/tailwind.css', 'public/css', [
 ])
 
 mix.browserSync({
-    proxy: 'jameshalldev.test',
+    proxy: 'jameshall.test',
     files: [
         'resources/**/*',
     ]
