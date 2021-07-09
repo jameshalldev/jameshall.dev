@@ -3,7 +3,7 @@
 {{ site_settings.homepage_content }}
     {{# MY_SKILLS #}}
     {{ if value == 'skills' }}
-        <div class="panel">
+        <div class="panel panel--home">
             <section class="section section--lg skills">
                 <h2 class="text-size-h2">
                     {{ site_content:skills_header }}
@@ -26,7 +26,7 @@
 
     {{# PROJECTS #}}
     {{ if value == 'projects' }}
-        <div class="panel">
+        <div class="panel panel--home">
             <section class="section section--lg latest-projects">
                 <h2 class="text-size-h2">
                     {{ site_content:featured_project_header }}
@@ -48,7 +48,7 @@
                     cols_desktop="1"
                     grid_gap="gap-4 sm:gap-8"
                 }}
-                <div class="block flex justify-center">
+                <div class="flex justify-center block">
                     <a class="latest-projects__view" href="/projects">View all</a>
                 </div>
             </section>
@@ -57,7 +57,7 @@
 
     {{# BLOG #}}
     {{ if value == 'blog' }}
-        <div class="panel">
+        <div class="panel panel--home">
             <section class="section section--lg latest-blog-posts">
                 <h2 class="text-size-h2">
                     {{ site_content:featured_blog_header }}
@@ -79,7 +79,7 @@
                     cols_desktop="1"
                     grid_gap="gap-4 sm:gap-8"
                 }}
-                <div class="block flex justify-center">
+                <div class="flex justify-center block">
                     <a class="latest-blog-posts__view" href="/blog">View all</a>
                 </div>
             </section>
@@ -88,15 +88,15 @@
 
     {{# ABOUT #}}
     {{ if value == 'about' }}
-        <div class="panel">
+        <div class="panel panel--home">
             <section class="section section--lg about">
                 <div class="about__inner">
                     <div class="about__text">
                         <h2 class="text-size-h2 about__text-header">{{ site_content:about_header }}</h2>
-                        <p class="about__text-body mb-4 text-base">{{ site_content:about_body }}</p>
+                        <p class="mb-4 text-base about__text-body">{{ site_content:about_body }}</p>
                         <p class="about__text-footer text-tiny">{{ site_content:about_footer }}</p>
                     </div>
-                <img width="320px" height="320px" class="about__image mt-6 md:mt-0" src="{{ site_content:about_image }}" alt="{{ site_content:about_image.alt }}">
+                <img width="320px" height="320px" class="mt-6 about__image md:mt-0" src="{{ site_content:about_image }}" alt="{{ site_content:about_image.alt }}">
                 </div>
             </section>
         </div>

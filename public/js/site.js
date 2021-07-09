@@ -658,14 +658,20 @@ headroom.init();
 /***/ (function(module, exports) {
 
 var header = document.querySelector('[data-header]');
-var headerScrollValue = 15;
+var headerScrollValue = 1;
 window.addEventListener('scroll', function () {
+  scrollFunc();
+});
+
+var scrollFunc = function scrollFunc() {
   if (window.pageYOffset > headerScrollValue) {
     header.classList.add('header--scrolled');
   } else {
     header.classList.remove('header--scrolled');
   }
-});
+};
+
+scrollFunc();
 
 /***/ }),
 

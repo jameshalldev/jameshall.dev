@@ -74,3 +74,13 @@ sections:
         handle: projects_message_text
         field:
           type: text
+  contact_form:
+    display: 'Contact form'
+    fields:
+      -
+        handle: enable_contact_form
+        field:
+          display: 'Enable contact form'
+          type: toggle
+          icon: toggle
+          listable: hidden

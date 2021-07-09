@@ -15,11 +15,10 @@ module.exports = {
         colors: {
             // Core colours
             text: '#fff4e7',
-            background: '#262b35', 
-            background_light: '#303644', 
-            background_lighter: '#353a46', 
-            background_dark: '#20252D', 
-            background_darker: '#16191f', 
+            background: '#222a3c', 
+            background_light: '#2c354a', 
+            background_lighter: '#374158', 
+            background_dark: '#1b2635', 
 
             gray: '#c4c5e2',
 

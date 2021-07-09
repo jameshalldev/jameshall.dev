@@ -39,7 +39,7 @@
     }
 
     pre {
-        @apply rounded-md bg-background_darker;
+        @apply rounded-md bg-background_dark;
         background-color: #16191f !important;
         margin-top: 24px !important;
         margin-bottom: 24px !important;

@@ -1,9 +1,10 @@
 title: '1. Details'
 data:
-  website_title: 'James Hall'
+  website_title: jameshall.dev
   phone_number: '07802 539967'
-  email_address: jim@thoughtandmortar.com
+  email_address: hello@jameshall.dev
   location: 'Bristol, UK'
   twitter: jameshalldev
   linkedin: jameshalldev
   github: jameshalldev
+  codepen: jameshalldev

@@ -1,22 +1,32 @@
 <article class="projects-card {{ classes }}">
     <h2 class="projects-card__title text-size-h2">{{ title }}</h2>
     {{ partial src="technology-stack" }}
-    <p class="projects-card__desc">{{ description }}</p>
+    <div class="projects-card__desc rte">{{ description }}</div>
 
-    {{ if github or view }}
-        <div class="projects-card__bottom flex flex-row justify-center">
-            <a href="{{ github }}" target="_blank" role="button" class="btn mr-2">
-                <span class="btn__inner flex items-center justify-center">
-                    <span class="text-tiny">Github</span>
-                    <span style="width: 18px; height: 18px;" class="fill-current inline-block ml-2">{{ partial src="icons/github" }}</span>
-                </span>
-            </a>
-            <a href="{{ view }}" target="_blank" role="button" class="btn">
-                <span class="btn__inner flex items-center justify-center">
-                    <span class="text-tiny">View</span>
-                    <span style="width: 18px; height: 18px;" class="fill-current inline-block ml-2">{{ partial src="icons/link" }}</span>
-                </span>
-            </a>
+    {{ if github_url or view_url }}
+        <div class="flex flex-row justify-center mt-6 projects-card__bottom">
+            {{ if github_url }}
+                <a href="{{ github_url }}" target="_blank" role="button" class="mr-2 btn">
+                    <span class="flex items-center justify-center btn__inner">
+                        <span class="text-tiny">Github</span>
+                        <span style="width: 18px; height: 18px;" class="inline-block ml-2 fill-current">{{ partial src="icons/github" }}</span>
+                    </span>
+                </a>
+            {{ endif }}
+            {{ if view_url }}
+                <a href="{{ view_url }}" target="_blank" role="button" class="btn">
+                    <span class="flex items-center justify-center btn__inner">
+                        <span class="text-tiny">View</span>
+                        <span style="width: 18px; height: 18px;" class="inline-block ml-2 fill-current">
+                            {{ if view_url | contains:codepen}}
+                                {{ partial src="icons/codepen" sizing="18" }}
+                            {{ else }}
+                                {{ partial src="icons/link" }}
+                            {{ endif }}
+                        </span>
+                    </span>
+                </a>
+            {{ endif }}
         </div>
     {{ endif }}
 </article>

@@ -1,13 +1,13 @@
 .header {
-    @apply fixed z-20 flex py-0 font-bold border-b-2 bg-background border-background;
+    @apply fixed z-20 flex py-0 font-bold;
     transition: 0.3s ease-in-out;
     transition-property: border, transform;
-    will-change: border, transform;
+    will-change: border, background, transform;
     height: 70px;
 
 
     &--scrolled {
-        @apply border-b-2 border-background_light;
+        @apply bg-background;
     }
 
     &__inner {

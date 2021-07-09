@@ -1,13 +1,16 @@
 <div class="panel">
     <section class="section section--md contact">
         <h1 class="mb-8 text-center text-size-h1">{{ content | raw }}</h1>
-        {{# partial src="forms/contact" #}}
-        <div class="p-8">
-            <div class="text-center">
-                <h2>Want to ask a question? Discuss a project? Ask my favourite colour?</h2>
-                <p class="mb-8">Get in touch! 👇</p>
+        {{ if site_settings.enable_contact_form == 1 }}
+            {{ partial src="forms/contact" }}
+        {{ else }}
+            <div class="p-8">
+                <div class="text-center">
+                    <h2>Want to ask a question? Discuss a project? Ask my favourite colour?</h2>
+                    <p class="mb-8">Get in touch! 👇</p>
+                </div>
+                <div class="max-w-sm p-6 m-auto text-center rounded-md bg-background_light">{{ partial src="contact-info" }}</div>
             </div>
-            <div class="max-w-sm p-6 m-auto text-center rounded-md bg-background_light">{{ partial src="contact-info" }}</div>
-        </div>
+        {{ endif }}
     </section>
 </div>

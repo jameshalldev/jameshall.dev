@@ -1,6 +1,7 @@
 .footer {
-    @apply px-6 py-10 font-bold bg-background_dark;
+    @apply px-6 py-10 font-bold;
     margin-top: auto !important;
+    background-color: #00000026;
     
     @screen md {
         @apply px-12 py-12;

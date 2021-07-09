@@ -7,7 +7,7 @@
     }
 
     &__image {
-        @apply rounded-full mx-auto mt-6;
+        @apply mx-auto mt-6 rounded-full;
         max-width: 50.078vw;
         max-height: 50.078vw;
 
@@ -34,7 +34,7 @@
     }
 
     &__item {
-        @apply flex flex-col justify-center items-center mt-6;
+        @apply flex flex-col items-center justify-center mt-6;
         width: 25%;
         @screen sm {
             @apply mt-12;
@@ -42,7 +42,7 @@
     }
 
     &__icon {
-        @apply text-accent fill-current block mb-4;
+        @apply block mb-4 fill-current text-accent;
 
         width: 11.71875vw;
         height: 11.71875vw;
@@ -66,13 +66,13 @@
 .latest-blog-posts,
 .latest-projects {
     &__view {
-        @apply inline-block mx-auto mt-2 px-4 py-2 rounded-md no-underline text-tiny;
+        @apply inline-block px-4 py-2 mx-auto mt-2 no-underline rounded-md text-tiny;
         transition: 0.2s ease-in;
         transition-property: background-color;
         will-change: background-color;
 
         &:hover {
-            @apply text-text bg-background_light no-underline;
+            @apply no-underline text-text bg-background_light;
         }
     }
 }
