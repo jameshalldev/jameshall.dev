@@ -3,7 +3,7 @@
     min-height: calc(100vh - 180px);
 
     &__inner {
-        @apply flex items-end font-bold mx-auto;
+        @apply flex items-end mx-auto font-bold;
         margin-top: 5vw;
         margin-bottom: 5vw;
         width: 85vw;
@@ -23,6 +23,7 @@
         min-width: 70vw;
         max-width: 70vw;
         font-size: 7.5vw;
+        
         @screen xl {
             width: 980px;
             min-width: 980px;
@@ -32,7 +33,6 @@
     }
 
     &__shopify-logo {
-        fill: #95BF47;
         flex: auto;
 
         @screen xl {
@@ -43,12 +43,41 @@
     }
 
     &__arrow {
-        @apply cursor-pointer mx-auto;
+        @apply mx-auto cursor-pointer;
         min-width: 24px;
         min-height: 24px;
         width: 3.5vw;
         height: 3.5vw;
         max-width: 48px;
         max-height: 48px;
+    }
+
+    /* Colour animations */
+    &__title-highlight {
+        color: #6F74F1;
+        animation-name: doAnimStay;
+        animation-duration: 0.8s;
+        animation-delay: 1.75s;
+        animation-fill-mode: forwards;/* Makes it stay after animation */
+    }
+
+    &__shopify-logo {
+        fill: #6F74F1;
+        animation-name: doAnimStay;
+        animation-duration: 0.8s;
+        animation-delay: 1.75s;
+        animation-fill-mode: forwards;/* Makes it stay after animation */
+    }
+}
+
+@-webkit-keyframes doAnimStay{
+    0% {
+        fill: #6F74F1;
+        color: #6F74F1;
+    }
+
+    100% {
+        fill: #95BF47;
+        color: #95BF47;
     }
 }
