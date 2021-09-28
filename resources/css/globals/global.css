@@ -1,7 +1,7 @@
 .body {
     @apply flex flex-col min-h-screen antialiased font-semibold text-text;
     font-family: 'Nunito', system-ui;
-    background-image: linear-gradient(to bottom, #232B3C, #141c27);
+    background-color: #232B3C;
 }
 
 .main {

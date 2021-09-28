@@ -56,16 +56,16 @@
     &__title-highlight {
         color: #6F74F1;
         animation-name: doAnimStay;
-        animation-duration: 0.8s;
-        animation-delay: 1.75s;
+        animation-duration: 1s;
+        animation-delay: .75s;
         animation-fill-mode: forwards;/* Makes it stay after animation */
     }
 
     &__shopify-logo {
         fill: #6F74F1;
         animation-name: doAnimStay;
-        animation-duration: 0.8s;
-        animation-delay: 1.75s;
+        animation-duration: 1s;
+        animation-delay: .75s;
         animation-fill-mode: forwards;/* Makes it stay after animation */
     }
 }

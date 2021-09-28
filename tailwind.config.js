@@ -15,7 +15,7 @@ module.exports = {
         colors: {
             // Core colours
             text: '#fff4e7',
-            background: '#222a3c', 
+            background: '#232B3C', 
             background_light: '#2c354a', 
             background_lighter: '#374158', 
             background_dark: '#1b2635', 
