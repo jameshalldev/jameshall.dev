@@ -54,30 +54,11 @@
 
     /* Colour animations */
     &__title-highlight {
-        color: #6F74F1;
-        animation-name: doAnimStay;
-        animation-duration: 1s;
-        animation-delay: .75s;
-        animation-fill-mode: forwards;/* Makes it stay after animation */
+        color: #95BF47;
     }
 
     &__shopify-logo {
-        fill: #6F74F1;
-        animation-name: doAnimStay;
-        animation-duration: 1s;
-        animation-delay: .75s;
-        animation-fill-mode: forwards;/* Makes it stay after animation */
-    }
-}
-
-@-webkit-keyframes doAnimStay{
-    0% {
-        fill: #6F74F1;
-        color: #6F74F1;
-    }
-
-    100% {
         fill: #95BF47;
-        color: #95BF47;
     }
 }
+
