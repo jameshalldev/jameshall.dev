@@ -1,7 +1,6 @@
 .body {
-    @apply flex flex-col min-h-screen antialiased font-semibold text-text;
+    @apply flex flex-col min-h-screen antialiased font-semibold text-text bg-background;
     font-family: 'Nunito', system-ui;
-    background-color: #232B3C;
 }
 
 .main {
