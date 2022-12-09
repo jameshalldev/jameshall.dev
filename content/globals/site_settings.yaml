@@ -19,4 +19,4 @@ data:
     - git
   blog_message_text: 'More coming soon!'
   projects_message_text: 'More coming soon!'
-  enable_contact_form: true
+  enable_contact_form: false
